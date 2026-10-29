@@ -237,7 +237,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Лосось филе",
+        "name": "Филе лосося",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 1.2,
@@ -835,7 +835,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Яйца",
+        "name": "Яйцо",
         "qtyBase": 2,
         "unit": "шт",
         "pricePerUnit": 12,
@@ -865,7 +865,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Фарш индейки",
+        "name": "Фарш из индейки",
         "qtyBase": 400,
         "unit": "г",
         "pricePerUnit": 0.48,
@@ -1553,7 +1553,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Лосось филе",
+        "name": "Филе лосося",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 1.2,
@@ -1788,7 +1788,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Горошек",
+        "name": "Горошек зелёный",
         "qtyBase": 100,
         "unit": "г",
         "pricePerUnit": 0.12,
@@ -3244,7 +3244,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Огурец",
+        "name": "Огурцы",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 20,
@@ -3265,7 +3265,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Лосось филе",
+        "name": "Филе лосося",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 1.2,
@@ -3910,7 +3910,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Капуста",
+        "name": "Капуста белокочанная",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0.03,
@@ -4085,7 +4085,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Лосось филе",
+        "name": "Филе лосося",
         "qtyBase": 280,
         "unit": "г",
         "pricePerUnit": 1.2,
@@ -4109,7 +4109,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Огурец",
+        "name": "Огурцы",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 20,
@@ -4384,7 +4384,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сыр моцарелла",
+        "name": "Моцарелла",
         "qtyBase": 100,
         "unit": "г",
         "pricePerUnit": 0.6,
@@ -4468,7 +4468,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Йогурт",
+        "name": "Йогурт натуральный",
         "qtyBase": 100,
         "unit": "г",
         "pricePerUnit": 0.2,
@@ -4721,11 +4721,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ]
-  }
-];
-
-// Дополнительные домашние блюда и рецепты по мотивам современных наборов ужинов.
-window.SALPCOOK_RECIPES.push(...[
+  },
   {
     "id": "chicken_gremolata_potatoes",
     "name": "Курица с лимонной гремолатой и картофелем",
@@ -5441,7 +5437,7 @@ window.SALPCOOK_RECIPES.push(...[
         "staple": false
       },
       {
-        "name": "Томаты в собственном соку",
+        "name": "Помидоры в собственном соку",
         "qtyBase": 250,
         "unit": "г",
         "pricePerUnit": 0.18,
@@ -5486,7 +5482,7 @@ window.SALPCOOK_RECIPES.push(...[
         "staple": false
       },
       {
-        "name": "Томаты в собственном соку",
+        "name": "Помидоры в собственном соку",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0.18,
@@ -5616,7 +5612,7 @@ window.SALPCOOK_RECIPES.push(...[
         "staple": false
       },
       {
-        "name": "Томаты в собственном соку",
+        "name": "Помидоры в собственном соку",
         "qtyBase": 250,
         "unit": "г",
         "pricePerUnit": 0.18,
@@ -6096,7 +6092,7 @@ window.SALPCOOK_RECIPES.push(...[
         "staple": false
       },
       {
-        "name": "Томаты в собственном соку",
+        "name": "Помидоры в собственном соку",
         "qtyBase": 250,
         "unit": "г",
         "pricePerUnit": 0.18,
@@ -6409,7 +6405,7 @@ window.SALPCOOK_RECIPES.push(...[
         "staple": false
       },
       {
-        "name": "Томаты в собственном соку",
+        "name": "Помидоры в собственном соку",
         "qtyBase": 250,
         "unit": "г",
         "pricePerUnit": 0.18,
@@ -6507,7 +6503,7 @@ window.SALPCOOK_RECIPES.push(...[
         "staple": true
       },
       {
-        "name": "Томаты в собственном соку",
+        "name": "Помидоры в собственном соку",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0.18,
@@ -6796,7 +6792,7 @@ window.SALPCOOK_RECIPES.push(...[
     ],
     "ingredients": [
       {
-        "name": "Свиная отбивная",
+        "name": "Свиные отбивные",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.5,
@@ -6844,12 +6840,7 @@ window.SALPCOOK_RECIPES.push(...[
         "staple": false
       }
     ]
-  }
-]);
-
-
-// Ещё одна подборка повседневных блюд: азиатские, средиземноморские и домашние ужины.
-window.SALPCOOK_RECIPES.push(...[
+  },
   {
     "id": "chicken_teriyaki_noodles",
     "name": "Курица терияки с лапшой и овощами",
@@ -7273,7 +7264,7 @@ window.SALPCOOK_RECIPES.push(...[
         "staple": true
       },
       {
-        "name": "Томаты в собственном соку",
+        "name": "Помидоры в собственном соку",
         "qtyBase": 200,
         "unit": "г",
         "pricePerUnit": 0.18,
@@ -7880,7 +7871,7 @@ window.SALPCOOK_RECIPES.push(...[
         "staple": false
       },
       {
-        "name": "Томаты в собственном соку",
+        "name": "Помидоры в собственном соку",
         "qtyBase": 250,
         "unit": "г",
         "pricePerUnit": 0.18,
@@ -8222,5 +8213,1118 @@ window.SALPCOOK_RECIPES.push(...[
         "staple": false
       }
     ]
+  },
+  {
+    "id": "lemon_chicken_orzo",
+    "name": "Курица с лимоном, орзо и шпинатом",
+    "baseServings": 2,
+    "time": 25,
+    "steps": [
+      "Орзо отварите до готовности.",
+      "Курицу нарежьте и обжарьте.",
+      "Добавьте шпинат, лимонный сок и цедру, смешайте с орзо и пармезаном."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриное филе",
+        "qtyBase": 320,
+        "unit": "г",
+        "pricePerUnit": 0.65,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Паста орзо",
+        "qtyBase": 180,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Шпинат",
+        "qtyBase": 80,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лимон",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Фрукты",
+        "staple": false
+      },
+      {
+        "name": "Пармезан",
+        "qtyBase": 30,
+        "unit": "г",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "pork_apple_roast",
+    "name": "Свинина с яблоком и розмарином",
+    "baseServings": 2,
+    "time": 35,
+    "steps": [
+      "Картофель нарежьте дольками и запеките.",
+      "Свинину обжарьте с двух сторон, добавьте яблоко.",
+      "Вмешайте горчицу и розмарин, доведите мясо до готовности."
+    ],
+    "ingredients": [
+      {
+        "name": "Свинина",
+        "qtyBase": 350,
+        "unit": "г",
+        "pricePerUnit": 0.65,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Яблоко",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Фрукты",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Розмарин",
+        "qtyBase": 5,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Дижонская горчица",
+        "qtyBase": 15,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "turkey_stuffed_zucchini",
+    "name": "Кабачки с индейкой и томатами",
+    "baseServings": 2,
+    "time": 40,
+    "steps": [
+      "Рис отварите до полуготовности.",
+      "Кабачки разрежьте вдоль и выньте часть мякоти.",
+      "Смешайте фарш с рисом и томатами, наполните кабачки, посыпьте моцареллой и запекайте 25 минут при 190 °C."
+    ],
+    "ingredients": [
+      {
+        "name": "Кабачок",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Фарш из индейки",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0.65,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Рис",
+        "qtyBase": 80,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Помидоры в собственном соку",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Моцарелла",
+        "qtyBase": 80,
+        "unit": "г",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "cod_potato_mustard",
+    "name": "Треска с картофелем и горчичным соусом",
+    "baseServings": 2,
+    "time": 30,
+    "steps": [
+      "Картофель отварите или запеките.",
+      "Смешайте сливки с горчицей и укропом, прогрейте.",
+      "Треску запеките 12–15 минут при 190 °C и подайте с соусом."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе трески",
+        "qtyBase": 350,
+        "unit": "г",
+        "pricePerUnit": 0.65,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 450,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сливки",
+        "qtyBase": 100,
+        "unit": "мл",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Дижонская горчица",
+        "qtyBase": 15,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Укроп",
+        "qtyBase": 10,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "beef_meatballs_polenta",
+    "name": "Говяжьи фрикадельки с полентой",
+    "baseServings": 2,
+    "time": 35,
+    "steps": [
+      "Сформируйте фрикадельки из фарша с частью лука.",
+      "Обжарьте их, добавьте пассату и тушите до готовности.",
+      "Кукурузную крупу сварите до кремовой консистенции, вмешайте пармезан."
+    ],
+    "ingredients": [
+      {
+        "name": "Говяжий фарш",
+        "qtyBase": 350,
+        "unit": "г",
+        "pricePerUnit": 0.65,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Кукурузная крупа",
+        "qtyBase": 140,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Пассата томатная",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Пармезан",
+        "qtyBase": 30,
+        "unit": "г",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Лук",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "chicken_harissa_couscous",
+    "name": "Курица с хариссой и кускусом",
+    "baseServings": 2,
+    "time": 30,
+    "steps": [
+      "Курицу смешайте с хариссой и обжарьте до готовности.",
+      "Кускус залейте кипятком.",
+      "Подавайте с йогуртом и свежим огурцом."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриное филе",
+        "qtyBase": 350,
+        "unit": "г",
+        "pricePerUnit": 0.65,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Кускус",
+        "qtyBase": 160,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Йогурт натуральный",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Огурцы",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Паста харисса",
+        "qtyBase": 20,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "shrimp_coconut_noodles",
+    "name": "Кокосовая лапша с креветками",
+    "baseServings": 2,
+    "time": 25,
+    "steps": [
+      "Лапшу приготовьте по инструкции.",
+      "Перец обжарьте, добавьте кокосовое молоко и пасту карри.",
+      "Добавьте креветки и готовьте до полной готовности, подавайте с лапшой и лаймом."
+    ],
+    "ingredients": [
+      {
+        "name": "Креветки очищенные",
+        "qtyBase": 250,
+        "unit": "г",
+        "pricePerUnit": 0.65,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Лапша рисовая",
+        "qtyBase": 160,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Кокосовое молоко",
+        "qtyBase": 200,
+        "unit": "мл",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Перец болгарский",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лайм",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Фрукты",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "mushroom_spinach_frittata",
+    "name": "Фриттата с грибами и шпинатом",
+    "baseServings": 2,
+    "time": 25,
+    "steps": [
+      "Грибы обжарьте, добавьте шпинат.",
+      "Яйца взбейте с молоком, вылейте к овощам.",
+      "Посыпьте фетой и готовьте под крышкой до схватывания."
+    ],
+    "ingredients": [
+      {
+        "name": "Яйцо",
+        "qtyBase": 4,
+        "unit": "шт",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Шампиньоны",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Шпинат",
+        "qtyBase": 60,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Фета",
+        "qtyBase": 60,
+        "unit": "г",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Молоко",
+        "qtyBase": 40,
+        "unit": "мл",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "red_lentil_coconut_soup",
+    "name": "Суп из красной чечевицы с кокосом",
+    "baseServings": 2,
+    "time": 30,
+    "steps": [
+      "Лук и морковь обжарьте с карри.",
+      "Добавьте чечевицу и воду, варите до мягкости.",
+      "Влейте кокосовое молоко и прогрейте."
+    ],
+    "ingredients": [
+      {
+        "name": "Чечевица красная",
+        "qtyBase": 180,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Кокосовое молоко",
+        "qtyBase": 150,
+        "unit": "мл",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Паста карри",
+        "qtyBase": 15,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "halloumi_roasted_veg",
+    "name": "Халуми с запечёнными овощами и булгуром",
+    "baseServings": 2,
+    "time": 35,
+    "steps": [
+      "Булгур сварите.",
+      "Овощи нарежьте и запеките 20–25 минут при 200 °C.",
+      "Халуми обжарьте и подайте с булгуром и овощами."
+    ],
+    "ingredients": [
+      {
+        "name": "Сыр халуми",
+        "qtyBase": 180,
+        "unit": "г",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Булгур",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Баклажан",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Кабачок",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры черри",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "beef_stuffed_pita",
+    "name": "Пита с пряной говядиной и йогуртом",
+    "baseServings": 2,
+    "time": 20,
+    "steps": [
+      "Говядину нарежьте полосками и быстро обжарьте со специями.",
+      "Огурец и помидор нарежьте, йогурт смешайте с чесноком.",
+      "Наполните питу мясом и овощами, добавьте соус."
+    ],
+    "ingredients": [
+      {
+        "name": "Говядина",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0.65,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Пита",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Йогурт натуральный",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Огурцы",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "chicken_parmesan_potato",
+    "name": "Курица пармезан с картофельными дольками",
+    "baseServings": 2,
+    "time": 40,
+    "steps": [
+      "Картофель нарежьте дольками и запеките.",
+      "Курицу обмакните во взбитое яйцо и сухари с пармезаном.",
+      "Запеките курицу до полной готовности и подайте с картофелем."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриное филе",
+        "qtyBase": 350,
+        "unit": "г",
+        "pricePerUnit": 0.65,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Панировочные сухари",
+        "qtyBase": 50,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Пармезан",
+        "qtyBase": 40,
+        "unit": "г",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Яйцо",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "tuna_white_bean_salad",
+    "name": "Тёплый салат с тунцом и белой фасолью",
+    "baseServings": 2,
+    "time": 15,
+    "steps": [
+      "Фасоль промойте и прогрейте.",
+      "Добавьте тунец и томаты, осторожно перемешайте.",
+      "Снимите с огня, добавьте лук и петрушку."
+    ],
+    "ingredients": [
+      {
+        "name": "Тунец консервированный",
+        "qtyBase": 160,
+        "unit": "г",
+        "pricePerUnit": 0.65,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Фасоль консервированная",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Помидоры черри",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Красный лук",
+        "qtyBase": 0.5,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Петрушка",
+        "qtyBase": 10,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "pork_soba_bowl",
+    "name": "Свинина с гречневой лапшой и овощами",
+    "baseServings": 2,
+    "time": 25,
+    "steps": [
+      "Лапшу сварите и промойте.",
+      "Свинину нарежьте тонко и обжарьте с морковью и соевым соусом.",
+      "Подавайте с лапшой и свежим огурцом."
+    ],
+    "ingredients": [
+      {
+        "name": "Свинина",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0.65,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Гречневая лапша",
+        "qtyBase": 180,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Огурцы",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соевый соус",
+        "qtyBase": 30,
+        "unit": "мл",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "tomato_chickpea_shakshuka",
+    "name": "Шакшука с нутом и фетой",
+    "baseServings": 2,
+    "time": 25,
+    "steps": [
+      "Перец обжарьте до мягкости.",
+      "Добавьте нут и томаты, тушите 8 минут.",
+      "Сделайте углубления, вбейте яйца, готовьте под крышкой и посыпьте фетой."
+    ],
+    "ingredients": [
+      {
+        "name": "Нут консервированный",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Помидоры в собственном соку",
+        "qtyBase": 250,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Яйцо",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Фета",
+        "qtyBase": 60,
+        "unit": "г",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Перец болгарский",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "salmon_teriyaki_broccoli",
+    "name": "Лосось терияки с брокколи и рисом",
+    "baseServings": 2,
+    "time": 30,
+    "steps": [
+      "Рис отварите.",
+      "Лосось смажьте терияки и запеките 12–15 минут при 200 °C.",
+      "Брокколи приготовьте на пару и подайте с рыбой и кунжутом."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе лосося",
+        "qtyBase": 320,
+        "unit": "г",
+        "pricePerUnit": 0.65,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Брокколи",
+        "qtyBase": 250,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Рис",
+        "qtyBase": 160,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Соус терияки",
+        "qtyBase": 35,
+        "unit": "мл",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Кунжут",
+        "qtyBase": 8,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "baked_sausage_gnocchi",
+    "name": "Противень с колбасками, ньокки и томатами",
+    "baseServings": 2,
+    "time": 30,
+    "steps": [
+      "Разогрейте духовку до 210 °C.",
+      "Смешайте ньокки, колбаски, томаты и лук с пассатой.",
+      "Запекайте 20–25 минут, один раз перемешав."
+    ],
+    "ingredients": [
+      {
+        "name": "Колбаски для жарки",
+        "qtyBase": 250,
+        "unit": "г",
+        "pricePerUnit": 0.65,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Ньокки",
+        "qtyBase": 350,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Помидоры черри",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Красный лук",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Пассата томатная",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "mushroom_chicken_risotto",
+    "name": "Ризотто с курицей и грибами",
+    "baseServings": 2,
+    "time": 40,
+    "steps": [
+      "Курицу нарежьте, обжарьте и отложите.",
+      "Грибы обжарьте, добавьте рис и постепенно подливайте горячий бульон.",
+      "Когда рис станет кремовым, верните курицу и вмешайте пармезан."
+    ],
+    "ingredients": [
+      {
+        "name": "Рис для ризотто",
+        "qtyBase": 180,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Куриное филе",
+        "qtyBase": 250,
+        "unit": "г",
+        "pricePerUnit": 0.65,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Шампиньоны",
+        "qtyBase": 180,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Овощной бульон",
+        "qtyBase": 600,
+        "unit": "мл",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Пармезан",
+        "qtyBase": 35,
+        "unit": "г",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "sweet_potato_blackbean_bowl",
+    "name": "Боул с бататом и чёрной фасолью",
+    "baseServings": 2,
+    "time": 30,
+    "steps": [
+      "Батат нарежьте кубиками и запеките 20–25 минут.",
+      "Фасоль и кукурузу прогрейте с паприкой.",
+      "Разложите по мискам, добавьте авокадо и сок лайма."
+    ],
+    "ingredients": [
+      {
+        "name": "Батат",
+        "qtyBase": 350,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Фасоль консервированная",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Авокадо",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Кукуруза консервированная",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Лайм",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Фрукты",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "pork_schnitzel_potato_salad",
+    "name": "Шницель из свинины с картофельным салатом",
+    "baseServings": 2,
+    "time": 35,
+    "steps": [
+      "Картофель отварите и нарежьте, смешайте с огурцом и зеленью.",
+      "Отбивные слегка отбейте, обмакните в яйцо и сухари.",
+      "Обжарьте до золотистой корочки и полной готовности."
+    ],
+    "ingredients": [
+      {
+        "name": "Свиные отбивные",
+        "qtyBase": 350,
+        "unit": "г",
+        "pricePerUnit": 0.65,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Панировочные сухари",
+        "qtyBase": 60,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Яйцо",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Огурцы",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      }
+    ]
+  },
+  {
+    "id": "chickpea_spinach_tomato_stew",
+    "name": "Нут со шпинатом в томатном соусе",
+    "baseServings": 2,
+    "time": 25,
+    "steps": [
+      "Лук обжарьте до мягкости.",
+      "Добавьте нут и пассату, тушите 10 минут.",
+      "Вмешайте шпинат до увядания и подавайте с фетой."
+    ],
+    "ingredients": [
+      {
+        "name": "Нут консервированный",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Шпинат",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Пассата томатная",
+        "qtyBase": 250,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0.18,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Фета",
+        "qtyBase": 60,
+        "unit": "г",
+        "pricePerUnit": 0.4,
+        "aisle": "Молочное",
+        "staple": false
+      }
+    ]
   }
-]);
+];
