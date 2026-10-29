@@ -428,16 +428,34 @@ function renderPlan() {
   renderGrocery();
 }
 
+function togglePantryIngredient(name, checked) {
+  const key = canonicalIngredient(name);
+  [...pantryOwned].forEach(owned => {
+    if (canonicalIngredient(owned) === key) pantryOwned.delete(owned);
+  });
+  if (checked) pantryOwned.add(name);
+  persistPantry();
+  renderPantry();
+  if (currentPlan.length) renderPlan();
+}
 function showRecipeModal(item) {
   const people = parseInt(document.getElementById("people").value) || 2;
   document.getElementById("modalTitle").textContent = item.recipe.name;
-  let html = `<p style="color:var(--muted); margin-bottom:10px;">На ${people} чел. · ${item.recipe.time} мин</p><strong>Состав:</strong><ul>`;
-  item.scaledIngredients.forEach(ing => {
+  let html = `<p style="color:var(--muted); margin-bottom:10px;">На ${people} чел. · ${item.recipe.time} мин</p><strong>Состав продуктов</strong><p style="color:var(--muted);font-size:13px;margin:5px 0 12px;">Отметьте галочкой продукты, которые уже есть дома.</p><ul class="recipe-ingredient-checklist" style="list-style:none;padding:0;margin:0;display:grid;gap:8px;">`;
+  item.scaledIngredients.forEach((ing, index) => {
     const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.qty) + " " + ing.unit : Math.round(ing.qty) + " " + ing.unit;
-    html += `<li>${ing.name} — ${qtyText}</li>`;
+    const checked = hasPantryItem(ing.name) ? " checked" : "";
+    html += `<li><label style="display:flex;align-items:center;gap:10px;padding:9px 10px;border:1px solid var(--border);border-radius:10px;cursor:pointer;"><input type="checkbox" data-pantry-ingredient="${index}"${checked} style="width:18px;height:18px;flex-shrink:0;accent-color:var(--accent);"><span style="flex:1;">${escapeHtml(ing.name)} <span style="color:var(--muted);">${escapeHtml(qtyText)}</span></span></label></li>`;
   });
   html += "</ul>";
-  document.getElementById("modalBody").innerHTML = html;
+  const body = document.getElementById("modalBody");
+  body.innerHTML = html;
+  body.querySelectorAll("[data-pantry-ingredient]").forEach(input => {
+    input.addEventListener("change", () => {
+      const ingredient = item.scaledIngredients[Number(input.dataset.pantryIngredient)];
+      togglePantryIngredient(ingredient.name, input.checked);
+    });
+  });
   document.getElementById("modal").style.display = "flex";
 }
 function closeModal() { document.getElementById("modal").style.display = "none"; }
