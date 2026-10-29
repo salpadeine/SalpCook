@@ -176,16 +176,6 @@
           <option value="3">3 вечера</option>
         </select>
       </div>
-      <div>
-        <label>Магазин (для ориентира)</label>
-        <select id="store">
-          <option value="pyaterochka">Пятёрочка</option>
-          <option value="magnit">Магнит</option>
-          <option value="lenta">Лента</option>
-          <option value="perekrestok">Перекрёсток</option>
-          <option value="other">Примерные цены</option>
-        </select>
-      </div>
     </div>
     <div style="margin-bottom:18px;">
       <label for="pantrySearch">Что уже есть дома?</label>
@@ -194,9 +184,7 @@
       <div style="font-size:0.85rem;color:var(--muted);margin-top:6px;">Выбирай продукты из подсказок или вводи свои. Количество указывать не нужно: SalpCook будет в первую очередь подбирать блюда с этими продуктами.</div>
     </div>
     <button id="generate">Составить план</button>
-    <div class="note">
-      Все рецепты — полностью домашние. Цены примерные средние по рынку, не привязаны к конкретному товару в конкретном магазине.
-    </div>
+    <div class="note">Рецепты домашние. Запасы учитываются по наличию, без количества; ингредиенты из запасов помогают выбирать блюда в первую очередь.</div>
   </div>
 
   <div id="result" class="hidden">
@@ -5007,7 +4995,7 @@ function normalizeIngredientName(name) {
   return String(name).trim().toLocaleLowerCase("ru-RU").replace(/ё/g, "е");
 }
 
-function canonicalIngredient(name) { return normalizeIngredientName(name).replace(/[^\\p{L}\\p{N}]+/gu, " ").trim(); }
+function canonicalIngredient(name) { return normalizeIngredientName(name).replace(/[^\p{L}\p{N}]+/gu, " ").trim(); }
 function hasPantryItem(name) { const target=canonicalIngredient(name); return [...pantryOwned].some(owned=>canonicalIngredient(owned)===target); }
 function pantryMatchCount(recipe) { return recipe.ingredients.filter(ing=>hasPantryItem(ing.name)).length; }
 function ingredientCatalog() {
