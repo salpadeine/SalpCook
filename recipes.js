@@ -4722,4 +4722,4 @@ window.SALPCOOK_RECIPES = [
       }
     ]
   }
-];;
+];
