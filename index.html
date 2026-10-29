@@ -5082,8 +5082,9 @@ function generatePlan() {
     const ranked = pool.map(recipe => {
       const matched = [...new Set(recipe.ingredients.map(ing => canonicalIngredient(ing.name)))]
         .filter(key => uncovered.includes(key));
-      const coverageScore = matched.reduce((sum, key) => sum + 100 / Math.max(1, frequency.get(key) || 1), 0);
-      return { recipe, score: coverageScore + pantryMatchCount(recipe) * 10 + Math.random() * 0.5 };
+      const coverageScore = matched.reduce((sum, key) => sum + 1000 + 100 / Math.max(1, frequency.get(key) || 1), 0);
+      // Новые, ещё не использованные домашние продукты важнее повторного совпадения с уже покрытыми запасами.
+      return { recipe, score: coverageScore + pantryMatchCount(recipe) + Math.random() * 0.5 };
     });
     const bestScore = Math.max(...ranked.map(item => item.score));
     const best = ranked.filter(item => item.score >= bestScore - 0.001).map(item => item.recipe);
