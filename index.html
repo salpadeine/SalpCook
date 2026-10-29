@@ -88,9 +88,6 @@
   .day-card h3 { color: var(--accent2); margin-bottom: 10px; }
   .meal-name { font-weight: 600; margin-bottom: 6px; }
   .meal-cost { color: var(--success); font-weight: 600; }
-  .meal-ingredients { display:flex; flex-wrap:wrap; gap:6px; margin:10px 0 2px; }
-  .meal-ingredient { font-size:.78rem; padding:3px 8px; border-radius:999px; background:#263449; color:var(--muted); border:1px solid var(--border); }
-  .meal-ingredient.owned { color:var(--success); background:rgba(74,222,128,.10); border-color:rgba(74,222,128,.35); }
   .pantry-search-row { display:flex; gap:10px; }
   .pantry-search-row button { width:auto; white-space:nowrap; }
   .pantry-chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
@@ -423,7 +420,6 @@ function renderPlan() {
       <h3>${item.day}</h3>
       <div class="meal-name">${item.recipe.name}</div>
       <div class="meal-cost">${item.recipe.time} минут · ${pantryMatchCount(item.recipe)} продукта из запасов</div>
-      <div class="meal-ingredients">${item.recipe.ingredients.map(ing => `<span class="meal-ingredient${hasPantryItem(ing.name) ? " owned" : ""}">${escapeHtml(ing.name)}</span>`).join("")}</div>
       <button class="swap-btn secondary" onclick="event.stopPropagation(); swapMeal(${idx})">Заменить</button>
     `;
     card.addEventListener("click", () => showRecipeModal(item));
