@@ -5002,10 +5002,21 @@ const INGREDIENT_ALIASES = {
   "яйца": "яйцо", "яйцо": "яйцо",
   "огурцы": "огурец", "огурец": "огурец",
   "помидоры": "помидор", "помидор": "помидор",
+  "помидоры черри": "помидоры черри", "помидор черри": "помидоры черри",
+  "помидоры в собственном соку": "помидоры в собственном соку",
+  "помидор в собственном соку": "помидоры в собственном соку",
   "говяжий фарш": "говяжий фарш", "фарш говяжий": "говяжий фарш",
   "говядина": "говядина", "говядины": "говядина",
-  "куриное бедро": "куриные бедра", "куриные бедра": "куриные бедра",
-  "помидоры черри": "помидоры черри", "помидор черри": "помидоры черри"
+  "куриное бедро": "куриные бедра", "куриные бедра": "куриные бедра", "куриные бёдра": "куриные бедра",
+  "куриное крылышко": "куриные крылышки", "куриные крылышки": "куриные крылышки",
+  "свиная отбивная": "свиные отбивные", "свиные отбивные": "свиные отбивные",
+  "свиное ребро": "свиные ребрышки", "свиные ребрышки": "свиные ребрышки", "свиные рёбрышки": "свиные ребрышки",
+  "креветка": "креветки", "креветки": "креветки",
+  "шампиньон": "шампиньоны", "шампиньоны": "шампиньоны",
+  "тортилья": "тортильи", "тортильи": "тортильи",
+  "сухарь панировочный": "сухари панировочные", "сухари панировочные": "сухари панировочные", "панировочный сухарь": "сухари панировочные",
+  "сухарик": "сухарики", "сухарики": "сухарики",
+  "перцы болгарские": "перец болгарский", "болгарский перец": "перец болгарский", "перец болгарский": "перец болгарский"
 };
 function canonicalIngredient(name) {
   const normalized = normalizeIngredientName(name);
@@ -5017,6 +5028,21 @@ function hasPantryItem(name) {
 }
 function pantryMatchCount(recipe) {
   return recipe.ingredients.filter(ing => hasPantryItem(ing.name)).length;
+}
+function pantryCoverageScore(recipe, planned = currentPlan) {
+  const ownedKeys = [...new Set([...pantryOwned].map(canonicalIngredient))];
+  const uncovered = ownedKeys.filter(key =>
+    !planned.some(item => item.recipe.ingredients.some(ing => canonicalIngredient(ing.name) === key))
+  );
+  const frequency = new Map();
+  RECIPES.forEach(candidate => candidate.ingredients.forEach(ing => {
+    const key = canonicalIngredient(ing.name);
+    frequency.set(key, (frequency.get(key) || 0) + 1);
+  }));
+  const matchedUncovered = [...new Set(recipe.ingredients.map(ing => canonicalIngredient(ing.name)))]
+    .filter(key => uncovered.includes(key));
+  return matchedUncovered.reduce((sum, key) => sum + 1000 + 100 / Math.max(1, frequency.get(key) || 1), 0)
+    + pantryMatchCount(recipe);
 }
 function ingredientCatalog() {
   const items = new Map();
@@ -5071,21 +5097,10 @@ function generatePlan() {
   for (let i = 0; i < nights; i++) {
     const available = RECIPES.filter(recipe => !used.has(recipe.id));
     const pool = available.length ? available : RECIPES;
-    const uncovered = [...pantryOwned].map(canonicalIngredient).filter(key =>
-      !currentPlan.some(item => item.recipe.ingredients.some(ing => canonicalIngredient(ing.name) === key))
-    );
-    const frequency = new Map();
-    RECIPES.forEach(recipe => recipe.ingredients.forEach(ing => {
-      const key = canonicalIngredient(ing.name);
-      frequency.set(key, (frequency.get(key) || 0) + 1);
+    const ranked = pool.map(recipe => ({
+      recipe,
+      score: pantryCoverageScore(recipe, currentPlan) + Math.random() * 0.5
     }));
-    const ranked = pool.map(recipe => {
-      const matched = [...new Set(recipe.ingredients.map(ing => canonicalIngredient(ing.name)))]
-        .filter(key => uncovered.includes(key));
-      const coverageScore = matched.reduce((sum, key) => sum + 1000 + 100 / Math.max(1, frequency.get(key) || 1), 0);
-      // Новые, ещё не использованные домашние продукты важнее повторного совпадения с уже покрытыми запасами.
-      return { recipe, score: coverageScore + pantryMatchCount(recipe) + Math.random() * 0.5 };
-    });
     const bestScore = Math.max(...ranked.map(item => item.score));
     const best = ranked.filter(item => item.score >= bestScore - 0.001).map(item => item.recipe);
     const chosen = best[Math.floor(Math.random() * best.length)];
@@ -5144,8 +5159,11 @@ function swapMeal(index) {
   const used = new Set(currentPlan.filter((item, i) => i !== index).map(item => item.recipe.id));
   const alternatives = RECIPES.filter(r => r.id !== currentId && !used.has(r.id));
   if (!alternatives.length) { alert("Нет доступных блюд без повторов."); return; }
-  const ranked=alternatives.map(recipe=>({recipe,score:pantryMatchCount(recipe)})),bestScore=Math.max(...ranked.map(x=>x.score));
-  const best=ranked.filter(x=>x.score===bestScore).map(x=>x.recipe),newRecipe=best[Math.floor(Math.random()*best.length)];
+  const otherMeals = currentPlan.filter((item, i) => i !== index);
+  const ranked = alternatives.map(recipe => ({ recipe, score: pantryCoverageScore(recipe, otherMeals) + Math.random() * 0.5 }));
+  const bestScore = Math.max(...ranked.map(item => item.score));
+  const best = ranked.filter(item => item.score >= bestScore - 0.001).map(item => item.recipe);
+  const newRecipe = best[Math.floor(Math.random() * best.length)];
   const people = parseInt(document.getElementById("people").value) || 2;
   const scaledIngs = newRecipe.ingredients.map(ing => scaleIngredient(ing, people, newRecipe.baseServings));
   const cost = scaledIngs.reduce((sum, ing) => sum + ing.cost, 0);
