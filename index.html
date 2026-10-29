@@ -148,7 +148,7 @@
   }
   .stage2-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px; }
   .stage2-actions button { width: auto; flex: 1; min-width: 180px; }
-  .recipe-full { margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+  .ingredient-owned { color: var(--success); font-weight: 650; }\n.ingredient-owned::after { content: " · ✓ Есть дома"; color: var(--success); font-size: .82em; font-weight: 600; white-space: nowrap; }\n  .recipe-full { margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
   .recipe-full ol { margin-left: 20px; }
   .hidden { display: none !important; }
 </style>
@@ -434,7 +434,7 @@ function showRecipeModal(item) {
   let html = `<p style="color:var(--muted); margin-bottom:10px;">На ${people} чел. · ${item.recipe.time} мин</p><strong>Состав:</strong><ul>`;
   item.scaledIngredients.forEach(ing => {
     const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.qty) + " " + ing.unit : Math.round(ing.qty) + " " + ing.unit;
-    html += `<li>${escapeHtml(ing.name)} — ${escapeHtml(qtyText)}</li>`;
+    const owned = hasPantryItem(ing.name);\n    html += `<li><span class="${owned ? "ingredient-owned" : ""}">${escapeHtml(ingredientDisplayName(ing.name))}</span> — ${escapeHtml(qtyText)}</li>`;
   });
   html += "</ul>";
   document.getElementById("modalBody").innerHTML = html;
@@ -533,7 +533,7 @@ function renderStage2() {
     let html = `<h4>${item.day}: ${item.recipe.name}</h4><p style="color:var(--muted); margin-bottom:8px;">На ${people} чел. · ~${item.recipe.time} мин</p><strong>Ингредиенты:</strong><ul>`;
     item.scaledIngredients.forEach(ing => {
       const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.qty) + " " + ing.unit : Math.round(ing.qty) + " " + ing.unit;
-      html += `<li>${ing.name} — ${qtyText}</li>`;
+      const owned = hasPantryItem(ing.name);\n      html += `<li><span class="${owned ? "ingredient-owned" : ""}">${escapeHtml(ingredientDisplayName(ing.name))}</span> — ${escapeHtml(qtyText)}</li>`;
     });
     html += `</ul><strong>Приготовление:</strong><ol>`;
     (item.recipe.steps || []).forEach(step => html += `<li>${step}</li>`);
