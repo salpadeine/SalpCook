@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VibeCook</title>
+<title>SalpCook</title>
 <style>
   :root {
     --bg: #0f1419;
@@ -149,7 +149,7 @@
 <body>
 <div class="container">
   <header>
-    <h1>VibeCook</h1>
+    <h1>SalpCook</h1>
     <p>Планировщик домашних ужинов. Много обычных рецептов без полуфабрикатов.</p>
   </header>
 
@@ -170,6 +170,10 @@
         </select>
       </div>
       <div>
+        <label>Бюджет на все блюда (₽, необязательно)</label>
+        <input type="number" id="budget" min="0" step="100" placeholder="Например, 5000">
+      </div>
+      <div>
         <label>Магазин (для ориентира)</label>
         <select id="store">
           <option value="pyaterochka">Пятёрочка</option>
@@ -179,6 +183,11 @@
           <option value="other">Примерные цены</option>
         </select>
       </div>
+    </div>
+    <div style="margin-bottom:18px;">
+      <label for="pantryInput">Какие продукты уже есть дома? Перечисли через запятую</label>
+      <input id="pantryInput" type="text" placeholder="Например: Картофель, Лук, Рис, Куриные бёдра">
+      <div style="font-size:0.85rem;color:var(--muted);margin-top:6px;">Укажи названия так, как они написаны в рецептах. Эти продукты будут вычтены из списка покупок.</div>
     </div>
     <button id="generate">Составить план</button>
     <div class="note">
@@ -194,6 +203,7 @@
         <span>Примерная сумма (<span id="storeName">Пятёрочка</span>):</span>
         <span id="totalCost">0 ₽</span>
       </div>
+      <div id="budgetStatus" class="note hidden" style="margin-bottom:16px;margin-top:0;"></div>
       <div id="groceryList"></div>
       <div style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap;">
         <button class="secondary" id="regenerate">Другая неделя</button>
@@ -213,7 +223,7 @@
   </div>
 
   <div id="empty" class="empty">Укажи настройки и составь план.</div>
-  <footer>VibeCook · Домашние ужины · Много вариантов</footer>
+  <footer>SalpCook · Идеи домашних блюд и список покупок</footer>
 </div>
 
 <div id="modal" class="modal">
@@ -4954,6 +4964,52 @@ const RECIPES = [
 
 let currentPlan = [];
 let pantryOwned = new Set();
+const STORAGE_KEYS = { pantry: "salpcook_pantry", plan: "salpcook_plan" };
+
+function savePlan() {
+  try {
+    localStorage.setItem(STORAGE_KEYS.plan, JSON.stringify({
+      recipeIds: currentPlan.map(item => item.recipe.id),
+      people: document.getElementById("people").value,
+      nights: document.getElementById("nights").value,
+      store: document.getElementById("store").value,
+      budget: document.getElementById("budget").value,
+      pantry: [...pantryOwned]
+    }));
+  } catch (e) { console.warn("Не удалось сохранить план", e); }
+}
+
+function restorePlan() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEYS.plan) || "null");
+    if (!saved || !Array.isArray(saved.recipeIds)) return false;
+    if (saved.people) document.getElementById("people").value = saved.people;
+    if (saved.nights) document.getElementById("nights").value = saved.nights;
+    if (saved.store) document.getElementById("store").value = saved.store;
+    if (saved.budget != null) document.getElementById("budget").value = saved.budget;
+    if (Array.isArray(saved.pantry)) pantryOwned = new Set(saved.pantry);
+    document.getElementById("pantryInput").value = [...pantryOwned].join(", ");
+    const people = parseInt(document.getElementById("people").value) || 2;
+    currentPlan = saved.recipeIds.map((id, i) => {
+      const recipe = RECIPES.find(r => r.id === id);
+      if (!recipe) return null;
+      const scaledIngredients = recipe.ingredients.map(ing => scaleIngredient(ing, people, recipe.baseServings));
+      const cost = scaledIngredients.reduce((sum, ing) => sum + ing.cost, 0);
+      return { day: DAYS[i] || ("День " + (i + 1)), recipe, scaledIngredients, cost: Math.round(cost) };
+    }).filter(Boolean);
+    if (!currentPlan.length) return false;
+    document.getElementById("storeName").textContent = STORES[document.getElementById("store").value] || "Примерные цены";
+    renderPlan();
+    document.getElementById("result").classList.remove("hidden");
+    document.getElementById("empty").classList.add("hidden");
+    return true;
+  } catch (e) { console.warn("Не удалось восстановить план", e); return false; }
+}
+
+function syncPantryInput() {
+  pantryOwned = new Set(document.getElementById("pantryInput").value.split(/[,;\n]+/).map(x => x.trim()).filter(Boolean));
+  try { localStorage.setItem(STORAGE_KEYS.pantry, JSON.stringify([...pantryOwned])); } catch (e) {}
+}
 
 function scaleIngredient(ing, people, baseServings) {
   const factor = people / baseServings;
@@ -4971,7 +5027,7 @@ function generatePlan() {
   const nights = parseInt(document.getElementById("nights").value);
   const storeKey = document.getElementById("store").value;
   document.getElementById("storeName").textContent = STORES[storeKey] || "Примерные цены";
-
+  syncPantryInput();
   currentPlan = [];
   const used = new Set();
   for (let i = 0; i < nights; i++) {
@@ -4992,6 +5048,7 @@ function generatePlan() {
   document.getElementById("result").classList.remove("hidden");
   document.getElementById("empty").classList.add("hidden");
   document.getElementById("stage2").classList.add("hidden");
+  savePlan();
 }
 
 function renderPlan() {
@@ -5028,14 +5085,16 @@ function closeModal() { document.getElementById("modal").style.display = "none";
 
 function swapMeal(index) {
   const currentId = currentPlan[index].recipe.id;
-  const alternatives = RECIPES.filter(r => r.id !== currentId);
-  if (!alternatives.length) return;
+  const used = new Set(currentPlan.filter((item, i) => i !== index).map(item => item.recipe.id));
+  const alternatives = RECIPES.filter(r => r.id !== currentId && !used.has(r.id));
+  if (!alternatives.length) { alert("Нет доступных блюд без повторов."); return; }
   const newRecipe = alternatives[Math.floor(Math.random() * alternatives.length)];
   const people = parseInt(document.getElementById("people").value) || 2;
   const scaledIngs = newRecipe.ingredients.map(ing => scaleIngredient(ing, people, newRecipe.baseServings));
   const cost = scaledIngs.reduce((sum, ing) => sum + ing.cost, 0);
   currentPlan[index] = { day: currentPlan[index].day, recipe: newRecipe, scaledIngredients: scaledIngs, cost: Math.round(cost) };
   renderPlan();
+  savePlan();
 }
 
 function renderGrocery() {
@@ -5086,13 +5145,23 @@ function renderGrocery() {
     });
   });
   document.getElementById("totalCost").textContent = payableTotal + " ₽";
+  const budget = Number(document.getElementById("budget").value);
+  const status = document.getElementById("budgetStatus");
+  if (budget > 0) {
+    const diff = budget - payableTotal;
+    status.textContent = diff >= 0 ? "В пределах бюджета: останется примерно " + Math.round(diff) + " ₽." : "Бюджет превышен примерно на " + Math.round(-diff) + " ₽.";
+    status.classList.remove("hidden");
+  } else status.classList.add("hidden");
+  savePlan();
 }
 
 function togglePantry(name, checked) {
   if (checked) pantryOwned.add(name);
   else pantryOwned.delete(name);
   renderGrocery();
-  localStorage.setItem("vibecook_pantry", JSON.stringify([...pantryOwned]));
+  localStorage.setItem(STORAGE_KEYS.pantry, JSON.stringify([...pantryOwned]));
+  document.getElementById("pantryInput").value = [...pantryOwned].join(", ");
+  savePlan();
 }
 
 function goToStage2() {
@@ -5122,7 +5191,7 @@ function renderStage2() {
 }
 
 function exportProducts() {
-  let text = "Список продуктов VibeCook\n\n";
+  let text = "Список продуктов SalpCook\n\n";
   const items = {};
   currentPlan.forEach(item => {
     item.scaledIngredients.forEach(ing => {
@@ -5137,11 +5206,11 @@ function exportProducts() {
     const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.totalQty) + " " + ing.unit : Math.round(ing.totalQty) + " " + ing.unit;
     text += `- ${ing.name}: ${qtyText} (для: ${Array.from(ing.forDishes).join(", ")})\n`;
   });
-  downloadText(text, "vibecook-products.txt");
+  downloadText(text, "salpcook-products.txt");
 }
 
 function exportRecipes() {
-  let text = "Рецепты VibeCook\n\n";
+  let text = "Рецепты SalpCook\n\n";
   const people = parseInt(document.getElementById("people").value) || 2;
   currentPlan.forEach(item => {
     text += `=== ${item.day}: ${item.recipe.name} ===\nНа ${people} чел.\n\nИнгредиенты:\n`;
@@ -5153,7 +5222,7 @@ function exportRecipes() {
     (item.recipe.steps || []).forEach((step, i) => text += `${i+1}. ${step}\n`);
     text += `\n\n`;
   });
-  downloadText(text, "vibecook-recipes.txt");
+  downloadText(text, "salpcook-recipes.txt");
 }
 
 function downloadText(content, filename) {
@@ -5179,9 +5248,18 @@ document.getElementById("modal").addEventListener("click", (e) => {
 });
 
 try {
-  const saved = localStorage.getItem("vibecook_pantry");
+  const saved = localStorage.getItem(STORAGE_KEYS.pantry);
   if (saved) pantryOwned = new Set(JSON.parse(saved));
+  document.getElementById("pantryInput").value = [...pantryOwned].join(", ");
 } catch(e) {}
+document.getElementById("pantryInput").addEventListener("change", () => {
+  syncPantryInput();
+  if (currentPlan.length) renderGrocery();
+});
+document.getElementById("budget").addEventListener("input", () => {
+  if (currentPlan.length) renderGrocery();
+});
+restorePlan();
 </script>
 </body>
 </html>
