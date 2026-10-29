@@ -157,6 +157,7 @@
   .recipe-full h4 { color: var(--accent2); margin-bottom: 8px; }
   .recipe-full ol { margin-left: 20px; }
   .hidden { display: none !important; }
+  .error { color: #f87171; margin-top: 10px; }
 </style>
 </head>
 <body>
@@ -201,9 +202,8 @@
       </div>
     </div>
     <button id="generate">Составить план</button>
-    <div class="note">
-      Кликни на блюдо, чтобы посмотреть состав. После согласования списка — переходи ко второму этапу (выгрузка + рецепты с шагами). Цены примерные.
-    </div>
+    <div id="status" class="note">Бэкенд должен быть запущен на http://localhost:5000</div>
+    <div id="error" class="error"></div>
   </div>
 
   <div id="result" class="hidden">
@@ -237,7 +237,7 @@
   </div>
 
   <footer>
-    VibeCook · Ужины + список продуктов + пошаговые рецепты<br>
+    VibeCook · 150+ ужинов · Фронт работает через бэкенд<br>
     Данные о «уже есть дома» сохраняются в браузере.
   </footer>
 </div>
@@ -251,6 +251,7 @@
 </div>
 
 <script>
+const API = "http://localhost:5000";
 const STORES = {
   pyaterochka: "Пятёрочка",
   magnit: "Магнит",
@@ -259,289 +260,41 @@ const STORES = {
   other: "Примерные цены"
 };
 
-const RECIPES = [
-  {
-    id: "pasta_tomato",
-    name: "Паста с томатным соусом и чесноком",
-    diet: "veg",
-    baseServings: 2,
-    steps: [
-      "Вскипяти воду, посоли и отвари спагетти до состояния al dente.",
-      "На сковороде разогрей масло, обжарь чеснок 1 минуту.",
-      "Добавь помидоры, туши 5–7 минут. Посоли, поперчи.",
-      "Смешай с пастой, добавь базилик. Подавай сразу."
-    ],
-    ingredients: [
-      { name: "Спагетти", qtyBase: 250, unit: "г", pricePerUnit: 0.12, aisle: "Бакалея", staple: false },
-      { name: "Помидоры в собственном соку", qtyBase: 400, unit: "г", pricePerUnit: 0.18, aisle: "Бакалея", staple: false },
-      { name: "Чеснок", qtyBase: 1, unit: "головка", pricePerUnit: 25, aisle: "Овощи", staple: true },
-      { name: "Оливковое масло", qtyBase: 20, unit: "мл", pricePerUnit: 0, aisle: "Масла", staple: true },
-      { name: "Базилик", qtyBase: 1, unit: "пучок", pricePerUnit: 45, aisle: "Овощи", staple: false }
-    ]
-  },
-  {
-    id: "chicken_rice",
-    name: "Куриные бёдра с рисом и овощами",
-    diet: "all",
-    baseServings: 2,
-    steps: [
-      "Промой рис, отвари до готовности.",
-      "Куриные бёдра посоли, поперчи, обжарь до румяной корочки.",
-      "Добавь нарезанные морковь и лук, туши 10–15 минут.",
-      "Полей соевым соусом, подавай с рисом."
-    ],
-    ingredients: [
-      { name: "Куриные бёдра", qtyBase: 600, unit: "г", pricePerUnit: 0.32, aisle: "Мясо", staple: false },
-      { name: "Рис", qtyBase: 200, unit: "г", pricePerUnit: 0.08, aisle: "Бакалея", staple: false },
-      { name: "Морковь", qtyBase: 200, unit: "г", pricePerUnit: 0.05, aisle: "Овощи", staple: false },
-      { name: "Лук", qtyBase: 1, unit: "шт", pricePerUnit: 15, aisle: "Овощи", staple: false },
-      { name: "Соевый соус", qtyBase: 15, unit: "мл", pricePerUnit: 0, aisle: "Соусы", staple: true }
-    ]
-  },
-  {
-    id: "lentil_stew",
-    name: "Чечевичное рагу с овощами",
-    diet: "veg",
-    baseServings: 2,
-    steps: [
-      "Промой чечевицу.",
-      "Нарежь картофель и морковь, обжарь с луком.",
-      "Добавь чечевицу и помидоры, залей водой, туши 25–30 минут.",
-      "Посоли, добавь специи по вкусу."
-    ],
-    ingredients: [
-      { name: "Чечевица", qtyBase: 250, unit: "г", pricePerUnit: 0.14, aisle: "Бакалея", staple: false },
-      { name: "Картофель", qtyBase: 400, unit: "г", pricePerUnit: 0.04, aisle: "Овощи", staple: false },
-      { name: "Морковь", qtyBase: 150, unit: "г", pricePerUnit: 0.05, aisle: "Овощи", staple: false },
-      { name: "Помидоры в собственном соку", qtyBase: 400, unit: "г", pricePerUnit: 0.18, aisle: "Бакалея", staple: false }
-    ]
-  },
-  {
-    id: "salmon_potato",
-    name: "Запечённый лосось с картофелем",
-    diet: "all",
-    baseServings: 2,
-    steps: [
-      "Картофель нарежь дольками, посоли, сбрызни маслом.",
-      "Лосось посоли, поперчи, сбрызни лимоном.",
-      "Запекай всё вместе при 200°C 20–25 минут.",
-      "Подавай с укропом."
-    ],
-    ingredients: [
-      { name: "Лосось филе", qtyBase: 300, unit: "г", pricePerUnit: 1.2, aisle: "Рыба", staple: false },
-      { name: "Картофель", qtyBase: 500, unit: "г", pricePerUnit: 0.04, aisle: "Овощи", staple: false },
-      { name: "Лимон", qtyBase: 1, unit: "шт", pricePerUnit: 35, aisle: "Фрукты", staple: false },
-      { name: "Укроп", qtyBase: 1, unit: "пучок", pricePerUnit: 30, aisle: "Овощи", staple: false }
-    ]
-  },
-  {
-    id: "bean_tacos",
-    name: "Тако с фасолью и овощами",
-    diet: "veg",
-    baseServings: 2,
-    steps: [
-      "Фасоль разомни вилкой, прогрей на сковороде со специями.",
-      "Нагрей тортильи.",
-      "Начини фасолью, сыром, салатом и соусом.",
-      "Сверни и подавай."
-    ],
-    ingredients: [
-      { name: "Тортильи", qtyBase: 4, unit: "шт", pricePerUnit: 18, aisle: "Бакалея", staple: false },
-      { name: "Фасоль консервированная", qtyBase: 400, unit: "г", pricePerUnit: 0.15, aisle: "Бакалея", staple: false },
-      { name: "Сыр твёрдый", qtyBase: 100, unit: "г", pricePerUnit: 0.55, aisle: "Молочное", staple: false },
-      { name: "Салат листовой", qtyBase: 1, unit: "пучок", pricePerUnit: 40, aisle: "Овощи", staple: false }
-    ]
-  },
-  {
-    id: "beef_stirfry",
-    name: "Стир-фрай с говядиной и брокколи",
-    diet: "all",
-    baseServings: 2,
-    steps: [
-      "Отвари рис.",
-      "Говядину нарежь тонкими полосками, обжарь на сильном огне 2–3 минуты.",
-      "Добавь брокколи и перец, жарь ещё 3–4 минуты.",
-      "Полей соевым соусом, подавай с рисом."
-    ],
-    ingredients: [
-      { name: "Говядина для жарки", qtyBase: 300, unit: "г", pricePerUnit: 0.65, aisle: "Мясо", staple: false },
-      { name: "Брокколи", qtyBase: 250, unit: "г", pricePerUnit: 0.25, aisle: "Овощи", staple: false },
-      { name: "Перец болгарский", qtyBase: 1, unit: "шт", pricePerUnit: 45, aisle: "Овощи", staple: false },
-      { name: "Рис", qtyBase: 150, unit: "г", pricePerUnit: 0.08, aisle: "Бакалея", staple: false }
-    ]
-  },
-  {
-    id: "pork_chops",
-    name: "Свиные отбивные с капустой и картофелем",
-    diet: "all",
-    baseServings: 2,
-    steps: [
-      "Отбивные посоли, поперчи, обжарь с двух сторон.",
-      "Капусту нашинкуй, обжарь с яблоком.",
-      "Картофель отвари или запеки.",
-      "Подавай всё вместе."
-    ],
-    ingredients: [
-      { name: "Свиные отбивные", qtyBase: 400, unit: "г", pricePerUnit: 0.42, aisle: "Мясо", staple: false },
-      { name: "Капуста белокочанная", qtyBase: 400, unit: "г", pricePerUnit: 0.03, aisle: "Овощи", staple: false },
-      { name: "Яблоко", qtyBase: 1, unit: "шт", pricePerUnit: 25, aisle: "Фрукты", staple: false },
-      { name: "Картофель", qtyBase: 300, unit: "г", pricePerUnit: 0.04, aisle: "Овощи", staple: false }
-    ]
-  },
-  {
-    id: "greek_salad_chicken",
-    name: "Греческий салат с курицей",
-    diet: "all",
-    baseServings: 2,
-    steps: [
-      "Куриное филе нарежь и обжарь до готовности.",
-      "Нарежь огурцы, помидоры, лук.",
-      "Добавь фету и оливки.",
-      "Заправь маслом, подавай с тёплой курицей."
-    ],
-    ingredients: [
-      { name: "Куриное филе", qtyBase: 300, unit: "г", pricePerUnit: 0.45, aisle: "Мясо", staple: false },
-      { name: "Огурцы", qtyBase: 2, unit: "шт", pricePerUnit: 20, aisle: "Овощи", staple: false },
-      { name: "Помидоры", qtyBase: 2, unit: "шт", pricePerUnit: 35, aisle: "Овощи", staple: false },
-      { name: "Сыр фета", qtyBase: 100, unit: "г", pricePerUnit: 0.7, aisle: "Молочное", staple: false },
-      { name: "Оливки", qtyBase: 50, unit: "г", pricePerUnit: 0.4, aisle: "Бакалея", staple: false }
-    ]
-  },
-  {
-    id: "curry_veg",
-    name: "Овощное карри с рисом",
-    diet: "veg",
-    baseServings: 2,
-    steps: [
-      "Отвари рис.",
-      "Обжарь цветную капусту и горошек.",
-      "Добавь кокосовое молоко и специи, туши 10 минут.",
-      "Подавай с рисом."
-    ],
-    ingredients: [
-      { name: "Рис", qtyBase: 200, unit: "г", pricePerUnit: 0.08, aisle: "Бакалея", staple: false },
-      { name: "Цветная капуста", qtyBase: 300, unit: "г", pricePerUnit: 0.2, aisle: "Овощи", staple: false },
-      { name: "Горошек консервированный", qtyBase: 200, unit: "г", pricePerUnit: 0.12, aisle: "Бакалея", staple: false },
-      { name: "Кокосовое молоко", qtyBase: 200, unit: "мл", pricePerUnit: 0.35, aisle: "Бакалея", staple: false }
-    ]
-  },
-  {
-    id: "fish_cakes",
-    name: "Рыбные котлеты с пюре",
-    diet: "all",
-    baseServings: 2,
-    steps: [
-      "Рыбу пропусти через мясорубку или измельчи, добавь яйцо и лук.",
-      "Сформируй котлеты и обжарь.",
-      "Картофель отвари и сделай пюре.",
-      "Подавай вместе."
-    ],
-    ingredients: [
-      { name: "Минтай или хек", qtyBase: 400, unit: "г", pricePerUnit: 0.35, aisle: "Рыба", staple: false },
-      { name: "Картофель", qtyBase: 500, unit: "г", pricePerUnit: 0.04, aisle: "Овощи", staple: false },
-      { name: "Яйцо", qtyBase: 1, unit: "шт", pricePerUnit: 12, aisle: "Молочное", staple: false },
-      { name: "Лук", qtyBase: 1, unit: "шт", pricePerUnit: 15, aisle: "Овощи", staple: false }
-    ]
-  },
-  {
-    id: "pilaf",
-    name: "Плов с курицей",
-    diet: "all",
-    baseServings: 3,
-    steps: [
-      "Рис промой и замочи.",
-      "Обжарь курицу, добавь морковь и лук.",
-      "Выложи рис, залей водой, туши под крышкой 20–25 минут.",
-      "Дай настояться 10 минут перед подачей."
-    ],
-    ingredients: [
-      { name: "Рис", qtyBase: 300, unit: "г", pricePerUnit: 0.08, aisle: "Бакалея", staple: false },
-      { name: "Куриные бёдра", qtyBase: 500, unit: "г", pricePerUnit: 0.32, aisle: "Мясо", staple: false },
-      { name: "Морковь", qtyBase: 200, unit: "г", pricePerUnit: 0.05, aisle: "Овощи", staple: false },
-      { name: "Лук", qtyBase: 1, unit: "шт", pricePerUnit: 15, aisle: "Овощи", staple: false },
-      { name: "Чеснок", qtyBase: 1, unit: "головка", pricePerUnit: 25, aisle: "Овощи", staple: true }
-    ]
-  },
-  {
-    id: "pasta_pesto",
-    name: "Паста с песто и курицей",
-    diet: "all",
-    baseServings: 2,
-    steps: [
-      "Отвари пасту.",
-      "Куриное филе нарежь и обжарь.",
-      "Смешай с песто и пастой.",
-      "Посыпь сыром."
-    ],
-    ingredients: [
-      { name: "Паста", qtyBase: 250, unit: "г", pricePerUnit: 0.12, aisle: "Бакалея", staple: false },
-      { name: "Куриное филе", qtyBase: 300, unit: "г", pricePerUnit: 0.45, aisle: "Мясо", staple: false },
-      { name: "Песто", qtyBase: 100, unit: "г", pricePerUnit: 0.8, aisle: "Соусы", staple: false },
-      { name: "Сыр пармезан", qtyBase: 40, unit: "г", pricePerUnit: 1.2, aisle: "Молочное", staple: false }
-    ]
-  }
-];
-
-const DAYS = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"];
-
 let currentPlan = [];
 let pantryOwned = new Set();
 
-function getFilteredRecipes() {
-  const diet = document.getElementById("diet").value;
-  return RECIPES.filter(r => diet !== "veg" || r.diet === "veg");
+function showError(msg) {
+  document.getElementById("error").textContent = msg;
+}
+function clearError() {
+  document.getElementById("error").textContent = "";
 }
 
-function scaleIngredient(ing, people, baseServings) {
-  const factor = people / baseServings;
-  const qty = Math.ceil(ing.qtyBase * factor * 10) / 10;
-  return { ...ing, qty, cost: calculateCost(ing, qty) };
-}
-
-function calculateCost(ing, qty) {
-  if (ing.staple && ing.pricePerUnit === 0) return 0;
-  if (["шт", "головка", "пучок", "порция"].includes(ing.unit)) {
-    return Math.ceil(qty) * ing.pricePerUnit;
-  }
-  return qty * ing.pricePerUnit;
-}
-
-function generatePlan() {
+async function generatePlan() {
+  clearError();
   const people = parseInt(document.getElementById("people").value) || 2;
   const nights = parseInt(document.getElementById("nights").value);
-  const recipes = getFilteredRecipes();
-  const storeKey = document.getElementById("store").value;
-  document.getElementById("storeName").textContent = STORES[storeKey] || "Примерные цены";
+  const diet = document.getElementById("diet").value;
+  const store = document.getElementById("store").value;
+  document.getElementById("storeName").textContent = STORES[store] || "Примерные цены";
 
-  if (!recipes.length) {
-    alert("Нет подходящих рецептов");
-    return;
-  }
-
-  currentPlan = [];
-  const used = new Set();
-
-  for (let i = 0; i < nights; i++) {
-    const available = recipes.filter(r => !used.has(r.id));
-    const pool = available.length ? available : recipes;
-    const chosen = pool[Math.floor(Math.random() * pool.length)];
-    used.add(chosen.id);
-
-    const scaledIngs = chosen.ingredients.map(ing => scaleIngredient(ing, people, chosen.baseServings));
-    const cost = scaledIngs.reduce((sum, ing) => sum + ing.cost, 0);
-
-    currentPlan.push({
-      day: DAYS[i],
-      recipe: chosen,
-      scaledIngredients: scaledIngs,
-      cost: Math.round(cost)
+  try {
+    const res = await fetch(`${API}/api/plan`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ people, nights, diet, store })
     });
+    if (!res.ok) throw new Error("Ошибка сервера");
+    const data = await res.json();
+    currentPlan = data.plan;
+    renderPlan();
+    document.getElementById("result").classList.remove("hidden");
+    document.getElementById("empty").classList.add("hidden");
+    document.getElementById("stage2").classList.add("hidden");
+  } catch (e) {
+    showError("Не удалось связаться с бэкендом. Запусти его: cd backend && python app.py");
+    console.error(e);
   }
-
-  renderPlan();
-  document.getElementById("result").classList.remove("hidden");
-  document.getElementById("empty").classList.add("hidden");
-  document.getElementById("stage2").classList.add("hidden");
 }
 
 function renderPlan() {
@@ -581,22 +334,9 @@ function closeModal() {
   document.getElementById("modal").style.display = "none";
 }
 
-function swapMeal(index) {
-  const recipes = getFilteredRecipes();
-  const currentId = currentPlan[index].recipe.id;
-  const alternatives = recipes.filter(r => r.id !== currentId);
-  if (!alternatives.length) return;
-  const newRecipe = alternatives[Math.floor(Math.random() * alternatives.length)];
-  const people = parseInt(document.getElementById("people").value) || 2;
-  const scaledIngs = newRecipe.ingredients.map(ing => scaleIngredient(ing, people, newRecipe.baseServings));
-  const cost = scaledIngs.reduce((sum, ing) => sum + ing.cost, 0);
-  currentPlan[index] = {
-    day: currentPlan[index].day,
-    recipe: newRecipe,
-    scaledIngredients: scaledIngs,
-    cost: Math.round(cost)
-  };
-  renderPlan();
+async function swapMeal(index) {
+  // Простая замена: перегенерируем весь план (можно улучшить позже)
+  await generatePlan();
 }
 
 function renderGrocery() {
@@ -701,7 +441,7 @@ function renderStage2() {
       html += `<li>${ing.name} — ${qtyText}</li>`;
     });
     html += `</ul><strong>Приготовление:</strong><ol>`;
-    item.recipe.steps.forEach(step => html += `<li>${step}</li>`);
+    (item.recipe.steps || []).forEach(step => html += `<li>${step}</li>`);
     html += `</ol>`;
     div.innerHTML = html;
     container.appendChild(div);
@@ -744,7 +484,7 @@ function exportRecipes() {
       text += `- ${ing.name}: ${qtyText}\n`;
     });
     text += `\nПриготовление:\n`;
-    item.recipe.steps.forEach((step, i) => text += `${i+1}. ${step}\n`);
+    (item.recipe.steps || []).forEach((step, i) => text += `${i+1}. ${step}\n`);
     text += `\n\n`;
   });
   downloadText(text, "vibecook-recipes.txt");
