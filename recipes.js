@@ -1122,7 +1122,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сухари панировочные",
+        "name": "Панировочные сухари",
         "qtyBase": 50,
         "unit": "г",
         "pricePerUnit": 0.2,
@@ -3053,7 +3053,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сыр фета",
+        "name": "Фета",
         "qtyBase": 100,
         "unit": "г",
         "pricePerUnit": 0.7,
