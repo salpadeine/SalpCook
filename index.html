@@ -157,7 +157,7 @@
 <div class="container">
   <header>
     <h1>SalpCook</h1>
-    <p>Планировщик домашних ужинов. Много обычных рецептов без полуфабрикатов.</p>
+    <p>Планировщик домашних ужинов.</p>
   </header>
 
   <div class="setup">
@@ -170,10 +170,13 @@
       <div>
         <label>Сколько вечеров готовишь?</label>
         <select id="nights">
-          <option value="5">5 вечеров</option>
-          <option value="7">7 вечеров</option>
-          <option value="4">4 вечера</option>
+          <option value="1">1 вечер</option>
+          <option value="2">2 вечера</option>
           <option value="3">3 вечера</option>
+          <option value="4">4 вечера</option>
+          <option value="5" selected>5 вечеров</option>
+          <option value="6">6 вечеров</option>
+          <option value="7">7 вечеров</option>
         </select>
       </div>
     </div>
@@ -197,7 +200,6 @@
       </div>
       <div id="groceryList"></div>
       <div style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap;">
-        <button class="secondary" id="regenerate">Другая неделя</button>
         <button id="confirm">Согласовать и перейти к рецептам</button>
       </div>
     </div>
@@ -4992,15 +4994,47 @@ function restorePlan() {
 }
 
 function normalizeIngredientName(name) {
-  return String(name).trim().toLocaleLowerCase("ru-RU").replace(/ё/g, "е");
+  return String(name).trim().toLocaleLowerCase("ru-RU").replace(/ё/g, "е").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
 }
 
-function canonicalIngredient(name) { return normalizeIngredientName(name).replace(/[^\p{L}\p{N}]+/gu, " ").trim(); }
-function hasPantryItem(name) { const target=canonicalIngredient(name); return [...pantryOwned].some(owned=>canonicalIngredient(owned)===target); }
-function pantryMatchCount(recipe) { return recipe.ingredients.filter(ing=>hasPantryItem(ing.name)).length; }
+// Морфологические варианты объединяем, но не смешиваем говядину и говяжий фарш.
+const INGREDIENT_ALIASES = {
+  "яйца": "яйцо", "яйцо": "яйцо",
+  "огурцы": "огурец", "огурец": "огурец",
+  "помидоры": "помидор", "помидор": "помидор",
+  "говяжий фарш": "говяжий фарш", "фарш говяжий": "говяжий фарш",
+  "говядина": "говядина", "говядины": "говядина",
+  "куриное бедро": "куриные бедра", "куриные бедра": "куриные бедра",
+  "помидоры черри": "помидоры черри", "помидор черри": "помидоры черри"
+};
+function canonicalIngredient(name) {
+  const normalized = normalizeIngredientName(name);
+  return INGREDIENT_ALIASES[normalized] || normalized;
+}
+function hasPantryItem(name) {
+  const target = canonicalIngredient(name);
+  return [...pantryOwned].some(owned => canonicalIngredient(owned) === target);
+}
+function pantryMatchCount(recipe) {
+  return recipe.ingredients.filter(ing => hasPantryItem(ing.name)).length;
+}
 function ingredientCatalog() {
-  const items=new Map(); RECIPES.forEach(recipe=>recipe.ingredients.forEach(ing=>{const key=canonicalIngredient(ing.name);if(!items.has(key))items.set(key,ing.name)}));
-  return [...items.values()].sort((a,b)=>a.localeCompare(b,"ru"));
+  const items = new Map();
+  RECIPES.forEach(recipe => recipe.ingredients.forEach(ing => {
+    const key = canonicalIngredient(ing.name);
+    if (!items.has(key)) {
+      const display = key === "яйцо" ? "Яйцо" : key === "огурец" ? "Огурец" : key === "помидор" ? "Помидоры" : ing.name;
+      items.set(key, display);
+    }
+  }));
+  return [...items.values()].sort((a, b) => a.localeCompare(b, "ru"));
+}
+function ingredientDisplayName(name) {
+  const key = canonicalIngredient(name);
+  if (key === "яйцо") return "Яйца";
+  if (key === "огурец") return "Огурцы";
+  if (key === "помидор") return "Помидоры";
+  return name;
 }
 function escapeHtml(value) { return String(value).replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char])); }
 function persistPantry() { try { localStorage.setItem(STORAGE_KEYS.pantry,JSON.stringify([...pantryOwned])); } catch(e) {} }
@@ -5035,9 +5069,25 @@ function generatePlan() {
   currentPlan = [];
   const used = new Set();
   for (let i = 0; i < nights; i++) {
-    const available=RECIPES.filter(r=>!used.has(r.id)),pool=available.length?available:RECIPES;
-    const ranked=pool.map(recipe=>({recipe,score:pantryMatchCount(recipe)})),bestScore=Math.max(...ranked.map(x=>x.score));
-    const best=ranked.filter(x=>x.score===bestScore).map(x=>x.recipe),chosen=best[Math.floor(Math.random()*best.length)];
+    const available = RECIPES.filter(recipe => !used.has(recipe.id));
+    const pool = available.length ? available : RECIPES;
+    const uncovered = [...pantryOwned].map(canonicalIngredient).filter(key =>
+      !currentPlan.some(item => item.recipe.ingredients.some(ing => canonicalIngredient(ing.name) === key))
+    );
+    const frequency = new Map();
+    RECIPES.forEach(recipe => recipe.ingredients.forEach(ing => {
+      const key = canonicalIngredient(ing.name);
+      frequency.set(key, (frequency.get(key) || 0) + 1);
+    }));
+    const ranked = pool.map(recipe => {
+      const matched = [...new Set(recipe.ingredients.map(ing => canonicalIngredient(ing.name)))]
+        .filter(key => uncovered.includes(key));
+      const coverageScore = matched.reduce((sum, key) => sum + 100 / Math.max(1, frequency.get(key) || 1), 0);
+      return { recipe, score: coverageScore + pantryMatchCount(recipe) * 10 + Math.random() * 0.5 };
+    });
+    const bestScore = Math.max(...ranked.map(item => item.score));
+    const best = ranked.filter(item => item.score >= bestScore - 0.001).map(item => item.recipe);
+    const chosen = best[Math.floor(Math.random() * best.length)];
     used.add(chosen.id);
     const scaledIngs = chosen.ingredients.map(ing => scaleIngredient(ing, people, chosen.baseServings));
     const cost = scaledIngs.reduce((sum, ing) => sum + ing.cost, 0);
@@ -5108,7 +5158,7 @@ function renderGrocery() {
   currentPlan.forEach(item => {
     item.scaledIngredients.forEach(ing => {
       const key = canonicalIngredient(ing.name);
-      if (!items[key]) items[key] = { ...ing, totalQty: 0, totalCost: 0, forDishes: new Set() };
+      if (!items[key]) items[key] = { ...ing, name: ingredientDisplayName(ing.name), totalQty: 0, totalCost: 0, forDishes: new Set() };
       items[key].totalQty += ing.qty;
       items[key].totalCost += ing.cost;
       items[key].forDishes.add(item.recipe.name);
@@ -5190,8 +5240,8 @@ function exportProducts() {
   const items = {};
   currentPlan.forEach(item => {
     item.scaledIngredients.forEach(ing => {
-      const key = ing.name;
-      if (!items[key]) items[key] = { ...ing, totalQty: 0, forDishes: new Set() };
+      const key = canonicalIngredient(ing.name);
+      if (!items[key]) items[key] = { ...ing, name: ingredientDisplayName(ing.name), totalQty: 0, forDishes: new Set() };
       items[key].totalQty += ing.qty;
       items[key].forDishes.add(item.recipe.name);
     });
@@ -5230,7 +5280,6 @@ function downloadText(content, filename) {
 }
 
 document.getElementById("generate").addEventListener("click", generatePlan);
-document.getElementById("regenerate").addEventListener("click", generatePlan);
 document.getElementById("confirm").addEventListener("click", goToStage2);
 document.getElementById("backToPlan").addEventListener("click", () => {
   document.getElementById("stage2").classList.add("hidden");
