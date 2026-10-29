@@ -5006,6 +5006,15 @@ function restorePlan() {
   } catch (e) { console.warn("Не удалось восстановить план", e); return false; }
 }
 
+function normalizeIngredientName(name) {
+  return String(name).trim().toLocaleLowerCase("ru-RU").replace(/ё/g, "е");
+}
+
+function hasPantryItem(name) {
+  const target = normalizeIngredientName(name);
+  return [...pantryOwned].some(owned => normalizeIngredientName(owned) === target);
+}
+
 function syncPantryInput() {
   pantryOwned = new Set(document.getElementById("pantryInput").value.split(/[,;\n]+/).map(x => x.trim()).filter(Boolean));
   try { localStorage.setItem(STORAGE_KEYS.pantry, JSON.stringify([...pantryOwned])); } catch (e) {}
@@ -5125,7 +5134,7 @@ function renderGrocery() {
     listEl.appendChild(aisleTitle);
 
     byAisle[aisle].forEach(ing => {
-      const isOwned = pantryOwned.has(ing.name);
+      const isOwned = hasPantryItem(ing.name);
       const cost = isOwned ? 0 : Math.round(ing.totalCost);
       if (!isOwned) payableTotal += cost;
       const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.totalQty) + " " + ing.unit : Math.round(ing.totalQty) + " " + ing.unit;
@@ -5202,7 +5211,7 @@ function exportProducts() {
     });
   });
   Object.values(items).forEach(ing => {
-    if (pantryOwned.has(ing.name)) return;
+    if (hasPantryItem(ing.name)) return;
     const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.totalQty) + " " + ing.unit : Math.round(ing.totalQty) + " " + ing.unit;
     text += `- ${ing.name}: ${qtyText} (для: ${Array.from(ing.forDishes).join(", ")})\n`;
   });
