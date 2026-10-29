@@ -5076,7 +5076,7 @@ function renderPlan() {
 function showRecipeModal(item) {
   const people = parseInt(document.getElementById("people").value) || 2;
   document.getElementById("modalTitle").textContent = item.recipe.name;
-  let html = `<p style="color:var(--muted); margin-bottom:10px;">На ${people} чел. · ~${item.cost} ₽ · ${item.recipe.time} мин</p><strong>Состав:</strong><ul>`;
+  let html = `<p style="color:var(--muted); margin-bottom:10px;">На ${people} чел. · ${item.recipe.time} мин</p><strong>Состав:</strong><ul>`;
   item.scaledIngredients.forEach(ing => {
     const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.qty) + " " + ing.unit : Math.round(ing.qty) + " " + ing.unit;
     html += `<li>${ing.name} — ${qtyText}</li>`;
