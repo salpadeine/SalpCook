@@ -7336,7 +7336,7 @@ window.SALPCOOK_RECIPES.push(...[
     ]
   },
   {
-    "id": "shrimp_garlic_lemon_rice",
+    "id": "shrimp_garlic_lime_rice",
     "name": "Креветки с чесноком и рисом",
     "baseServings": 2,
     "time": 20,
