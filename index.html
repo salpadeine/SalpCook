@@ -88,6 +88,13 @@
   .day-card h3 { color: var(--accent2); margin-bottom: 10px; }
   .meal-name { font-weight: 600; margin-bottom: 6px; }
   .meal-cost { color: var(--success); font-weight: 600; }
+  .pantry-search-row { display:flex; gap:10px; }
+  .pantry-search-row button { width:auto; white-space:nowrap; }
+  .pantry-chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+  .pantry-chip { display:flex; align-items:center; gap:8px; background:#263449; border:1px solid var(--border); border-radius:999px; padding:6px 10px; font-size:.9rem; }
+  .pantry-chip button { width:auto; padding:0 4px; background:transparent; color:var(--accent2); font-size:1rem; }
+  .grocery-item.owned { opacity:1; text-decoration:none; }
+  .grocery-item.owned strong { color:var(--success); }
   .swap-btn { margin-top: 10px; padding: 8px 12px; font-size: 0.85rem; width: auto; }
   .grocery {
     background: var(--card);
@@ -169,30 +176,15 @@
           <option value="3">3 вечера</option>
         </select>
       </div>
-      <div>
-        <label>Бюджет на все блюда (₽, необязательно)</label>
-        <input type="number" id="budget" min="0" step="100" placeholder="Например, 5000">
-      </div>
-      <div>
-        <label>Магазин (для ориентира)</label>
-        <select id="store">
-          <option value="pyaterochka">Пятёрочка</option>
-          <option value="magnit">Магнит</option>
-          <option value="lenta">Лента</option>
-          <option value="perekrestok">Перекрёсток</option>
-          <option value="other">Примерные цены</option>
-        </select>
-      </div>
     </div>
     <div style="margin-bottom:18px;">
-      <label for="pantryInput">Какие продукты уже есть дома? Перечисли через запятую</label>
-      <input id="pantryInput" type="text" placeholder="Например: Картофель, Лук, Рис, Куриные бёдра">
-      <div style="font-size:0.85rem;color:var(--muted);margin-top:6px;">Укажи названия так, как они написаны в рецептах. Эти продукты будут вычтены из списка покупок.</div>
+      <label for="pantrySearch">Что уже есть дома?</label>
+      <div class="pantry-search-row"><input id="pantrySearch" type="search" list="ingredientCatalog" placeholder="Начни вводить продукт…" autocomplete="off"><datalist id="ingredientCatalog"></datalist><button type="button" id="addPantry">Добавить</button></div>
+      <div id="pantryChips" class="pantry-chips"></div>
+      <div style="font-size:0.85rem;color:var(--muted);margin-top:6px;">Выбирай продукты из подсказок или вводи свои. Количество указывать не нужно: SalpCook будет в первую очередь подбирать блюда с этими продуктами.</div>
     </div>
     <button id="generate">Составить план</button>
-    <div class="note">
-      Все рецепты — полностью домашние. Цены примерные средние по рынку, не привязаны к конкретному товару в конкретном магазине.
-    </div>
+    <div class="note">Рецепты домашние. Запасы учитываются по наличию, без количества; ингредиенты из запасов помогают выбирать блюда в первую очередь.</div>
   </div>
 
   <div id="result" class="hidden">
@@ -200,10 +192,9 @@
     <div class="grocery">
       <h2>Список продуктов</h2>
       <div class="total-bar">
-        <span>Примерная сумма (<span id="storeName">Пятёрочка</span>):</span>
-        <span id="totalCost">0 ₽</span>
+        <span>Сводный список ингредиентов</span>
+        <span id="ingredientCount">0 продуктов</span>
       </div>
-      <div id="budgetStatus" class="note hidden" style="margin-bottom:16px;margin-top:0;"></div>
       <div id="groceryList"></div>
       <div style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap;">
         <button class="secondary" id="regenerate">Другая неделя</button>
@@ -235,7 +226,6 @@
 </div>
 
 <script>
-const STORES = { pyaterochka: "Пятёрочка", magnit: "Магнит", lenta: "Лента", perekrestok: "Перекрёсток", other: "Примерные цены" };
 const DAYS = ["Первый день", "Второй день", "Третий день", "Четвёртый день", "Пятый день", "Шестой день", "Седьмой день"];
 const RECIPES = [
   {
@@ -4972,8 +4962,6 @@ function savePlan() {
       recipeIds: currentPlan.map(item => item.recipe.id),
       people: document.getElementById("people").value,
       nights: document.getElementById("nights").value,
-      store: document.getElementById("store").value,
-      budget: document.getElementById("budget").value,
       pantry: [...pantryOwned]
     }));
   } catch (e) { console.warn("Не удалось сохранить план", e); }
@@ -4985,10 +4973,8 @@ function restorePlan() {
     if (!saved || !Array.isArray(saved.recipeIds)) return false;
     if (saved.people) document.getElementById("people").value = saved.people;
     if (saved.nights) document.getElementById("nights").value = saved.nights;
-    if (saved.store) document.getElementById("store").value = saved.store;
-    if (saved.budget != null) document.getElementById("budget").value = saved.budget;
     if (Array.isArray(saved.pantry)) pantryOwned = new Set(saved.pantry);
-    document.getElementById("pantryInput").value = [...pantryOwned].join(", ");
+    renderPantry();
     const people = parseInt(document.getElementById("people").value) || 2;
     currentPlan = saved.recipeIds.map((id, i) => {
       const recipe = RECIPES.find(r => r.id === id);
@@ -4998,7 +4984,6 @@ function restorePlan() {
       return { day: DAYS[i] || ("День " + (i + 1)), recipe, scaledIngredients, cost: Math.round(cost) };
     }).filter(Boolean);
     if (!currentPlan.length) return false;
-    document.getElementById("storeName").textContent = STORES[document.getElementById("store").value] || "Примерные цены";
     renderPlan();
     document.getElementById("result").classList.remove("hidden");
     document.getElementById("empty").classList.add("hidden");
@@ -5010,14 +4995,26 @@ function normalizeIngredientName(name) {
   return String(name).trim().toLocaleLowerCase("ru-RU").replace(/ё/g, "е");
 }
 
-function hasPantryItem(name) {
-  const target = normalizeIngredientName(name);
-  return [...pantryOwned].some(owned => normalizeIngredientName(owned) === target);
+function canonicalIngredient(name) { return normalizeIngredientName(name).replace(/[^\p{L}\p{N}]+/gu, " ").trim(); }
+function hasPantryItem(name) { const target=canonicalIngredient(name); return [...pantryOwned].some(owned=>canonicalIngredient(owned)===target); }
+function pantryMatchCount(recipe) { return recipe.ingredients.filter(ing=>hasPantryItem(ing.name)).length; }
+function ingredientCatalog() {
+  const items=new Map(); RECIPES.forEach(recipe=>recipe.ingredients.forEach(ing=>{const key=canonicalIngredient(ing.name);if(!items.has(key))items.set(key,ing.name)}));
+  return [...items.values()].sort((a,b)=>a.localeCompare(b,"ru"));
 }
-
-function syncPantryInput() {
-  pantryOwned = new Set(document.getElementById("pantryInput").value.split(/[,;\n]+/).map(x => x.trim()).filter(Boolean));
-  try { localStorage.setItem(STORAGE_KEYS.pantry, JSON.stringify([...pantryOwned])); } catch (e) {}
+function escapeHtml(value) { return String(value).replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char])); }
+function persistPantry() { try { localStorage.setItem(STORAGE_KEYS.pantry,JSON.stringify([...pantryOwned])); } catch(e) {} }
+function renderPantry() {
+  document.getElementById("ingredientCatalog").innerHTML=ingredientCatalog().map(name=>`<option value="${escapeHtml(name)}"></option>`).join("");
+  const chips=document.getElementById("pantryChips"); chips.innerHTML="";
+  [...pantryOwned].forEach(name=>{const chip=document.createElement("span");chip.className="pantry-chip";chip.innerHTML=`<span>${escapeHtml(name)}</span><button type="button" title="Убрать" aria-label="Убрать ${escapeHtml(name)}">×</button>`;
+    chip.querySelector("button").addEventListener("click",()=>{pantryOwned.delete(name);persistPantry();renderPantry();if(currentPlan.length)renderPlan()});chips.appendChild(chip)});
+}
+function addPantryItem() {
+  const input=document.getElementById("pantrySearch"),value=input.value.trim();if(!value)return;
+  const name=ingredientCatalog().find(n=>canonicalIngredient(n)===canonicalIngredient(value))||value;
+  if(![...pantryOwned].some(n=>canonicalIngredient(n)===canonicalIngredient(name)))pantryOwned.add(name);
+  input.value="";persistPantry();renderPantry();if(currentPlan.length)renderPlan();
 }
 
 function scaleIngredient(ing, people, baseServings) {
@@ -5034,15 +5031,13 @@ function calculateCost(ing, qty) {
 function generatePlan() {
   const people = parseInt(document.getElementById("people").value) || 2;
   const nights = parseInt(document.getElementById("nights").value);
-  const storeKey = document.getElementById("store").value;
-  document.getElementById("storeName").textContent = STORES[storeKey] || "Примерные цены";
-  syncPantryInput();
+  persistPantry();
   currentPlan = [];
   const used = new Set();
   for (let i = 0; i < nights; i++) {
-    const available = RECIPES.filter(r => !used.has(r.id));
-    const pool = available.length ? available : RECIPES;
-    const chosen = pool[Math.floor(Math.random() * pool.length)];
+    const available=RECIPES.filter(r=>!used.has(r.id)),pool=available.length?available:RECIPES;
+    const ranked=pool.map(recipe=>({recipe,score:pantryMatchCount(recipe)})),bestScore=Math.max(...ranked.map(x=>x.score));
+    const best=ranked.filter(x=>x.score===bestScore).map(x=>x.recipe),chosen=best[Math.floor(Math.random()*best.length)];
     used.add(chosen.id);
     const scaledIngs = chosen.ingredients.map(ing => scaleIngredient(ing, people, chosen.baseServings));
     const cost = scaledIngs.reduce((sum, ing) => sum + ing.cost, 0);
@@ -5069,7 +5064,7 @@ function renderPlan() {
     card.innerHTML = `
       <h3>${item.day}</h3>
       <div class="meal-name">${item.recipe.name}</div>
-      <div class="meal-cost">~${item.cost} ₽</div>
+      <div class="meal-cost">${item.recipe.time} минут · ${pantryMatchCount(item.recipe)} продукта из запасов</div>
       <button class="swap-btn secondary" onclick="event.stopPropagation(); swapMeal(${idx})">Заменить</button>
     `;
     card.addEventListener("click", () => showRecipeModal(item));
@@ -5081,7 +5076,7 @@ function renderPlan() {
 function showRecipeModal(item) {
   const people = parseInt(document.getElementById("people").value) || 2;
   document.getElementById("modalTitle").textContent = item.recipe.name;
-  let html = `<p style="color:var(--muted); margin-bottom:10px;">На ${people} чел. · ~${item.cost} ₽ · ${item.recipe.time} мин</p><strong>Состав:</strong><ul>`;
+  let html = `<p style="color:var(--muted); margin-bottom:10px;">На ${people} чел. · ${item.recipe.time} мин</p><strong>Состав:</strong><ul>`;
   item.scaledIngredients.forEach(ing => {
     const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.qty) + " " + ing.unit : Math.round(ing.qty) + " " + ing.unit;
     html += `<li>${ing.name} — ${qtyText}</li>`;
@@ -5093,11 +5088,13 @@ function showRecipeModal(item) {
 function closeModal() { document.getElementById("modal").style.display = "none"; }
 
 function swapMeal(index) {
+  persistPantry();
   const currentId = currentPlan[index].recipe.id;
   const used = new Set(currentPlan.filter((item, i) => i !== index).map(item => item.recipe.id));
   const alternatives = RECIPES.filter(r => r.id !== currentId && !used.has(r.id));
   if (!alternatives.length) { alert("Нет доступных блюд без повторов."); return; }
-  const newRecipe = alternatives[Math.floor(Math.random() * alternatives.length)];
+  const ranked=alternatives.map(recipe=>({recipe,score:pantryMatchCount(recipe)})),bestScore=Math.max(...ranked.map(x=>x.score));
+  const best=ranked.filter(x=>x.score===bestScore).map(x=>x.recipe),newRecipe=best[Math.floor(Math.random()*best.length)];
   const people = parseInt(document.getElementById("people").value) || 2;
   const scaledIngs = newRecipe.ingredients.map(ing => scaleIngredient(ing, people, newRecipe.baseServings));
   const cost = scaledIngs.reduce((sum, ing) => sum + ing.cost, 0);
@@ -5110,7 +5107,7 @@ function renderGrocery() {
   const items = {};
   currentPlan.forEach(item => {
     item.scaledIngredients.forEach(ing => {
-      const key = ing.name;
+      const key = canonicalIngredient(ing.name);
       if (!items[key]) items[key] = { ...ing, totalQty: 0, totalCost: 0, forDishes: new Set() };
       items[key].totalQty += ing.qty;
       items[key].totalCost += ing.cost;
@@ -5126,7 +5123,6 @@ function renderGrocery() {
     byAisle[ing.aisle].push(ing);
   });
 
-  let payableTotal = 0;
   Object.keys(byAisle).sort().forEach(aisle => {
     const aisleTitle = document.createElement("div");
     aisleTitle.className = "aisle";
@@ -5135,32 +5131,23 @@ function renderGrocery() {
 
     byAisle[aisle].forEach(ing => {
       const isOwned = hasPantryItem(ing.name);
-      const cost = isOwned ? 0 : Math.round(ing.totalCost);
-      if (!isOwned) payableTotal += cost;
       const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.totalQty) + " " + ing.unit : Math.round(ing.totalQty) + " " + ing.unit;
       const forText = Array.from(ing.forDishes).join(", ");
       const div = document.createElement("div");
       div.className = "grocery-item" + (isOwned ? " owned" : "");
       div.innerHTML = `
-        <input type="checkbox" ${isOwned ? "checked" : ""} onchange="togglePantry('${ing.name}', this.checked)">
+        <input type="checkbox" ${isOwned ? "checked" : ""} onchange="togglePantry('${escapeHtml(ing.name).replace(/'/g, "&#39;")}', this.checked)" aria-label="Есть дома: ${escapeHtml(ing.name)}">
         <div style="flex:1">
           <strong>${ing.name}</strong>
-          <div style="font-size:0.85rem; color:var(--muted)">${qtyText}${ing.staple ? " · staple" : ""}</div>
+          <div style="font-size:0.85rem; color:var(--muted)">${qtyText}${isOwned ? " · есть дома" : " · купить"}${ing.staple ? " · базовый продукт" : ""}</div>
           <div class="for-dishes">Для: ${forText}</div>
         </div>
-        <div style="font-weight:600">${cost} ₽</div>
+        <div style="font-weight:600;color:${isOwned ? "var(--success)" : "var(--muted)"}">${isOwned ? "Есть дома" : "Купить"}</div>
       `;
       listEl.appendChild(div);
     });
   });
-  document.getElementById("totalCost").textContent = payableTotal + " ₽";
-  const budget = Number(document.getElementById("budget").value);
-  const status = document.getElementById("budgetStatus");
-  if (budget > 0) {
-    const diff = budget - payableTotal;
-    status.textContent = diff >= 0 ? "В пределах бюджета: останется примерно " + Math.round(diff) + " ₽." : "Бюджет превышен примерно на " + Math.round(-diff) + " ₽.";
-    status.classList.remove("hidden");
-  } else status.classList.add("hidden");
+  document.getElementById("ingredientCount").textContent=Object.keys(items).length+" продуктов";
   savePlan();
 }
 
@@ -5168,8 +5155,7 @@ function togglePantry(name, checked) {
   if (checked) pantryOwned.add(name);
   else pantryOwned.delete(name);
   renderGrocery();
-  localStorage.setItem(STORAGE_KEYS.pantry, JSON.stringify([...pantryOwned]));
-  document.getElementById("pantryInput").value = [...pantryOwned].join(", ");
+  persistPantry(); renderPantry();
   savePlan();
 }
 
@@ -5259,15 +5245,11 @@ document.getElementById("modal").addEventListener("click", (e) => {
 try {
   const saved = localStorage.getItem(STORAGE_KEYS.pantry);
   if (saved) pantryOwned = new Set(JSON.parse(saved));
-  document.getElementById("pantryInput").value = [...pantryOwned].join(", ");
+  renderPantry();
 } catch(e) {}
-document.getElementById("pantryInput").addEventListener("change", () => {
-  syncPantryInput();
-  if (currentPlan.length) renderGrocery();
-});
-document.getElementById("budget").addEventListener("input", () => {
-  if (currentPlan.length) renderGrocery();
-});
+document.getElementById("addPantry").addEventListener("click",addPantryItem);
+document.getElementById("pantrySearch").addEventListener("keydown",event=>{if(event.key==="Enter"){event.preventDefault();addPantryItem()}});
+document.getElementById("pantrySearch").addEventListener("change",()=>{const value=document.getElementById("pantrySearch").value.trim();if(ingredientCatalog().some(n=>canonicalIngredient(n)===canonicalIngredient(value)))addPantryItem()});
 restorePlan();
 </script>
 </body>
