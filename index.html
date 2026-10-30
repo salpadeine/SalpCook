@@ -662,7 +662,7 @@ function renderStage2() {
     html += recipeSourceHtml(item.recipe);
     html += "<strong>Ингредиенты:</strong><ul>";
     item.scaledIngredients.forEach(ing => {
-      const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.qty) + " " + ing.unit : Math.round(ing.qty) + " " + ing.unit;
+      const qtyText = ingredientQuantityText(ing, ing.qty);
       const owned = hasPantryItem(ing.name);
       html += `<li><span class="${owned ? "ingredient-owned" : ""}">${escapeHtml(ingredientDisplayName(ing.name))}</span> — ${escapeHtml(qtyText)}</li>`;
     });
