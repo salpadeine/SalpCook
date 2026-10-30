@@ -1,4 +1,4 @@
-// Каталог рецептов SalpCook. Для каждого блюда указан опубликованный источник и степень соответствия/адаптации.
+// Каталог рецептов SalpCook. У каждого блюда есть опубликованный источник с указанием степени адаптации.
 window.SALPCOOK_RECIPES = [
   {
     "id": "homemade_cutlets",
@@ -10369,11 +10369,11 @@ window.SALPCOOK_RECIPES = [
       }
     ],
     "source": {
-      "title": "Запеченная курица с хариссой",
-      "publisher": "Гастроном",
-      "url": "https://www.gastronom.ru/recipe/48612/zapechennaya-kurica",
+      "title": "One-pan chicken couscous",
+      "publisher": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/13139/onepan-chicken-couscous",
       "relation": "adapted",
-      "note": "Источник — запечённая курица с хариссой и овощами. В SalpCook используются кусочки курицы, кускус и отдельный гарнир; специя харисса и способ приготовления птицы имеют опубликованную основу."
+      "note": "Опубликованный рецепт объединяет курицу, хариссу, нут и кускус в одной сковороде. В SalpCook изменены количества, часть добавок и оформление подачи."
     }
   },
   {
@@ -12724,11 +12724,11 @@ window.SALPCOOK_RECIPES = [
       }
     ],
     "source": {
-      "title": "Шаурма в пите с нутом",
-      "publisher": "Гастроном",
-      "url": "https://www.gastronom.ru/text/5-neobychnyh-bljud-s-nutom-kotorye-vy-esche-ne-gotovili-1017724",
+      "title": "Crispy sweet potatoes with chickpeas & tahini yogurt",
+      "publisher": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/crispy-sweet-potatoes-chickpeas-tahini-yogurt",
       "relation": "adapted",
-      "note": "Источник содержит вариант шаурмы в пите с жареным нутом, пряностями и йогуртовым соусом. В SalpCook добавлен батат и изменены овощи/заправка."
+      "note": "Источник подтверждает основное сочетание батата, нута и йогуртового соуса с лимоном. В SalpCook добавлена пита, изменены специи и состав овощной начинки."
     }
   },
   {
