@@ -10292,14 +10292,6 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Смесь специй пири-пири",
-        "qtyBase": 25,
-        "unit": "г",
-        "pricePerUnit": 0,
-        "aisle": "Специи",
-        "staple": false
-      },
-      {
         "name": "Паприка",
         "qtyBase": 2,
         "unit": "ст. л.",
