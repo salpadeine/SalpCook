@@ -16646,5 +16646,429 @@ window.SALPCOOK_RECIPES = [
       "relation": "direct",
       "verified": true
     }
+  },
+  {
+    "id": "chefmarket_verified_065",
+    "name": "Красная рыба, запечённая с помидорами и луком",
+    "baseServings": 4,
+    "time": 40,
+    "steps": [
+      "Промойте филе красной рыбы и обсушите. Натрите солью и перцем, сбрызните лимонным соком и оставьте на 10–15 минут.",
+      "Лук нарежьте полукольцами, помидоры — кружочками, чеснок мелко измельчите.",
+      "Разогрейте духовку до 180 °C. На дно формы для запекания выложите лук и чеснок, сверху разместите рыбу.",
+      "На рыбу разложите кружочки помидоров и сбрызните оливковым маслом.",
+      "Запекайте 20–25 минут, пока рыба не станет непрозрачной и не начнёт легко разделяться на слои.",
+      "Украсьте свежей зеленью и подавайте с овощами, рисом или картофельным пюре."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе красной рыбы (лосось или форель)",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 4,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 2,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 3,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Лимонный сок",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Свежемолотый чёрный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Укроп или петрушка",
+        "qtyBase": 0,
+        "unit": "для украшения",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "для украшения"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Красная рыба, запечённая с помидорами и луком",
+      "url": "https://www.chefmarket.ru/blog/krasnaja-ryba-zapechjonnaja-s-pomidorami-i-lukom-nezhnoe-i-aromatnoe-bljudo/",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_066",
+    "name": "Лосось, запечённый с лимоном и розмарином",
+    "baseServings": 2,
+    "time": 30,
+    "steps": [
+      "Разогрейте духовку до 180 °C. Лимон нарежьте кружочками, чеснок очистите и слегка раздавите.",
+      "Обсушите лосось бумажными полотенцами и натрите солью, чёрным перцем и сушёным тимьяном.",
+      "Выложите рыбу на противень, застеленный пергаментом или смазанный маслом.",
+      "Сбрызните лосось оливковым маслом, разложите ломтики лимона, добавьте розмарин и чеснок. При желании сбрызните белым вином.",
+      "Накройте фольгой и запекайте 15 минут. Снимите фольгу и готовьте ещё 5–7 минут до лёгкой румяной корочки.",
+      "Достаньте рыбу и дайте немного отдохнуть. Подавайте с овощами, картофелем или рисом, украсив зеленью."
+    ],
+    "ingredients": [
+      {
+        "name": "Стейки или филе лосося",
+        "qtyBase": 450,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Лимон",
+        "qtyBase": 1,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Розмарин свежий",
+        "qtyBase": 3,
+        "unit": "веточки",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 0.5,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Тимьян сушёный",
+        "qtyBase": 0.5,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Белое сухое вино",
+        "qtyBase": 50,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Напитки",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Лосось, запечённый с лимоном и розмарином",
+      "url": "https://www.chefmarket.ru/blog/losos-zapechjonnyj-s-limonom-i-rozmarinom/",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_067",
+    "name": "Филе минтая под сметанным соусом с луком и морковью",
+    "baseServings": 4,
+    "time": 40,
+    "steps": [
+      "Разморозьте минтай в холодильнике, промойте и обсушите. Сбрызните лимонным соком, посолите и поперчите. Оставьте на 10–15 минут.",
+      "Лук нарежьте полукольцами, морковь натрите на крупной тёрке.",
+      "Смешайте сметану с сушёным чесноком и небольшим количеством соли.",
+      "Смажьте форму растительным маслом. Выложите половину лука и моркови, сверху разместите минтай. Покройте рыбу оставшимися овощами и полейте сметанным соусом.",
+      "Накройте форму фольгой и запекайте при 180 °C 25–30 минут. За 5–7 минут до готовности снимите фольгу, чтобы верх слегка подрумянился.",
+      "Посыпьте укропом и подавайте горячим с гарниром."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе минтая",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Сметана 10–15%",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лимонный сок",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок сушёный",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Укроп",
+        "qtyBase": 0,
+        "unit": "для украшения",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "для украшения"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для смазывания формы",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для смазывания формы"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чёрный молотый перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Филе минтая в духовке: самый вкусный рецепт",
+      "url": "https://www.chefmarket.ru/blog/file-mintaja-v-duhovke-samyj-vkusnyj-recept/",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_068",
+    "name": "Пита с тунцом и йогуртовым соусом",
+    "baseServings": 2,
+    "time": 15,
+    "steps": [
+      "Слейте жидкость из банки с тунцом и разомните рыбу вилкой.",
+      "Огурец и помидор нарежьте небольшими кубиками. Красный лук нарежьте тонкими кольцами.",
+      "Листья салата вымойте и обсушите.",
+      "Смешайте натуральный йогурт, лимонный сок и оливковое масло. Добавьте соль и чёрный перец, перемешайте до однородности.",
+      "Разрежьте каждую питу пополам, чтобы получились кармашки.",
+      "В каждый карман положите листья салата, огурец, помидор и красный лук.",
+      "Добавьте тунец и полейте йогуртовым соусом.",
+      "Украсьте петрушкой или укропом и подавайте сразу."
+    ],
+    "ingredients": [
+      {
+        "name": "Тунец консервированный в собственном соку",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Пита",
+        "qtyBase": 2,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Огурец средний",
+        "qtyBase": 1,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидор средний",
+        "qtyBase": 1,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Красный лук небольшой",
+        "qtyBase": 0.5,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Листья салата",
+        "qtyBase": 5,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Йогурт натуральный",
+        "qtyBase": 3,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Лимонный сок",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чёрный молотый перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Петрушка или укроп",
+        "qtyBase": 0,
+        "unit": "для украшения",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "для украшения"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Пита с тунцом: рецепт от Шефмаркет",
+      "url": "https://www.chefmarket.ru/blog/pita-s-tuncom-recept-ot-shefmarket/",
+      "relation": "direct",
+      "verified": true
+    }
   }
 ];
