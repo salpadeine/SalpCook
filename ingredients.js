@@ -383,6 +383,11 @@ window.SALPCOOK_INGREDIENT_DISPLAY_NAMES = {"яйцо":"Яйцо","огурцы"
     "сахар тростниковый": "Сахар тростниковый",
     "мед": "Мёд"
   };
+  Object.entries(groups).forEach(([canonical]) => {
+    const normalized = normalize(canonical);
+    const display = labels[canonical] || labels[normalized];
+    if (display) labels[canonical] = display;
+  });
   Object.assign(window.SALPCOOK_INGREDIENT_CATALOG_LABELS, labels);
   Object.assign(window.SALPCOOK_INGREDIENT_DISPLAY_NAMES, labels);
 })();
