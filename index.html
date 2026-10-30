@@ -322,7 +322,7 @@ function pantryMatchCount(recipe) {
   return recipe.ingredients.filter(ing => hasPantryItem(ing.name)).length;
 }
 const COMMON_BASE_INGREDIENTS = new Set([
-  "соль", "перец", "масло", "растительное масло", "оливковое масло", "вода", "чеснок", "лук"
+  "соль", "перец", "черный перец", "масло", "растительное масло", "сливочное масло", "оливковое масло", "вода", "чеснок", "лук репчатый"
 ]);
 // These staples stay in recipe ingredients but are omitted from shopping lists.
 const SHOPPING_EXCLUDED_INGREDIENTS = new Set([
