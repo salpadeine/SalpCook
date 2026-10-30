@@ -1,4 +1,4 @@
-// Каталог рецептов SalpCook. У каждого блюда есть публикация-источник с указанием степени адаптации.
+// Каталог рецептов SalpCook. Для каждого блюда указан опубликованный источник и степень соответствия/адаптации.
 window.SALPCOOK_RECIPES = [
   {
     "id": "homemade_cutlets",
@@ -90,11 +90,11 @@ window.SALPCOOK_RECIPES = [
       }
     ],
     "source": {
-      "title": "Домашние котлеты",
+      "title": "Домашние котлеты из свинины и говядины",
       "publisher": "Гастроном",
-      "url": "https://www.gastronom.ru/recipe/66814/domashnie-kotlety",
-      "relation": "adapted",
-      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: котлеты."
+      "url": "https://www.gastronom.ru/recipe/56191/kotlety-domashnie-iz-svininy-i-govjadiny",
+      "relation": "direct",
+      "note": "Источник совпадает по основному составу: смешанный свиной и говяжий фарш, хлеб, молоко и лук. В SalpCook пересчитаны количества и добавлен собственный набор пошаговых деталей."
     }
   },
   {
@@ -621,9 +621,9 @@ window.SALPCOOK_RECIPES = [
     "source": {
       "title": "Перцы, фаршированные мясом и рисом, в томатном соусе",
       "publisher": "Гастроном",
-      "url": "https://www.gastronom.ru/recipe/33052/percy-farshirovannye-myasom-i-risom-v-tomatnom-souse",
+      "url": "https://www.gastronom.ru/recipe/33052/percy-farshirovannye-myasom-i-risom-v-tomatnom-souse-v-kastryule",
       "relation": "direct",
-      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: перец болгарский, рис, фарш."
+      "note": "Опубликованный рецепт совпадает по главному составу — перец, мясная начинка, рис и томатный соус. В SalpCook изменены пропорции и адаптированы шаги."
     }
   },
   {
@@ -1258,11 +1258,11 @@ window.SALPCOOK_RECIPES = [
       }
     ],
     "source": {
-      "title": "Люля-кебаб из говядины на сковороде",
+      "title": "Тортильи с говядиной",
       "publisher": "Гастроном",
-      "url": "https://www.gastronom.ru/recipe/14880/lyulya-kebab-iz-govyadiny",
+      "url": "https://www.gastronom.ru/recipe/23343/tortili-s-govyadinoj",
       "relation": "adapted",
-      "note": "Источник — тортильи с говядиной. В SalpCook меняются формат подачи, овощи и соус; мясная начинка и способ подачи в лепешке сохранены."
+      "note": "Источник — тортильи с говяжьей начинкой, овощами и сальсой. В SalpCook меняются соус, овощные добавки и формат подачи (тако/пита/авокадо)."
     }
   },
   {
@@ -2379,11 +2379,11 @@ window.SALPCOOK_RECIPES = [
       }
     ],
     "source": {
-      "title": "Рыба в томатном соусе",
+      "title": "Белая рыба в томатном соусе",
       "publisher": "Гастроном",
-      "url": "https://www.gastronom.ru/recipe/20016/ryba-v-tomatnom-souse",
+      "url": "https://www.gastronom.ru/recipe/67274/belaia-ryba-v-tomatnom-souse",
       "relation": "direct",
-      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: рыба, помидоры."
+      "note": "Публикация — белая рыба в томатном соусе на сковороде; основной состав и способ приготовления совпадают. В SalpCook изменены пропорции и гарнир."
     }
   },
   {
@@ -7835,9 +7835,9 @@ window.SALPCOOK_RECIPES = [
     "source": {
       "title": "Перцы, фаршированные мясом и рисом, в томатном соусе",
       "publisher": "Гастроном",
-      "url": "https://www.gastronom.ru/recipe/33052/percy-farshirovannye-myasom-i-risom-v-tomatnom-souse",
-      "relation": "adapted",
-      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: перец болгарский, рис, фарш."
+      "url": "https://www.gastronom.ru/recipe/33052/percy-farshirovannye-myasom-i-risom-v-tomatnom-souse-v-kastryule",
+      "relation": "direct",
+      "note": "Опубликованный рецепт совпадает по главному составу — перец, мясная начинка, рис и томатный соус. В SalpCook изменены пропорции и адаптированы шаги."
     }
   },
   {
@@ -8665,11 +8665,11 @@ window.SALPCOOK_RECIPES = [
       }
     ],
     "source": {
-      "title": "Паста болоньезе: классический рецепт",
+      "title": "Тортильи с говядиной",
       "publisher": "Гастроном",
-      "url": "https://www.gastronom.ru/recipe/55693/pasta-boloneze-klassicheskij-recept",
+      "url": "https://www.gastronom.ru/recipe/23343/tortili-s-govyadinoj",
       "relation": "adapted",
-      "note": "Источник — тортильи с говядиной. В SalpCook добавлены авокадо, салат и лайм."
+      "note": "Источник — тортильи с говяжьей начинкой, овощами и сальсой. В SalpCook меняются соус, овощные добавки и формат подачи (тако/пита/авокадо)."
     }
   },
   {
@@ -9465,11 +9465,11 @@ window.SALPCOOK_RECIPES = [
       }
     ],
     "source": {
-      "title": "Энчиладас с курицей",
+      "title": "Кесадилья с курицей и сыром",
       "publisher": "Гастроном",
-      "url": "https://www.gastronom.ru/recipe/35201/enchiladas-s-kuricej",
-      "relation": "adapted",
-      "note": "Источник — куриные энчиладас с тортильями и томатным соусом. В SalpCook меняется сборка или формат подачи, сохраняются основные вкусы Tex-Mex."
+      "url": "https://www.gastronom.ru/recipe/44770/kesadilya-s-kuricej-i-syrom",
+      "relation": "direct",
+      "note": "Публикация совпадает по формату кесадильи с курицей, тортильей и сыром. В SalpCook изменены пропорции и овощные добавки."
     }
   },
   {
@@ -9529,11 +9529,11 @@ window.SALPCOOK_RECIPES = [
       }
     ],
     "source": {
-      "title": "Miso salmon noodles",
+      "title": "Miso salmon",
       "publisher": "BBC Good Food",
-      "url": "https://www.bbcgoodfood.com/recipes/miso-salmon-noodles",
+      "url": "https://www.bbcgoodfood.com/recipes/grilled-miso-salmon-rice-noodles",
       "relation": "direct",
-      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: лосось, мисо, лапша."
+      "note": "Публикация содержит лосось в мисо-глазури с рисовой лапшой, соевым соусом, имбирём и зелёным луком. В SalpCook изменены пропорции и адаптированы овощные добавки."
     }
   },
   {
@@ -10689,11 +10689,11 @@ window.SALPCOOK_RECIPES = [
       }
     ],
     "source": {
-      "title": "Паста болоньезе: классический рецепт",
+      "title": "Тортильи с говядиной",
       "publisher": "Гастроном",
-      "url": "https://www.gastronom.ru/recipe/55693/pasta-boloneze-klassicheskij-recept",
+      "url": "https://www.gastronom.ru/recipe/23343/tortili-s-govyadinoj",
       "relation": "adapted",
-      "note": "Источник — тортильи с говядиной. В SalpCook тортилья заменена питой и добавлен йогуртовый соус."
+      "note": "Источник — тортильи с говяжьей начинкой, овощами и сальсой. В SalpCook меняются соус, овощные добавки и формат подачи (тако/пита/авокадо)."
     }
   },
   {
