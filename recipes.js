@@ -17717,5 +17717,612 @@ window.SALPCOOK_RECIPES = [
       "relation": "adapted",
       "verified": true
     }
+  },
+  {
+    "id": "chefmarket_verified_075",
+    "name": "Феттучини с форелью в сливочном соусе",
+    "baseServings": 2,
+    "time": 30,
+    "steps": [
+      "Филе форели нарежьте кубиками со стороной около 2 см и обязательно удалите кожу.",
+      "Чеснок мелко нарежьте и обжарьте в сливочном масле. Добавьте кусочки форели, накройте сковороду крышкой и готовьте до полуготовности.",
+      "Залейте рыбу сливками. На слабом огне доведите соус до кипения, не допуская бурного кипения.",
+      "Добавьте натёртый твёрдый сыр и тушите до загустения соуса.",
+      "Приправьте солью, чёрным перцем и пряными травами. Готовьте ещё пару минут и выключите огонь.",
+      "Отварите феттучини до состояния аль денте и смешайте с соусом.",
+      "Подавайте, посыпав измельчённым базиликом или другой зеленью."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе свежей форели",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Феттучини",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Жирные сливки",
+        "qtyBase": 200,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 0.5,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Твёрдый сыр (пармезан)",
+        "qtyBase": 50,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Пряные травы",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Базилик или другая зелень",
+        "qtyBase": 0,
+        "unit": "для подачи",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "для подачи"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Паста с форелью",
+      "url": "https://www.chefmarket.ru/blog/forel-originalnye-recepty-prigotovlenija/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_076",
+    "name": "Запечённая форель с картофелем и розмарином",
+    "baseServings": 2,
+    "time": 40,
+    "steps": [
+      "Картофель тщательно промойте, не очищая от кожуры, и разрежьте каждый клубень пополам.",
+      "Смажьте форму оливковым маслом, выложите картофель и запекайте при 200 °C в течение 25 минут.",
+      "Форель разделите на 2–3 крупных куска, посолите, поперчите и сбрызните оливковым маслом. Оставьте мариноваться, пока готовится картофель.",
+      "Достаньте форму с картофелем. Разложите поверх него ломтики чеснока и веточку розмарина, посолите и поперчите.",
+      "Сверху выложите форель и верните форму в духовку ещё на 15 минут.",
+      "Подавайте горячей со свежей зеленью и овощами."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе форели",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Картофель средний",
+        "qtyBase": 6,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 1,
+        "unit": "зубчик",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Розмарин",
+        "qtyBase": 1,
+        "unit": "веточка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Запеченная форель с картошкой",
+      "url": "https://www.chefmarket.ru/blog/forel-originalnye-recepty-prigotovlenija/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_077",
+    "name": "Форель в хрустящем кляре",
+    "baseServings": 4,
+    "time": 35,
+    "steps": [
+      "Промойте филе форели, снимите кожу и нарежьте небольшими порционными кусочками. Сбрызните лимонным соком, посолите и поперчите. Оставьте мариноваться на 10–15 минут.",
+      "Пока рыба маринуется, приготовьте кляр: смешайте крахмал с минеральной водой, мукой, яйцами и содой до однородности.",
+      "В конце добавьте в кляр кубики льда и перемешайте.",
+      "Каждый кусочек форели обмакните в кляр и обжарьте со всех сторон в хорошо разогретом растительном масле.",
+      "Выложите готовую рыбу на бумажные полотенца, чтобы убрать излишек масла.",
+      "Подавайте сразу после приготовления."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе форели",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Лимонный сок",
+        "qtyBase": 3,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Крахмал",
+        "qtyBase": 3,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Минеральная вода",
+        "qtyBase": 0.5,
+        "unit": "стакана (200 мл по источнику)",
+        "pricePerUnit": 0,
+        "aisle": "Напитки",
+        "staple": false,
+        "qtyLabel": "0.5 стакана (200 мл по источнику)"
+      },
+      {
+        "name": "Мука",
+        "qtyBase": 3,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Яйцо",
+        "qtyBase": 2,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Сода",
+        "qtyBase": 0.5,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Лёд",
+        "qtyBase": 6,
+        "unit": "кубиков",
+        "pricePerUnit": 0,
+        "aisle": "Заморозка",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для жарки",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для жарки"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Форель в хрустящем кляре",
+      "url": "https://www.chefmarket.ru/blog/forel-originalnye-recepty-prigotovlenija/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_078",
+    "name": "Форель на пару с лимоном и чесноком",
+    "baseServings": 4,
+    "time": 25,
+    "steps": [
+      "Тщательно промойте форель, обсушите бумажными полотенцами и нарежьте порционными кусками. Если готовите целую рыбу, удалите плавники, хвост и голову.",
+      "Смешайте растительное масло, лимонный сок, пропущенный через пресс чеснок, измельчённую зелень, морскую соль и чёрный перец.",
+      "Обмажьте кусочки форели заправкой с обеих сторон. Остатки соуса распределите сверху.",
+      "Разложите рыбу в чаше пароварки и готовьте 10–15 минут, в зависимости от размера кусков.",
+      "Подавайте сразу после приготовления, дополнив любимым гарниром и долькой лимона."
+    ],
+    "ingredients": [
+      {
+        "name": "Морская форель",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Лимонный сок",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морская крупная соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый чёрный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Свежая зелень",
+        "qtyBase": 0,
+        "unit": "несколько веточек",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "несколько веточек"
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Форель на пару: вкусный и полезный рецепт",
+      "url": "https://www.chefmarket.ru/blog/forel-na-paru-vkusnyj-i-poleznyj-recept/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_079",
+    "name": "Свиные рёбрышки на гриле в медово-соевом маринаде",
+    "baseServings": 6,
+    "time": 120,
+    "steps": [
+      "Лук нарежьте полукольцами, чеснок мелко порубите.",
+      "В миске смешайте жидкий мёд, сахар, соевый соус, бальзамический уксус, кетчуп, соль и чёрный перец. Если мёд густой, предварительно растопите его.",
+      "Смешайте маринад с луком и чесноком. Тщательно натрите свиные рёбра со всех сторон и оставьте примерно на час.",
+      "Переложите рёбра вместе с маринадом в кастрюлю. После закипания тушите около 45 минут.",
+      "Достаньте рёбра и нарежьте на порционные куски. Маринад продолжайте тушить до загустения.",
+      "Разогрейте сковороду-гриль и смажьте растительным маслом. Обжаривайте рёбра, постоянно смазывая их загустевшим маринадом, чтобы образовалась глянцевая корочка.",
+      "Подавайте самостоятельно или со свежими овощами и зеленью."
+    ],
+    "ingredients": [
+      {
+        "name": "Свежие свиные рёбра",
+        "qtyBase": 2000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Жидкий мёд",
+        "qtyBase": 4,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Соевый соус",
+        "qtyBase": 200,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Сахар",
+        "qtyBase": 4,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Бальзамический уксус",
+        "qtyBase": 100,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 4,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Кетчуп",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 4,
+        "unit": "головки",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для сковороды-гриль",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для сковороды-гриль"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Свиные ребрышки на гриле",
+      "url": "https://www.chefmarket.ru/blog/top-3-recepta-prigotovlenija-mjasa/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_080",
+    "name": "Мясо по-французски со свининой и картофелем",
+    "baseServings": 4,
+    "time": 50,
+    "steps": [
+      "Промойте свиную шею и нарежьте тонкими пластами. Накройте пищевой плёнкой и слегка отбейте, если куски получились не слишком тонкими. Посолите и поперчите.",
+      "Картофель очистите, нарежьте тонкой соломкой и тщательно промойте на дуршлаге, чтобы удалить лишний крахмал.",
+      "Лук нарежьте полукольцами, помидоры — кружочками, сыр натрите на средней тёрке.",
+      "Смажьте противень растительным маслом. Выложите мясо, затем лук, картофель и кружочки помидоров.",
+      "Хорошо смажьте верхний слой майонезом, ещё раз посолите и поперчите, затем посыпьте тёртым сыром.",
+      "Запекайте при 180 °C 20 минут. Повышайте температуру до 200 °C и готовьте ещё 20–25 минут. Проверьте готовность картофеля зубочисткой; сырная корочка должна подрумяниться.",
+      "Подавайте горячим, при желании посыпав зеленью."
+    ],
+    "ingredients": [
+      {
+        "name": "Свиная шея",
+        "qtyBase": 700,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 2,
+        "unit": "головки",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Твёрдый сыр",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 4,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Майонез",
+        "qtyBase": 4,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 5,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Зелень",
+        "qtyBase": 0,
+        "unit": "по желанию",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по желанию"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Мясо по-французски",
+      "url": "https://www.chefmarket.ru/blog/top-3-recepta-prigotovlenija-mjasa/",
+      "relation": "adapted",
+      "verified": true
+    }
   }
 ];
