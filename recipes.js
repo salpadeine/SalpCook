@@ -1,4 +1,4 @@
-// Каталог рецептов SalpCook. Для рецептов с внешней основой указан источник и примечание об адаптации.
+// Каталог рецептов SalpCook. У каждого блюда есть опубликованный источник с указанием степени адаптации.
 window.SALPCOOK_RECIPES = [
   {
     "id": "homemade_cutlets",
@@ -89,7 +89,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Домашние котлеты из свинины и говядины",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/56191/kotlety-domashnie-iz-svininy-i-govjadiny",
+      "relation": "direct",
+      "note": "Источник совпадает по основному составу: смешанный свиной и говяжий фарш, хлеб, молоко и лук. В SalpCook пересчитаны количества и добавлен собственный набор пошаговых деталей."
+    }
   },
   {
     "id": "baked_chicken_veg",
@@ -157,7 +163,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица с картошкой в духовке",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/66736/kuritsa-s-kartoshkoi-v-dukhovke",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: курица, куриные бедра, картофель."
+    }
   },
   {
     "id": "bolognese_pasta",
@@ -233,7 +245,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста болоньезе: классический рецепт",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/55693/pasta-boloneze-klassicheskij-recept",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: фарш говяжий, паста, помидоры."
+    }
   },
   {
     "id": "baked_salmon",
@@ -284,7 +302,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Roast salmon & roast baby potatoes",
+      "publisher": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/roast-salmon-roast-baby-potatoes",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: лосось."
+    }
   },
   {
     "id": "chicken_pilaf",
@@ -343,7 +367,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Плов с курицей",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/44458/plov-s-kuricej",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: рис."
+    }
   },
   {
     "id": "beef_stroganoff",
@@ -406,7 +436,8 @@ window.SALPCOOK_RECIPES = [
       "title": "Говядина по-строгановски (бефстроганов)",
       "publisher": "Гастроном",
       "url": "https://www.gastronom.ru/recipe/62993/govyadina-po-stroganovski-befstroganov",
-      "note": "Рецепт-основа для говядины в сметанном соусе; гречка и грибы — вариант SalpCook."
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: говядина, сметана."
     }
   },
   {
@@ -458,7 +489,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Рыбные котлеты из минтая",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/59107/rybnye-kotlety-iz-mintaya",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: минтай, рыбные котлеты."
+    }
   },
   {
     "id": "chicken_teriyaki",
@@ -517,7 +554,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица терияки с рисом и овощами",
+      "publisher": "Меню недели",
+      "url": "https://menunedeli.ru/recipe/kurica-teriyaki-s-risom-i-ovoshhami/",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: курица, рис."
+    }
   },
   {
     "id": "stuffed_peppers",
@@ -575,7 +618,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Перцы, фаршированные мясом и рисом, в томатном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/33052/percy-farshirovannye-myasom-i-risom-v-tomatnom-souse-v-kastryule",
+      "relation": "direct",
+      "note": "Опубликованный рецепт совпадает по главному составу — перец, мясная начинка, рис и томатный соус. В SalpCook изменены пропорции и адаптированы шаги."
+    }
   },
   {
     "id": "chicken_mushroom_cream",
@@ -634,7 +683,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Куриная грудка с шампиньонами в сливочном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/33169/kurinaya-grudka-s-shampinonami-v-slivochnom-souse",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: филе куриное, шампиньоны, сливки."
+    }
   },
   {
     "id": "pork_chops_cabbage",
@@ -685,7 +740,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Тушеная капуста со свининой и грибами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/6095/tushenaya-kapusta-so-svininoj-i-gribami",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: капуста."
+    }
   },
   {
     "id": "pasta_tomato_garlic",
@@ -736,7 +797,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста с томатным соусом и базиликом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/62481/pasta-s-tomatnym-sousom-i-bazilikom",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: паста, помидоры, базилик."
+    }
   },
   {
     "id": "beef_potato_stew",
@@ -787,7 +854,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Тушеная говядина с картошкой и чесноком",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/24139/tushenaya-govyadina-s-kartoshkoj-i-chesnokom-v-duhovke",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: говядина, картофель."
+    }
   },
   {
     "id": "chicken_rice_simple",
@@ -838,7 +911,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Плов с курицей",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/44458/plov-s-kuricej",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: курица, рис."
+    }
   },
   {
     "id": "pork_ribs_potato",
@@ -880,7 +959,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Свиные ребрышки, запеченные с картошкой",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/60376/svinye-ryobryshki-zapechyonnye-s-kartoshkoj-v-rukave",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: свиные ребрышки, картофель."
+    }
   },
   {
     "id": "pasta_carbonara",
@@ -931,7 +1016,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста карбонара",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/16522/pasta-karbonara",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: спагетти, бекон, яйцо."
+    }
   },
   {
     "id": "turkey_meatballs",
@@ -990,7 +1081,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Тефтели из индейки с рисом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/64610/tefteli-iz-indejki-s-risom",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: фарш индейки, рис."
+    }
   },
   {
     "id": "shrimp_pasta",
@@ -1040,7 +1137,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста с креветками",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/47222/pasta-s-krevetkami",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: паста, креветки."
+    }
   },
   {
     "id": "chicken_fajitas",
@@ -1098,7 +1201,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Фахитас с курицей",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/32898/fahitas-s-kuricej",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: филе куриное, тортильи, перец."
+    }
   },
   {
     "id": "beef_tacos",
@@ -1148,7 +1257,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Тортильи с говядиной",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/23343/tortili-s-govyadinoj",
+      "relation": "adapted",
+      "note": "Источник — тортильи с говяжьей начинкой, овощами и сальсой. В SalpCook меняются соус, овощные добавки и формат подачи (тако/пита/авокадо)."
+    }
   },
   {
     "id": "chicken_wings",
@@ -1198,7 +1313,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Крылышки в соево-медовом соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/63312/krylyshki-v-soevo-medovom-souse",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: куриные крылышки, соус соевый, мёд."
+    }
   },
   {
     "id": "pork_schnitzel",
@@ -1248,7 +1369,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Pork schnitzel",
+      "publisher": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/pork-schnitzel",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: панировочные сухари."
+    }
   },
   {
     "id": "cod_potatoes",
@@ -1298,7 +1425,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Треска с картофелем и кабачками",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/28325/treska-s-kartofelem-i-kabachkami",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: треска, картофель."
+    }
   },
   {
     "id": "chicken_curry",
@@ -1349,7 +1482,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица карри с кокосовым молоком",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/60277/kurica-karri-s-kokosovym-molokom",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: карри."
+    }
   },
   {
     "id": "mushroom_pasta",
@@ -1400,7 +1539,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста с грибами и сливочным соусом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/43214/pasta-s-gribami-i-slivochnym-sousom",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: паста, шампиньоны, сливки."
+    }
   },
   {
     "id": "beef_broccoli",
@@ -1451,7 +1596,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Говядина с брокколи",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/19258/govyadina-s-brokkoli",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: говядина, брокколи."
+    }
   },
   {
     "id": "pork_apple",
@@ -1502,7 +1653,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Свинина с яблоками в духовке",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/24953/svinina-s-yablokami-v-duhovke",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: свинина, яблоко."
+    }
   },
   {
     "id": "chicken_potato_bake",
@@ -1552,7 +1709,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица с картошкой в духовке",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/66736/kuritsa-s-kartoshkoi-v-dukhovke",
+      "relation": "adapted",
+      "note": "Источник — запечённая курица с картофелем. В SalpCook меняются овощи, сыр/соус и ароматическая заправка."
+    }
   },
   {
     "id": "lentil_stew",
@@ -1602,7 +1765,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Пирог пастуха с говядиной и овощами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/16165/pirog-pastuha-s-govyadinoj-i-ovoshchami",
+      "relation": "adapted",
+      "note": "Источник — рагу из чечевицы. В SalpCook меняется формат (суп/рагу) и добавляются томаты, овощи или колбаски."
+    }
   },
   {
     "id": "chicken_caesar",
@@ -1653,7 +1822,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Салат Цезарь с курицей и пармезаном",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/43182/salat-cezar-s-kuricej",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: салат романо, сухарики."
+    }
   },
   {
     "id": "pork_cabbage",
@@ -1695,7 +1870,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Тушеная капуста со свининой и грибами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/6095/tushenaya-kapusta-so-svininoj-i-gribami",
+      "relation": "adapted",
+      "note": "Источник — тушёная капуста со свининой. В SalpCook изменяются пропорции и отруб, но сохраняются свинина, капуста и способ тушения."
+    }
   },
   {
     "id": "salmon_dill",
@@ -1745,7 +1926,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Roast salmon & roast baby potatoes",
+      "publisher": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/roast-salmon-roast-baby-potatoes",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: лосось, картофель."
+    }
   },
   {
     "id": "chicken_pepper_rice",
@@ -1795,7 +1982,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица терияки с рисом и овощами",
+      "publisher": "Меню недели",
+      "url": "https://menunedeli.ru/recipe/kurica-teriyaki-s-risom-i-ovoshhami/",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: курица, рис."
+    }
   },
   {
     "id": "beef_onion",
@@ -1838,7 +2031,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Говядина по-строгановски (бефстроганов)",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/62993/govyadina-po-stroganovski-befstroganov",
+      "relation": "adapted",
+      "note": "Источник — приготовление говядины с картофелем/в соусе. В SalpCook упрощены добавки и меняется гарнир."
+    }
   },
   {
     "id": "shrimp_garlic",
@@ -1888,7 +2087,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Креветки в чесночном масле",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/21750/krevetki-v-chesnochnom-masle",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: креветки, чеснок."
+    }
   },
   {
     "id": "chicken_garlic_butter",
@@ -1939,7 +2144,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Котлеты по-киевски классические",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/10583/kotlety-po-kievski",
+      "relation": "adapted",
+      "note": "Источник — котлеты по-киевски с куриным филе и масляной начинкой. В варианте SalpCook масло используется как чесночно-травяная начинка или заправка."
+    }
   },
   {
     "id": "veg_fried_rice",
@@ -1997,7 +2208,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Жареный рис с яйцом и овощами по-китайски",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/26410/zharenyj-ris-s-yajcom-i-ovoshchami-po-kitajski",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: рис, яйцо."
+    }
   },
   {
     "id": "chicken_broccoli_rice",
@@ -2047,7 +2264,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица терияки с рисом и овощами",
+      "publisher": "Меню недели",
+      "url": "https://menunedeli.ru/recipe/kurica-teriyaki-s-risom-i-ovoshhami/",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: курица, рис."
+    }
   },
   {
     "id": "pork_mushroom",
@@ -2098,7 +2321,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Свинина с грибами в сметанном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/60794/svinina-s-gribami-v-smetannom-souse",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: свинина, шампиньоны."
+    }
   },
   {
     "id": "fish_tomato",
@@ -2149,7 +2378,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Белая рыба в томатном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/67274/belaia-ryba-v-tomatnom-souse",
+      "relation": "direct",
+      "note": "Публикация — белая рыба в томатном соусе на сковороде; основной состав и способ приготовления совпадают. В SalpCook изменены пропорции и гарнир."
+    }
   },
   {
     "id": "chicken_soy_ginger",
@@ -2208,7 +2443,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица терияки с рисом и овощами",
+      "publisher": "Меню недели",
+      "url": "https://menunedeli.ru/recipe/kurica-teriyaki-s-risom-i-ovoshhami/",
+      "relation": "adapted",
+      "note": "Источник — курица терияки с овощами и рисом. В SalpCook меняются соусные добавки или гарнир, сохраняется соево-имбирный профиль."
+    }
   },
   {
     "id": "beef_potato_simple",
@@ -2250,7 +2491,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Говядина по-строгановски (бефстроганов)",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/62993/govyadina-po-stroganovski-befstroganov",
+      "relation": "adapted",
+      "note": "Источник — приготовление говядины с картофелем/в соусе. В SalpCook упрощены добавки и меняется гарнир."
+    }
   },
   {
     "id": "chicken_simple_rice",
@@ -2292,7 +2539,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Плов с курицей",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/44458/plov-s-kuricej",
+      "relation": "adapted",
+      "note": "Источник — плов с курицей. В SalpCook упрощается набор овощей и специй, сохраняется сочетание курицы с рисом."
+    }
   },
   {
     "id": "pork_simple",
@@ -2334,7 +2587,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Картошка, тушенная со свининой",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/56108/tushenaya-kartoshka-so-svininoj",
+      "relation": "adapted",
+      "note": "Источник — домашнее блюдо из свинины с картофелем. В SalpCook используется другая форма мяса или соус, а сочетание свинины с овощами сохранено."
+    }
   },
   {
     "id": "fish_simple",
@@ -2384,7 +2643,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Треска с картофелем и кабачками",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/28325/treska-s-kartofelem-i-kabachkami",
+      "relation": "adapted",
+      "note": "Источник — приготовление трески/рыбы с картофелем или травами. В SalpCook меняется гарнир, соус или способ оформления рыбы."
+    }
   },
   {
     "id": "beef_simple",
@@ -2426,7 +2691,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Говядина по-строгановски (бефстроганов)",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/62993/govyadina-po-stroganovski-befstroganov",
+      "relation": "adapted",
+      "note": "Источник — приготовление говядины с картофелем/в соусе. В SalpCook упрощены добавки и меняется гарнир."
+    }
   },
   {
     "id": "chicken_veg_stir",
@@ -2477,7 +2748,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица терияки с рисом и овощами",
+      "publisher": "Меню недели",
+      "url": "https://menunedeli.ru/recipe/kurica-teriyaki-s-risom-i-ovoshhami/",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: курица, рис."
+    }
   },
   {
     "id": "pasta_alfredo",
@@ -2528,7 +2805,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста альфредо с курицей",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/61081/pasta-alfredo-s-kuricej",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: паста, филе куриное, сливки."
+    }
   },
   {
     "id": "turkey_veg",
@@ -2579,7 +2862,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Индейка с овощами в технике stir-fry",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/57361/stir-fraj-iz-indejki-s-ovoschami",
+      "relation": "adapted",
+      "note": "Источник — индейка с овощами в технике stir-fry. В SalpCook меняются сочетание овощей и гарнир, сохраняются индейка и быстрая обжарка."
+    }
   },
   {
     "id": "pork_honey",
@@ -2630,7 +2919,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Свинина в медовом соусе с кунжутом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/41527/svinina-v-medovom-souse-s-kunzhutom",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: свинина, мёд, соус соевый."
+    }
   },
   {
     "id": "chicken_tomato_basil",
@@ -2681,7 +2976,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста с томатным соусом и базиликом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/62481/pasta-s-tomatnym-sousom-i-bazilikom",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: паста, помидоры, базилик."
+    }
   },
   {
     "id": "beef_garlic",
@@ -2732,7 +3033,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Говядина с чесночным соусом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/11510/govyadina-s-chesnochnym-sousom",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: говядина, чеснок."
+    }
   },
   {
     "id": "chicken_spinach",
@@ -2783,7 +3090,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста альфредо с курицей",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/61081/pasta-alfredo-s-kuricej",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: паста, филе куриное, сливки."
+    }
   },
   {
     "id": "pork_ginger",
@@ -2834,7 +3147,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Свинина в медовом соусе с кунжутом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/41527/svinina-v-medovom-souse-s-kunzhutom",
+      "relation": "adapted",
+      "note": "Источник — свинина в сладко-солёном соусе с кунжутом. В SalpCook меняются специи и гарнир, сохраняется азиатский соусный профиль."
+    }
   },
   {
     "id": "cod_lemon",
@@ -2883,7 +3202,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Треска с картофелем и кабачками",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/28325/treska-s-kartofelem-i-kabachkami",
+      "relation": "adapted",
+      "note": "Источник — приготовление трески/рыбы с картофелем или травами. В SalpCook меняется гарнир, соус или способ оформления рыбы."
+    }
   },
   {
     "id": "chicken_cashew",
@@ -2934,7 +3259,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица с кешью",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/33317/kurica-s-keshju",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: курица, кешью."
+    }
   },
   {
     "id": "pork_soy",
@@ -2985,7 +3316,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Свинина в медовом соусе с кунжутом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/41527/svinina-v-medovom-souse-s-kunzhutom",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: свинина, соус соевый."
+    }
   },
   {
     "id": "chicken_lemon",
@@ -3036,7 +3373,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Запеченная курица с лимонным соусом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/59862/zapechennaya-kurica-s-limonnym-sousom",
+      "relation": "adapted",
+      "note": "Источник — курица с лимонным соусом. В SalpCook добавляются рис/орзо, шпинат или другие дополнения."
+    }
   },
   {
     "id": "shrimp_rice",
@@ -3086,7 +3429,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Креветки с рисом и овощами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/2776/krevetki-s-risom-i-ovoshchami",
+      "relation": "adapted",
+      "note": "Источник — креветки с рисом и овощами. В SalpCook добавляются чеснок, лимон или меняется набор овощей."
+    }
   },
   {
     "id": "chicken_potato_simple",
@@ -3128,7 +3477,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица с картошкой в духовке",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/66736/kuritsa-s-kartoshkoi-v-dukhovke",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: курица, куриные бедра, картофель."
+    }
   },
   {
     "id": "beef_veg_simple",
@@ -3179,7 +3534,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Говядина с брокколи",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/19258/govyadina-s-brokkoli",
+      "relation": "adapted",
+      "note": "Источник — говядина с брокколи. В SalpCook добавляются дополнительные овощи или рис, меняется формат подачи."
+    }
   },
   {
     "id": "shrimp_veg",
@@ -3230,7 +3591,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Креветки с рисом и овощами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/2776/krevetki-s-risom-i-ovoshchami",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: креветки, рис."
+    }
   },
   {
     "id": "chicken_onion",
@@ -3273,7 +3640,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Плов с курицей",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/44458/plov-s-kuricej",
+      "relation": "adapted",
+      "note": "Источник — плов с курицей. В SalpCook упрощается набор овощей и специй, сохраняется сочетание курицы с рисом."
+    }
   },
   {
     "id": "pork_potato",
@@ -3315,7 +3688,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Картошка, тушенная со свининой",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/56108/tushenaya-kartoshka-so-svininoj",
+      "relation": "adapted",
+      "note": "Источник — домашнее блюдо из свинины с картофелем. В SalpCook используется другая форма мяса или соус, а сочетание свинины с овощами сохранено."
+    }
   },
   {
     "id": "fish_rice",
@@ -3357,7 +3736,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Треска с картофелем и кабачками",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/28325/treska-s-kartofelem-i-kabachkami",
+      "relation": "adapted",
+      "note": "Источник — приготовление трески/рыбы с картофелем или травами. В SalpCook меняется гарнир, соус или способ оформления рыбы."
+    }
   },
   {
     "id": "chicken_feta",
@@ -3407,7 +3792,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Запеченная курица с овощами и фетой",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/38038/zapechennaya-kurica-s-ovoshchami-i-fetoj",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: курица, фета."
+    }
   },
   {
     "id": "beef_pepper",
@@ -3458,7 +3849,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Говядина с перцами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/32877/govyadina-s-percami",
+      "relation": "adapted",
+      "note": "Источник — говядина с перцами. В SalpCook меняется формат блюда (боул/кебаб), но сочетание говядины с перцем и луком сохранено."
+    }
   },
   {
     "id": "chicken_sweet_potato",
@@ -3500,7 +3897,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица с картошкой в духовке",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/66736/kuritsa-s-kartoshkoi-v-dukhovke",
+      "relation": "adapted",
+      "note": "Источник — запечённая курица с картофелем. В SalpCook меняются овощи, сыр/соус и ароматическая заправка."
+    }
   },
   {
     "id": "pork_cutlets_mushroom",
@@ -3551,7 +3954,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Картошка, тушенная со свининой",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/56108/tushenaya-kartoshka-so-svininoj",
+      "relation": "adapted",
+      "note": "Источник — домашнее блюдо из свинины с картофелем. В SalpCook используется другая форма мяса или соус, а сочетание свинины с овощами сохранено."
+    }
   },
   {
     "id": "chicken_rice_bowl",
@@ -3602,7 +4011,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Боул с курицей, рисом и голубикой",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/63882/boul-s-kuricej-risom-i-golubikoj",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: рис, боул."
+    }
   },
   {
     "id": "salmon_teriyaki",
@@ -3652,7 +4067,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Лосось терияки",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/31302/losos-teriyaki",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: лосось, терияки."
+    }
   },
   {
     "id": "beef_noodles",
@@ -3702,7 +4123,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Рисовая лапша с говядиной, бок-чоем и брокколи",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/26526/risovaja-lapsha-s-govjadinoj-bok-choem-i-brokkoli",
+      "relation": "adapted",
+      "note": "Источник — говядина с лапшой и овощами по-китайски. В SalpCook используется яичная лапша и болгарский перец вместо рисовой лапши и бок-чоя."
+    }
   },
   {
     "id": "chicken_skewers",
@@ -3753,7 +4180,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Куриные шашлычки с овощами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/44255/kurinye-shashlychki-s-ovoshchami",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: шашлычки."
+    }
   },
   {
     "id": "pork_veg",
@@ -3804,7 +4237,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Свинина, тушенная с болгарским перцем на сковороде",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/60850/svinina-tushennaya-s-bolgarskim-percem-na-skovorode",
+      "relation": "adapted",
+      "note": "Источник — свинина, тушенная с болгарским перцем на сковороде. В SalpCook меняется набор овощей и гарнир."
+    }
   },
   {
     "id": "fish_herb",
@@ -3854,7 +4293,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Треска с картофелем и кабачками",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/28325/treska-s-kartofelem-i-kabachkami",
+      "relation": "adapted",
+      "note": "Источник — приготовление трески/рыбы с картофелем или травами. В SalpCook меняется гарнир, соус или способ оформления рыбы."
+    }
   },
   {
     "id": "chicken_tomato_rice",
@@ -3905,7 +4350,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица в томатно-винном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/50735/kurica-v-tomatno-vinnom-souse",
+      "relation": "adapted",
+      "note": "Источник — курица в томатном соусе. В SalpCook добавляется рис, моцарелла или базилик и изменяются пропорции."
+    }
   },
   {
     "id": "shrimp_garlic_lemon_rice",
@@ -3955,7 +4406,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Креветки с рисом и овощами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/2776/krevetki-s-risom-i-ovoshchami",
+      "relation": "adapted",
+      "note": "Источник — креветки с рисом и овощами. В SalpCook добавляются чеснок, лимон или меняется набор овощей."
+    }
   },
   {
     "id": "beef_soy_rice",
@@ -4006,7 +4463,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Говядина с чесночным соусом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/11510/govyadina-s-chesnochnym-sousom",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: говядина, чеснок."
+    }
   },
   {
     "id": "chicken_mushroom_rice",
@@ -4057,7 +4520,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Куриная грудка с шампиньонами в сливочном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/33169/kurinaya-grudka-s-shampinonami-v-slivochnom-souse",
+      "relation": "adapted",
+      "note": "Источник — куриная грудка с шампиньонами в сливочном соусе. В SalpCook меняется овощное дополнение или гарнир."
+    }
   },
   {
     "id": "pork_garlic_rice",
@@ -4107,7 +4576,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Свинина в медовом соусе с кунжутом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/41527/svinina-v-medovom-souse-s-kunzhutom",
+      "relation": "adapted",
+      "note": "Источник — свинина в сладко-солёном соусе с кунжутом. В SalpCook меняются специи и гарнир, сохраняется азиатский соусный профиль."
+    }
   },
   {
     "id": "fish_potato_herb",
@@ -4157,7 +4632,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Треска с картофелем и кабачками",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/28325/treska-s-kartofelem-i-kabachkami",
+      "relation": "adapted",
+      "note": "Источник — приготовление трески/рыбы с картофелем или травами. В SalpCook меняется гарнир, соус или способ оформления рыбы."
+    }
   },
   {
     "id": "chicken_broccoli_cheese",
@@ -4207,7 +4688,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Куриная грудка с шампиньонами в сливочном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/33169/kurinaya-grudka-s-shampinonami-v-slivochnom-souse",
+      "relation": "adapted",
+      "note": "Источник — куриная грудка с шампиньонами в сливочном соусе. В SalpCook меняется овощное дополнение или гарнир."
+    }
   },
   {
     "id": "beef_mushroom_pie",
@@ -4258,7 +4745,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Говядина по-строгановски (бефстроганов)",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/62993/govyadina-po-stroganovski-befstroganov",
+      "relation": "adapted",
+      "note": "Источник — говядина с грибами в соусе. В SalpCook используется другая подача и гарнир, сохраняется сочетание мяса и грибов."
+    }
   },
   {
     "id": "chicken_pesto_pasta",
@@ -4309,7 +4802,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Пенне с соусом песто",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/12256/penne-s-sousom-pesto",
+      "relation": "adapted",
+      "note": "Источник — паста с соусом песто. В SalpCook добавлены куриное филе и помидоры черри."
+    }
   },
   {
     "id": "pork_belly",
@@ -4359,7 +4858,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Свиная грудинка, запеченная с сезонными овощами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/29569/svinaya-grudinka-zapechennaya-s-sezonnymi-ovoshchami",
+      "relation": "direct",
+      "note": "Публикация — свиная грудинка, запечённая с сезонными овощами. В SalpCook количество и набор овощей пересчитаны."
+    }
   },
   {
     "id": "chicken_satay",
@@ -4409,7 +4914,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Шашлычки сатай из курицы с арахисовым соусом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/60059/shashlychki-satej-satay-iz-kuricy-s-arahisovym-sousom",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: курица, арахисовая паста."
+    }
   },
   {
     "id": "beef_kebab",
@@ -4460,7 +4971,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Говядина с перцами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/32877/govyadina-s-percami",
+      "relation": "adapted",
+      "note": "Источник — говядина с перцами. В SalpCook меняется формат блюда (боул/кебаб), но сочетание говядины с перцем и луком сохранено."
+    }
   },
   {
     "id": "chicken_quinoa",
@@ -4511,7 +5028,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица с киноа и овощами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/38228/kurica-s-kinoa-i-ovoschami",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: курица, киноа."
+    }
   },
   {
     "id": "salmon_avocado",
@@ -4562,7 +5085,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Салат с креветками и авокадо",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/53152/salat-s-krevetkami-i-avokado",
+      "relation": "adapted",
+      "note": "Источник — салат с морепродуктами и авокадо. В SalpCook креветки заменены лососем, а подача изменена на боул."
+    }
   },
   {
     "id": "chicken_avocado_salad",
@@ -4613,7 +5142,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Салат с авокадо и курицей",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/23548/salat-s-avokado-i-kuricej",
+      "relation": "direct",
+      "note": "Публикация совпадает по основному составу — курица и авокадо. В SalpCook изменены пропорции и отдельные овощи/заправка."
+    }
   },
   {
     "id": "pork_pepper_stir",
@@ -4664,7 +5199,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Свинина, тушенная с болгарским перцем на сковороде",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/60850/svinina-tushennaya-s-bolgarskim-percem-na-skovorode",
+      "relation": "adapted",
+      "note": "Источник — свинина, тушенная с болгарским перцем на сковороде. В SalpCook меняется набор овощей и гарнир."
+    }
   },
   {
     "id": "turkey_stirfry",
@@ -4715,7 +5256,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Индейка с овощами в технике stir-fry",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/57361/stir-fraj-iz-indejki-s-ovoschami",
+      "relation": "adapted",
+      "note": "Источник — индейка с овощами в технике stir-fry. В SalpCook меняются сочетание овощей и гарнир, сохраняются индейка и быстрая обжарка."
+    }
   },
   {
     "id": "chicken_enchiladas",
@@ -4766,7 +5313,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Энчиладас с курицей",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/35201/enchiladas-s-kuricej",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: тортильи, помидоры."
+    }
   },
   {
     "id": "beef_stew",
@@ -4816,7 +5369,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Тушеная говядина с картошкой и чесноком",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/24139/tushenaya-govyadina-s-kartoshkoj-i-chesnokom-v-duhovke",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: говядина, картофель."
+    }
   },
   {
     "id": "chicken_parmesan",
@@ -4867,7 +5426,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица Пармиджана",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/50073/kurica-parmidzhana",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: курица, моцарелла, пармезан."
+    }
   },
   {
     "id": "baked_cod",
@@ -4918,7 +5483,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Треска с картофелем и кабачками",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/28325/treska-s-kartofelem-i-kabachkami",
+      "relation": "adapted",
+      "note": "Источник — приготовление трески/рыбы с картофелем или травами. В SalpCook меняется гарнир, соус или способ оформления рыбы."
+    }
   },
   {
     "id": "chicken_tikka",
@@ -4977,7 +5548,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Chicken tikka masala",
+      "publisher": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/ultimate-makeover-chicken-tikka-masala",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: курица, йогурт."
+    }
   },
   {
     "id": "pasta_arrabbiata",
@@ -5028,7 +5605,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста аррабьята",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/29859/arrabbiata",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: паста, помидоры, чеснок."
+    }
   },
   {
     "id": "chicken_potatoes_rosemary",
@@ -5078,7 +5661,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица с картошкой в духовке",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/66736/kuritsa-s-kartoshkoi-v-dukhovke",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: курица, куриные бедра, картофель."
+    }
   },
   {
     "id": "beef_rice_bowl",
@@ -5129,7 +5718,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Говядина с брокколи",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/19258/govyadina-s-brokkoli",
+      "relation": "adapted",
+      "note": "Источник — говядина с брокколи. В SalpCook добавляются дополнительные овощи или рис, меняется формат подачи."
+    }
   },
   {
     "id": "shrimp_avocado_salad",
@@ -5180,7 +5775,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Салат с креветками и авокадо",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/53152/salat-s-krevetkami-i-avokado",
+      "relation": "direct",
+      "note": "Публикация — салат с креветками и авокадо. В SalpCook добавлены овощи и скорректированы пропорции."
+    }
   },
   {
     "id": "chicken_cashew_rice",
@@ -5231,7 +5832,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица с кешью",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/33317/kurica-s-keshju",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: курица, кешью."
+    }
   },
   {
     "id": "chicken_gremolata_potatoes",
@@ -5297,7 +5904,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица с картошкой в духовке",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/66736/kuritsa-s-kartoshkoi-v-dukhovke",
+      "relation": "adapted",
+      "note": "Источник — запечённая курица с картофелем. В SalpCook меняются овощи, сыр/соус и ароматическая заправка."
+    }
   },
   {
     "id": "turkey_mustard_batata",
@@ -5363,7 +5976,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Куриная печень в сметане",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/67349/kurinaia-pechen-v-smetane",
+      "relation": "adapted",
+      "note": "Источник — сочетание птицы/мяса с горчичным соусом. В SalpCook используется индейка, батат и медово-горчичная заправка."
+    }
   },
   {
     "id": "chicken_mozzarella_basil",
@@ -5429,7 +6048,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица в томатно-винном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/50735/kurica-v-tomatno-vinnom-souse",
+      "relation": "adapted",
+      "note": "Источник — курица в томатном соусе. В SalpCook добавляется рис, моцарелла или базилик и изменяются пропорции."
+    }
   },
   {
     "id": "pork_apple_mustard",
@@ -5495,7 +6120,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Медальоны под горчично-сырным соусом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/5063/medalony-pod-gorchichno-syrnym-sousom",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: свиная вырезка, горчица, сливки."
+    }
   },
   {
     "id": "beef_ginger_rice",
@@ -5569,7 +6200,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Говядина с чесночным соусом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/11510/govyadina-s-chesnochnym-sousom",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: говядина, чеснок."
+    }
   },
   {
     "id": "beef_bulgur_pumpkin",
@@ -5635,7 +6272,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Тушеная говядина с картошкой и чесноком",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/24139/tushenaya-govyadina-s-kartoshkoj-i-chesnokom-v-duhovke",
+      "relation": "adapted",
+      "note": "Источник — тушёная говядина с овощами. В SalpCook добавляются булгур и тыква/перец, сохраняется техника тушения."
+    }
   },
   {
     "id": "turkey_coconut_curry",
@@ -5701,7 +6344,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица карри с кокосовым молоком",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/60277/kurica-karri-s-kokosovym-molokom",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: курица, карри, кокосовое молоко."
+    }
   },
   {
     "id": "cod_cream_couscous",
@@ -5767,7 +6416,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Треска с картофелем и кабачками",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/28325/treska-s-kartofelem-i-kabachkami",
+      "relation": "adapted",
+      "note": "Источник — приготовление рыбы с травами и соусом. В SalpCook используются сливки, шпинат и отдельный гарнир."
+    }
   },
   {
     "id": "salmon_dill_potatoes",
@@ -5825,7 +6480,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Roast salmon & roast baby potatoes",
+      "publisher": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/roast-salmon-roast-baby-potatoes",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: лосось, картофель."
+    }
   },
   {
     "id": "shrimp_soba_vegetables",
@@ -5891,7 +6552,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Гречневая лапша с хрустящими овощами и соевым соусом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/14838/grechnevaya-lapsha-s-hrustyashchimi-ovoshchami-i-soevym-sousom",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: лапша гречневая, соус соевый."
+    }
   },
   {
     "id": "mussels_cream_baguette",
@@ -5957,7 +6624,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Мидии со сливками и портвейном",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/45179/midii-so-slivkami-i-portvejnom",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: мидии, сливки."
+    }
   },
   {
     "id": "chicken_texmex_rice",
@@ -6023,7 +6696,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Энчиладас с курицей",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/35201/enchiladas-s-kuricej",
+      "relation": "adapted",
+      "note": "Источник — куриные энчиладас с тортильями и томатным соусом. В SalpCook меняется сборка или формат подачи, сохраняются основные вкусы Tex-Mex."
+    }
   },
   {
     "id": "meatballs_tomato_orzo",
@@ -6089,7 +6768,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста болоньезе: классический рецепт",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/55693/pasta-boloneze-klassicheskij-recept",
+      "relation": "adapted",
+      "note": "Источник — фрикадельки в томатном соусе. В SalpCook меняются гарнир и пропорции."
+    }
   },
   {
     "id": "baked_meat_potato_cheese",
@@ -6155,7 +6840,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Картофельная запеканка с фаршем в духовке",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/63304/kartofelnaia-zapekanka-s-farshem-v-dukhovke",
+      "relation": "direct",
+      "note": "Публикация — картофельная запеканка с мясным фаршем. В SalpCook сырный соус и количества адаптированы на две порции."
+    }
   },
   {
     "id": "greek_moussaka_easy",
@@ -6229,7 +6920,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста болоньезе: классический рецепт",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/55693/pasta-boloneze-klassicheskij-recept",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: фарш говяжий, помидоры."
+    }
   },
   {
     "id": "chicken_cutlets_bulgur",
@@ -6295,7 +6992,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Котлеты из куриного фарша",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/56631/kotlety-iz-kurinogo-farsha",
+      "relation": "adapted",
+      "note": "Источник — котлеты из куриного фарша. В SalpCook добавлен булгур и салатный гарнир, основная техника котлет сохранена."
+    }
   },
   {
     "id": "pork_rolls_bacon",
@@ -6361,7 +7064,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Рулетики в беконе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/32962/ruletiki-v-bekone",
+      "relation": "adapted",
+      "note": "Источник — рулетики с беконом. В SalpCook используется свиная вырезка и другой соус; техника сворачивания и запекания близка."
+    }
   },
   {
     "id": "beef_stew_mushrooms",
@@ -6427,7 +7136,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Говядина по-строгановски (бефстроганов)",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/62993/govyadina-po-stroganovski-befstroganov",
+      "relation": "adapted",
+      "note": "Источник — говядина с грибами в соусе. В SalpCook используется другая подача и гарнир, сохраняется сочетание мяса и грибов."
+    }
   },
   {
     "id": "pork_buckwheat_mushrooms",
@@ -6485,7 +7200,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Свинина с грибами в сметанном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/60794/svinina-s-gribami-v-smetannom-souse",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: свинина, шампиньоны, сметана."
+    }
   },
   {
     "id": "chicken_paprikash",
@@ -6551,7 +7272,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паприкаш из курицы",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/3733/paprikash-s-kuricej",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: паприка, сметана."
+    }
   },
   {
     "id": "shakshuka_feta",
@@ -6621,7 +7348,8 @@ window.SALPCOOK_RECIPES = [
       "title": "Классическая шакшука",
       "publisher": "Гастроном",
       "url": "https://www.gastronom.ru/recipe/44355/jaichnica-shakshuka-klassicheskij-recept",
-      "note": "Основа — томатно-перечная шакшука с яйцами; фета и зелень добавлены в варианте SalpCook."
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: яйцо, помидоры, перец."
     }
   },
   {
@@ -6680,7 +7408,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Фриттата с картофелем, беконом и шпинатом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/45050/frittata-s-kartofelem-bekonom-i-shpinatom",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: яйцо, картофель, шпинат."
+    }
   },
   {
     "id": "lentil_tomato_soup",
@@ -6746,7 +7480,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Пирог пастуха с говядиной и овощами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/16165/pirog-pastuha-s-govyadinoj-i-ovoshchami",
+      "relation": "adapted",
+      "note": "Источник — рагу из чечевицы. В SalpCook меняется формат (суп/рагу) и добавляются томаты, овощи или колбаски."
+    }
   },
   {
     "id": "chicken_noodle_soup",
@@ -6812,7 +7552,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Куриный суп с лапшой",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/27016/kurinyj-sup-s-lapshoj",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: лапша."
+    }
   },
   {
     "id": "tomato_basil_pasta",
@@ -6878,7 +7624,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста с томатным соусом и базиликом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/62481/pasta-s-tomatnym-sousom-i-bazilikom",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: паста, помидоры, базилик."
+    }
   },
   {
     "id": "tuna_pasta_peas",
@@ -6936,7 +7688,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста с тунцом, пармезаном и кедровыми орешками",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/28418/pasta-s-tuncom-parmezanom-i-kedrovymi-oreshkami",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: паста, тунец."
+    }
   },
   {
     "id": "baked_feta_chickpeas",
@@ -7002,7 +7760,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста с фетой и помидорами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/43216/pasta-s-fetoi-i-pomidorami",
+      "relation": "adapted",
+      "note": "Источник — паста с фетой и помидорами. В SalpCook паста заменена нутом, но сочетание запечённых томатов и феты сохранено."
+    }
   },
   {
     "id": "stuffed_peppers_rice",
@@ -7068,7 +7832,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Перцы, фаршированные мясом и рисом, в томатном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/33052/percy-farshirovannye-myasom-i-risom-v-tomatnom-souse-v-kastryule",
+      "relation": "direct",
+      "note": "Опубликованный рецепт совпадает по главному составу — перец, мясная начинка, рис и томатный соус. В SalpCook изменены пропорции и адаптированы шаги."
+    }
   },
   {
     "id": "oven_sausage_vegetables",
@@ -7134,7 +7904,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Запеченный картофель с колбасками и квашеной капустой",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/55796/zakuska-iz-zapechennogo-kartofelja-s-kolbaskami-i-kvashenoj-kapustoj",
+      "relation": "adapted",
+      "note": "Источник — запечённые колбаски с картофелем и овощами. В SalpCook меняются овощи, ньокки или способ подачи."
+    }
   },
   {
     "id": "beef_chili_con_carne",
@@ -7200,7 +7976,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Перцы, фаршированные мясом и рисом, в томатном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/33052/percy-farshirovannye-myasom-i-risom-v-tomatnom-souse",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: перец болгарский, рис, фарш."
+    }
   },
   {
     "id": "couscous_roasted_veg_halloumi",
@@ -7266,7 +8048,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Овощной кускус",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/19848/ovoshnoj-kuskus",
+      "relation": "adapted",
+      "note": "Источник — овощной кускус с запечёнными овощами. В SalpCook добавлен халуми, булгур или меняется способ подачи."
+    }
   },
   {
     "id": "potato_pancakes_sourcream",
@@ -7332,7 +8120,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Драники с зеленым луком и сметаной",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/43304/draniki-s-zelenym-lukom-i-smetanoj",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: картофель, лук зелёный, сметана."
+    }
   },
   {
     "id": "creamy_mushroom_risotto",
@@ -7402,7 +8196,8 @@ window.SALPCOOK_RECIPES = [
       "title": "Ризотто с грибами",
       "publisher": "Гастроном",
       "url": "https://www.gastronom.ru/recipe/24833/rizotto-s-gribami",
-      "note": "Ссылка подтверждает базовую технологию ризотто с грибами; набор грибов и пропорции в SalpCook упрощены."
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: рис для ризотто, шампиньоны."
     }
   },
   {
@@ -7469,7 +8264,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Лосось терияки",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/31302/losos-teriyaki",
+      "relation": "adapted",
+      "note": "Источник — лосось терияки. В SalpCook добавлены брокколи, рис или кунжут."
+    }
   },
   {
     "id": "pork_schnitzel_cucumber_salad",
@@ -7535,7 +8336,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Pork schnitzel",
+      "publisher": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/pork-schnitzel",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: свиные отбивные, панировочные сухари."
+    }
   },
   {
     "id": "chicken_teriyaki_noodles",
@@ -7593,7 +8400,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица терияки с рисом и овощами",
+      "publisher": "Меню недели",
+      "url": "https://menunedeli.ru/recipe/kurica-teriyaki-s-risom-i-ovoshhami/",
+      "relation": "adapted",
+      "note": "Источник — курица терияки с овощами и рисом. В SalpCook меняются соусные добавки или гарнир, сохраняется соево-имбирный профиль."
+    }
   },
   {
     "id": "pork_medallions_mushrooms",
@@ -7651,7 +8464,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Медальоны под горчично-сырным соусом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/5063/medalony-pod-gorchichno-syrnym-sousom",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: свиная вырезка, горчица, сливки."
+    }
   },
   {
     "id": "salmon_lemon_orzo",
@@ -7709,7 +8528,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Roast salmon & roast baby potatoes",
+      "publisher": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/roast-salmon-roast-baby-potatoes",
+      "relation": "adapted",
+      "note": "Источник — запечённый лосось с гарниром. В SalpCook добавлены орзо, лимон и шпинат."
+    }
   },
   {
     "id": "turkey_meatballs_couscous",
@@ -7767,7 +8592,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Тефтели из индейки с рисом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/64610/tefteli-iz-indejki-s-risom",
+      "relation": "adapted",
+      "note": "Источник — тефтели из индейки с рисом. В SalpCook рис заменён кускусом или добавлена капуста."
+    }
   },
   {
     "id": "beef_tacos_avocado",
@@ -7833,7 +8664,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Тортильи с говядиной",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/23343/tortili-s-govyadinoj",
+      "relation": "adapted",
+      "note": "Источник — тортильи с говяжьей начинкой, овощами и сальсой. В SalpCook меняются соус, овощные добавки и формат подачи (тако/пита/авокадо)."
+    }
   },
   {
     "id": "creamy_chicken_spinach_pasta",
@@ -7891,7 +8728,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста альфредо с курицей",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/61081/pasta-alfredo-s-kuricej",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: паста, филе куриное, сливки."
+    }
   },
   {
     "id": "cod_tomato_olive_couscous",
@@ -7949,7 +8792,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Рыба в томатном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/20016/ryba-v-tomatnom-souse",
+      "relation": "adapted",
+      "note": "Источник — рыба в томатном соусе. В SalpCook используются треска, оливки и кускус."
+    }
   },
   {
     "id": "sausage_lentil_stew",
@@ -8007,7 +8856,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Томатная похлебка с фасолью и охотничьими колбасками",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/13876/tomatnaya-pohlebka-s-fasolyu-i-ohotnichimi-kolbaskami",
+      "relation": "adapted",
+      "note": "Источник — томатная похлёбка с колбасками и бобовыми. В SalpCook меняется вид бобовых и добавляется зелень."
+    }
   },
   {
     "id": "eggplant_parmesan",
@@ -8065,7 +8920,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Баклажаны пармиджано",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/49874/baklazhany-parmidzhano",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: баклажан, моцарелла, пармезан."
+    }
   },
   {
     "id": "shrimp_garlic_lime_rice",
@@ -8123,7 +8984,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Креветки с рисом и овощами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/2776/krevetki-s-risom-i-ovoshchami",
+      "relation": "adapted",
+      "note": "Источник — креветки с рисом. В SalpCook добавлены чеснок, лимон и зелень, пересчитаны пропорции."
+    }
   },
   {
     "id": "chicken_fajita_bowl",
@@ -8189,7 +9056,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Фахитас с курицей",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/32898/fahitas-s-kuricej",
+      "relation": "adapted",
+      "note": "Источник — фахитас с курицей, перцем и луком. В SalpCook добавлен рис и блюдо подаётся в виде боула."
+    }
   },
   {
     "id": "pork_rice_ginger_bowl",
@@ -8255,7 +9128,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Свинина, тушенная с болгарским перцем на сковороде",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/60850/svinina-tushennaya-s-bolgarskim-percem-na-skovorode",
+      "relation": "adapted",
+      "note": "Источник — свинина с перцем в быстрой сковородной технике. В SalpCook меняются лапша/рис и набор овощей."
+    }
   },
   {
     "id": "pumpkin_sage_pasta",
@@ -8313,7 +9192,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста с тыквенным соусом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/14613/pasta-s-tykvennym-sousom",
+      "relation": "direct",
+      "note": "Публикация — паста с тыквенным соусом и сыром. В SalpCook добавлен шалфей, пропорции и шаги адаптированы."
+    }
   },
   {
     "id": "chickpea_coconut_curry",
@@ -8379,7 +9264,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Рагу из чечевицы",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/34425/ragu-iz-chechevicy",
+      "relation": "adapted",
+      "note": "Источник — бобовые с кокосовым молоком и пряностями. В SalpCook меняется вид бобовых или формат на суп/карри."
+    }
   },
   {
     "id": "baked_feta_pasta",
@@ -8437,7 +9328,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста с фетой и помидорами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/43216/pasta-s-fetoi-i-pomidorami",
+      "relation": "direct",
+      "note": "Публикация — паста с фетой и помидорами. В SalpCook пересчитаны пропорции и шаги."
+    }
   },
   {
     "id": "beef_shepherds_pie",
@@ -8503,7 +9400,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Картофельная запеканка с фаршем в духовке",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/63304/kartofelnaia-zapekanka-s-farshem-v-dukhovke",
+      "relation": "adapted",
+      "note": "Источник — картофельная запеканка с мясным фаршем. В SalpCook используется сборка пастушьего пирога с картофельной шапкой."
+    }
   },
   {
     "id": "chicken_quesadilla",
@@ -8561,7 +9464,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Кесадилья с курицей и сыром",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/44770/kesadilya-s-kuricej-i-syrom",
+      "relation": "direct",
+      "note": "Публикация совпадает по формату кесадильи с курицей, тортильей и сыром. В SalpCook изменены пропорции и овощные добавки."
+    }
   },
   {
     "id": "miso_salmon_noodles",
@@ -8619,7 +9528,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Miso salmon",
+      "publisher": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/grilled-miso-salmon-rice-noodles",
+      "relation": "direct",
+      "note": "Публикация содержит лосось в мисо-глазури с рисовой лапшой, соевым соусом, имбирём и зелёным луком. В SalpCook изменены пропорции и адаптированы овощные добавки."
+    }
   },
   {
     "id": "turkey_chili_sweetcorn",
@@ -8677,7 +9592,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Чили из индейки",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/26330/chili-iz-indejki",
+      "relation": "direct",
+      "note": "Публикация — чили из индейки. В SalpCook добавлены фасоль и кукуруза, количество порций пересчитано."
+    }
   },
   {
     "id": "mushroom_barley_pot",
@@ -8735,7 +9656,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Суп с грибами и перловой крупой",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/25486/sup-s-gribami-i-perlovoj-krupoj",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: перловка, шампиньоны."
+    }
   },
   {
     "id": "halloumi_greek_pita",
@@ -8801,7 +9728,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Салат с халуми и помидорами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/51988/salat-s-halumi-i-pomidorami",
+      "relation": "adapted",
+      "note": "Источник — салат с жареным халуми и томатами. В SalpCook добавлены пита, огурцы и греческие овощи."
+    }
   },
   {
     "id": "potato_leek_soup",
@@ -8859,7 +9792,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Суп из картофеля с луком-пореем",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/13252/sup-iz-kartofelya-s-lukom-poreem",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: картофель, лук порей."
+    }
   },
   {
     "id": "tomato_mozzarella_gnocchi",
@@ -8917,7 +9856,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Ньокки по-соррентийски",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/26155/nokki-po-sorrentijski",
+      "relation": "direct",
+      "note": "Публикация — ньокки по-соррентийски с томатами и моцареллой. В SalpCook адаптированы пропорции."
+    }
   },
   {
     "id": "beef_broccoli_noodles",
@@ -8975,7 +9920,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Рисовая лапша с говядиной, бок-чоем и брокколи",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/26526/risovaja-lapsha-s-govjadinoj-bok-choem-i-brokkoli",
+      "relation": "adapted",
+      "note": "Источник — говядина с рисовой лапшой и брокколи. В SalpCook изменён вид лапши и пропорции."
+    }
   },
   {
     "id": "chicken_pesto_gnocchi",
@@ -9033,7 +9984,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Пенне с соусом песто",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/12256/penne-s-sousom-pesto",
+      "relation": "adapted",
+      "note": "Источник — паста с соусом песто. В SalpCook добавлены курица и ньокки."
+    }
   },
   {
     "id": "lemon_chicken_orzo",
@@ -9091,7 +10048,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Запеченная курица с лимонным соусом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/59862/zapechennaya-kurica-s-limonnym-sousom",
+      "relation": "adapted",
+      "note": "Источник — курица с лимонным соусом. В SalpCook добавлены орзо и шпинат."
+    }
   },
   {
     "id": "pork_apple_roast",
@@ -9149,7 +10112,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Свинина с яблоками в духовке",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/24953/svinina-s-yablokami-v-duhovke",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: свинина, яблоко."
+    }
   },
   {
     "id": "turkey_stuffed_zucchini",
@@ -9207,7 +10176,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Перцы, фаршированные мясом и рисом, в томатном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/33052/percy-farshirovannye-myasom-i-risom-v-tomatnom-souse",
+      "relation": "adapted",
+      "note": "Источник — фаршированные перцы с мясной начинкой. В SalpCook перец заменён кабачком и используется фарш индейки."
+    }
   },
   {
     "id": "cod_potato_mustard",
@@ -9265,7 +10240,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Треска с картофелем и кабачками",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/28325/treska-s-kartofelem-i-kabachkami",
+      "relation": "adapted",
+      "note": "Источник — треска с картофелем. В SalpCook добавлен сливочно-горчичный соус."
+    }
   },
   {
     "id": "beef_meatballs_polenta",
@@ -9323,7 +10304,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Паста болоньезе: классический рецепт",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/55693/pasta-boloneze-klassicheskij-recept",
+      "relation": "adapted",
+      "note": "Источник — фрикадельки в томатном соусе. В SalpCook меняются гарнир и пропорции."
+    }
   },
   {
     "id": "chicken_harissa_couscous",
@@ -9381,7 +10368,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "One-pan chicken couscous",
+      "publisher": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/13139/onepan-chicken-couscous",
+      "relation": "adapted",
+      "note": "Опубликованный рецепт объединяет курицу, хариссу, нут и кускус в одной сковороде. В SalpCook изменены количества, часть добавок и оформление подачи."
+    }
   },
   {
     "id": "shrimp_coconut_noodles",
@@ -9439,7 +10432,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Гречневая лапша с хрустящими овощами и соевым соусом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/14838/grechnevaya-lapsha-s-hrustyashchimi-ovoshchami-i-soevym-sousom",
+      "relation": "adapted",
+      "note": "Источник — гречневая лапша с креветками. В SalpCook лапша и соус изменены на рисовую лапшу и кокосовое молоко."
+    }
   },
   {
     "id": "mushroom_spinach_frittata",
@@ -9497,7 +10496,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Фриттата с картофелем, беконом и шпинатом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/45050/frittata-s-kartofelem-bekonom-i-shpinatom",
+      "relation": "adapted",
+      "note": "Источник — фриттата с картофелем и шпинатом. В SalpCook вместо картофеля используются грибы и сыр."
+    }
   },
   {
     "id": "red_lentil_coconut_soup",
@@ -9555,7 +10560,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Рагу из чечевицы",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/34425/ragu-iz-chechevicy",
+      "relation": "adapted",
+      "note": "Источник — бобовые с кокосовым молоком и пряностями. В SalpCook меняется вид бобовых или формат на суп/карри."
+    }
   },
   {
     "id": "halloumi_roasted_veg",
@@ -9613,7 +10624,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Салат с халуми и помидорами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/51988/salat-s-halumi-i-pomidorami",
+      "relation": "adapted",
+      "note": "Источник — салат с жареным халуми и томатами. В SalpCook добавлены запечённые овощи и булгур."
+    }
   },
   {
     "id": "beef_stuffed_pita",
@@ -9671,7 +10688,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Тортильи с говядиной",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/23343/tortili-s-govyadinoj",
+      "relation": "adapted",
+      "note": "Источник — тортильи с говяжьей начинкой, овощами и сальсой. В SalpCook меняются соус, овощные добавки и формат подачи (тако/пита/авокадо)."
+    }
   },
   {
     "id": "chicken_parmesan_potato",
@@ -9729,7 +10752,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица Пармиджана",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/50073/kurica-parmidzhana",
+      "relation": "adapted",
+      "note": "Источник — курица Пармиджана с томатами и сыром. В SalpCook паста заменена картофельным гарниром."
+    }
   },
   {
     "id": "tuna_white_bean_salad",
@@ -9787,7 +10816,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Салат с тунцом и белой фасолью",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/48279/salat-s-tuncom-i-beloj-fasolyu",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: тунец, фасоль."
+    }
   },
   {
     "id": "pork_soba_bowl",
@@ -9845,7 +10880,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Свинина, тушенная с болгарским перцем на сковороде",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/60850/svinina-tushennaya-s-bolgarskim-percem-na-skovorode",
+      "relation": "adapted",
+      "note": "Источник — свинина с перцем в быстрой сковородной технике. В SalpCook меняются лапша/рис и набор овощей."
+    }
   },
   {
     "id": "tomato_chickpea_shakshuka",
@@ -9903,7 +10944,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Классическая шакшука",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/44355/jaichnica-shakshuka-klassicheskij-recept",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: яйцо, помидоры, перец."
+    }
   },
   {
     "id": "salmon_teriyaki_broccoli",
@@ -9961,7 +11008,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Лосось терияки",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/31302/losos-teriyaki",
+      "relation": "adapted",
+      "note": "Источник — лосось терияки. В SalpCook добавлены брокколи, рис или кунжут."
+    }
   },
   {
     "id": "baked_sausage_gnocchi",
@@ -10019,7 +11072,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Запеченный картофель с колбасками и квашеной капустой",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/55796/zakuska-iz-zapechennogo-kartofelja-s-kolbaskami-i-kvashenoj-kapustoj",
+      "relation": "adapted",
+      "note": "Источник — запечённые колбаски с картофелем и овощами. В SalpCook меняются овощи, ньокки или способ подачи."
+    }
   },
   {
     "id": "mushroom_chicken_risotto",
@@ -10077,7 +11136,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Ризотто с грибами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/24833/rizotto-s-gribami",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: рис для ризотто, шампиньоны."
+    }
   },
   {
     "id": "sweet_potato_blackbean_bowl",
@@ -10135,7 +11200,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Салат с тунцом и белой фасолью",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/48279/salat-s-tuncom-i-beloj-fasolyu",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: фасоль."
+    }
   },
   {
     "id": "pork_schnitzel_potato_salad",
@@ -10193,7 +11264,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Pork schnitzel",
+      "publisher": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/pork-schnitzel",
+      "relation": "adapted",
+      "note": "Источник — свиной шницель в панировке. В SalpCook добавлен картофельный салат."
+    }
   },
   {
     "id": "chickpea_spinach_tomato_stew",
@@ -10251,7 +11328,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Овощное рагу с нутом и острой пассатой",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/22861/ovoshchnoe-ragu-s-nutom-i-ostroj-passatoj",
+      "relation": "adapted",
+      "note": "Источник — овощное рагу с нутом, баклажаном и пассатой. В SalpCook добавляются шпинат/булгур и меняется набор овощей."
+    }
   },
   {
     "id": "pork_mustard_meatballs",
@@ -10365,7 +11448,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Фрикадельки в медово-горчичном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/42909/frikadelki-v-medovo-gorchichnom-souse",
+      "relation": "adapted",
+      "note": "Публикация совпадает по мясным фрикаделькам и медово-горчичному соусу. В SalpCook используется свиной фарш и картофельное пюре."
+    }
   },
   {
     "id": "turkey_cabbage_rice_pan",
@@ -10456,7 +11545,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Тефтели из индейки с рисом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/64610/tefteli-iz-indejki-s-risom",
+      "relation": "adapted",
+      "note": "Источник — тефтели из индейки с рисом. В SalpCook рис заменён кускусом или добавлена капуста."
+    }
   },
   {
     "id": "chicken_frikassee_mushrooms",
@@ -10562,7 +11657,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Куриная грудка с шампиньонами в сливочном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/33169/kurinaya-grudka-s-shampinonami-v-slivochnom-souse",
+      "relation": "direct",
+      "note": "Публикация — курица с грибами в сливочном соусе. В SalpCook шаги и пропорции адаптированы."
+    }
   },
   {
     "id": "beef_goulash_bulgur",
@@ -10653,7 +11754,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Тушеная говядина с картошкой и чесноком",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/24139/tushenaya-govyadina-s-kartoshkoj-i-chesnokom-v-duhovke",
+      "relation": "adapted",
+      "note": "Источник — тушёная говядина с овощами. В SalpCook добавлены паприка, булгур и сладкий перец."
+    }
   },
   {
     "id": "pork_tenderloin_plum",
@@ -10736,7 +11843,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Свинина с яблоками в духовке",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/24953/svinina-s-yablokami-v-duhovke",
+      "relation": "adapted",
+      "note": "Источник — свинина с фруктами в духовке. В SalpCook яблоки заменены сливами и добавлен розмарин."
+    }
   },
   {
     "id": "cod_crispy_potato_crust",
@@ -10818,7 +11931,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Треска с картофелем и кабачками",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/28325/treska-s-kartofelem-i-kabachkami",
+      "relation": "adapted",
+      "note": "Источник — треска с картофелем. В SalpCook картофель используется как хрустящая корочка вокруг филе."
+    }
   },
   {
     "id": "trout_spinach_creamy_rice",
@@ -10909,7 +12028,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Треска с картофелем и кабачками",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/28325/treska-s-kartofelem-i-kabachkami",
+      "relation": "adapted",
+      "note": "Источник — приготовление рыбы с травами. В SalpCook используется форель в сливочном соусе со шпинатом и рисом."
+    }
   },
   {
     "id": "shrimp_coconut_curry_basmati",
@@ -11008,7 +12133,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Курица карри с кокосовым молоком",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/60277/kurica-karri-s-kokosovym-molokom",
+      "relation": "adapted",
+      "note": "Источник — карри с рисом и пряным соусом. В SalpCook курица заменена креветками, добавлено кокосовое молоко."
+    }
   },
   {
     "id": "eggplant_chickpea_bulgur",
@@ -11107,7 +12238,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Овощное рагу с нутом и острой пассатой",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/22861/ovoshchnoe-ragu-s-nutom-i-ostroj-passatoj",
+      "relation": "adapted",
+      "note": "Источник — овощное рагу с нутом, баклажаном и пассатой. В SalpCook добавляются шпинат/булгур и меняется набор овощей."
+    }
   },
   {
     "id": "cauliflower_cheddar_gratin",
@@ -11198,7 +12335,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Цветная капуста, запеченная со сливками и сыром",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/61233/cvetnaya-kapusta-zapechennaya-so-slivkami-i-syrom",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: цветная капуста, сливки, сыр."
+    }
   },
   {
     "id": "zucchini_feta_fritters",
@@ -11281,7 +12424,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Оладьи из кабачков с сыром фета",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/29317/oladi-iz-kabachkov-s-syrom-feta",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: кабачок, фета, яйцо."
+    }
   },
   {
     "id": "spinach_ricotta_cannelloni",
@@ -11364,7 +12513,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Spinach & ricotta cannelloni",
+      "publisher": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/spinach-ricotta-cannelloni",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: каннеллони, шпинат, рикотта."
+    }
   },
   {
     "id": "mushroom_barley_soup",
@@ -11455,7 +12610,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Суп с грибами и перловой крупой",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/25486/sup-s-gribami-i-perlovoj-krupoj",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: перловка, шампиньоны."
+    }
   },
   {
     "id": "sweet_potato_chickpea_shawarma",
@@ -11562,7 +12723,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Crispy sweet potatoes with chickpeas & tahini yogurt",
+      "publisher": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/crispy-sweet-potatoes-chickpeas-tahini-yogurt",
+      "relation": "adapted",
+      "note": "Источник подтверждает основное сочетание батата, нута и йогуртового соуса с лимоном. В SalpCook добавлена пита, изменены специи и состав овощной начинки."
+    }
   },
   {
     "id": "sausage_white_bean_ragu",
@@ -11645,7 +12812,13 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       }
     ],
-    "source": null
+    "source": {
+      "title": "Рагу из чечевицы",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/34425/ragu-iz-chechevicy",
+      "relation": "adapted",
+      "note": "Источник — томатное блюдо с колбасками и бобовыми. В SalpCook используются белая фасоль и шпинат."
+    }
   },
   {
     "id": "lamb_meatballs_couscous",
@@ -11736,7 +12909,13 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       }
     ],
-    "source": null
+    "source": {
+      "title": "Фрикадельки из баранины с йогуртовым соусом",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/32052/frikadelki-iz-baraniny-s-jogurtovym-sousom",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: фарш бараний, фрикадельки, йогурт."
+    }
   },
   {
     "id": "chicken_kiev_garlic_butter",
@@ -11852,10 +13031,11 @@ window.SALPCOOK_RECIPES = [
       }
     ],
     "source": {
-      "title": "Вкусные куриные котлеты",
+      "title": "Котлеты по-киевски классические",
       "publisher": "Гастроном",
-      "url": "https://www.gastronom.ru/recipe/24078/vkusnye-kurinye-kotlety",
-      "note": "Адаптация идеи чесночного масла и сочной куриной котлеты: в SalpCook используется филе и отдельная панировка."
+      "url": "https://www.gastronom.ru/recipe/10583/kotlety-po-kievski",
+      "relation": "adapted",
+      "note": "Источник — котлеты по-киевски с куриным филе и масляной начинкой. В варианте SalpCook масло используется как чесночно-травяная начинка или заправка."
     }
   },
   {
@@ -11958,8 +13138,9 @@ window.SALPCOOK_RECIPES = [
     "source": {
       "title": "Паста с тунцом, пармезаном и кедровыми орешками",
       "publisher": "Гастроном",
-      "url": "https://www.gastronom.ru/recipe/amp/28418",
-      "note": "Адаптация рецепта-основы: количество уменьшено до двух порций, формулировки шагов переписаны для SalpCook."
+      "url": "https://www.gastronom.ru/recipe/28418/pasta-s-tuncom-parmezanom-i-kedrovymi-oreshkami",
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: паста, тунец, пармезан."
     }
   },
   {
@@ -12095,7 +13276,8 @@ window.SALPCOOK_RECIPES = [
       "title": "Курица в томатно-винном соусе",
       "publisher": "Гастроном",
       "url": "https://www.gastronom.ru/recipe/50735/kurica-v-tomatno-vinnom-souse",
-      "note": "Адаптация запечённой курицы с овощами, томатами, оливками и вином; в SalpCook используются голени и пересчитанные пропорции."
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: помидоры, вино."
     }
   },
   {
@@ -12231,7 +13413,8 @@ window.SALPCOOK_RECIPES = [
       "title": "Овощное рагу с нутом и острой пассатой",
       "publisher": "Гастроном",
       "url": "https://www.gastronom.ru/recipe/22861/ovoshchnoe-ragu-s-nutom-i-ostroj-passatoj",
-      "note": "Адаптация рецепта с сухим нутом, баклажаном, кабачком и пассатой; время замачивания нута указано отдельно в первом шаге."
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: нут, баклажан, пассата."
     }
   },
   {
@@ -12359,7 +13542,8 @@ window.SALPCOOK_RECIPES = [
       "title": "Family meals: Easy fish pie recipe",
       "publisher": "BBC Good Food",
       "url": "https://www.bbcgoodfood.com/recipes/family-meals-easy-fish-pie-recipe",
-      "note": "Адаптация британского fish pie: рыбная начинка с горчицей, зелёным луком и овощами под картофельным пюре; порции и пропорции пересчитаны."
+      "relation": "direct",
+      "note": "Публикация посвящена этому блюду или его практически совпадающей версии. В SalpCook пересчитаны порции и переформулированы шаги. Совпадающие элементы: картофель, горчица, горошек."
     }
   },
   {
@@ -12460,10 +13644,11 @@ window.SALPCOOK_RECIPES = [
       }
     ],
     "source": {
-      "title": "Куриная печень в сметане: рецепт с горчицей",
+      "title": "Куриная печень в сметане",
       "publisher": "Гастроном",
-      "url": "https://www.gastronom.ru/text/kurinaya-pechen-v-smetane-8-receptov-s-lukom-gribami-ovoshami-i-ne-tolko-1029836",
-      "note": "Адаптация одного из вариантов из подборки Gastronom: сметанный соус с горчицей и бульоном, пропорции пересчитаны на две порции."
+      "url": "https://www.gastronom.ru/recipe/67349/kurinaia-pechen-v-smetane",
+      "relation": "adapted",
+      "note": "Источник близок по основному продукту и способу приготовления. В SalpCook изменены отдельные ингредиенты, пропорции, гарнир или подача; это адаптация, а не дословная копия. Совпадающие элементы: печень куриная, сметана."
     }
   }
 ];

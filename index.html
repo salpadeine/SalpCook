@@ -394,9 +394,14 @@ function recipeSourceHtml(recipe) {
   const source = recipe && recipe.source;
   if (source && typeof source.url === "string" && /^https:\/\//i.test(source.url)) {
     const label = [source.publisher, source.title].filter(Boolean).join(" — ");
-    return `<p class="recipe-source"><strong>Основа рецепта:</strong> <a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label || "Открыть источник")}</a><br><span>${escapeHtml(source.note || "Рецепт адаптирован для SalpCook.")}</span></p>`;
+    const relationLabel = source.relation === "direct"
+      ? "Опубликованный рецепт:"
+      : source.relation === "technique"
+        ? "Технологическая основа:"
+        : "Источник для адаптации:";
+    return `<p class="recipe-source"><strong>${relationLabel}</strong> <a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label || "Открыть источник")}</a><br><span>${escapeHtml(source.note || "Рецепт адаптирован для SalpCook.")}</span></p>`;
   }
-  return '<p class="recipe-source"><strong>Источник:</strong> внешняя ссылка не указана. Это редакционная версия SalpCook; точное соответствие опубликованному рецепту не подтверждено.</p>';
+  return '<p class="recipe-source"><strong>Источник:</strong> ссылка не указана. Такой рецепт не должен считаться проверенным и требует отдельной проверки.</p>';
 }
 function persistPantry() { try { localStorage.setItem(STORAGE_KEYS.pantry,JSON.stringify([...pantryOwned])); } catch(e) {} }
 function renderPantry() {
