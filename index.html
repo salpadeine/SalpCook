@@ -478,8 +478,8 @@ function scaleQuantityLabel(label, factor, ing) {
     const qty = Math.max(1, Math.ceil(ing.qtyBase * factor - 1e-9));
     return qty === 1 ? "1 большая" : qty + " большие";
   }
-  const integerQuantity = /\\bшт\\.?/i.test(label) || /^шт/i.test(String(ing.unit || ""));
-  return label.replace(/(\\d+(?:[.,]\\d+)?)(?:\\s*([–—-])\\s*(\\d+(?:[.,]\\d+)?))?/g,
+  const integerQuantity = /\bшт\.?/i.test(label) || /^шт/i.test(String(ing.unit || ""));
+  return label.replace(/(\d+(?:[.,]\d+)?)(?:\s*([–—-])\s*(\d+(?:[.,]\d+)?))?/g,
     (match, first, separator, second) => {
       const a = Number(first.replace(",", ".")) * factor;
       const firstText = scaledLabelNumber(a, integerQuantity, Boolean(second));
