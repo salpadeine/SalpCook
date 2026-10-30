@@ -214,89 +214,6 @@ window.SALPCOOK_RECIPES = [
     }
   },
   {
-    "id": "eda_syrniki_125614",
-    "name": "Сырники",
-    "baseServings": 4,
-    "time": 30,
-    "steps": [
-      "Подготовьте продукты. Для сырников нужен сухой, рассыпчатый творог.",
-      "Разомните творог вилкой.",
-      "Добавьте яйцо, сахар и ванилин, перемешайте.",
-      "Всыпьте 90 г пшеничной муки и соедините всё в однородную массу.",
-      "Смочите руки водой, отделите порцию творожной массы, скатайте шарик и приплюсните его, придав форму сырника.",
-      "Обваляйте заготовки в оставшейся муке.",
-      "Разогрейте растительное масло на сковороде и жарьте сырники на среднем огне до золотистой корочки с одной стороны, затем переверните и подрумяньте другую сторону.",
-      "Переложите сырники на бумажные полотенца, чтобы убрать лишнее масло.",
-      "Подавайте со сметаной."
-    ],
-    "ingredients": [
-      {
-        "name": "Творог",
-        "qtyBase": 500,
-        "unit": "г",
-        "pricePerUnit": 0,
-        "aisle": "Молочное",
-        "staple": false
-      },
-      {
-        "name": "Сахар",
-        "qtyBase": 100,
-        "unit": "г",
-        "pricePerUnit": 0,
-        "aisle": "Бакалея",
-        "staple": false
-      },
-      {
-        "name": "Яйцо",
-        "qtyBase": 1,
-        "unit": "шт",
-        "pricePerUnit": 0,
-        "aisle": "Молочное",
-        "staple": false
-      },
-      {
-        "name": "Пшеничная мука",
-        "qtyBase": 150,
-        "unit": "г",
-        "pricePerUnit": 0,
-        "aisle": "Бакалея",
-        "staple": false
-      },
-      {
-        "name": "Растительное масло",
-        "qtyBase": 50,
-        "unit": "мл",
-        "pricePerUnit": 0,
-        "aisle": "Масла",
-        "staple": false
-      },
-      {
-        "name": "Ванилин",
-        "qtyBase": 1,
-        "unit": "г",
-        "pricePerUnit": 0,
-        "aisle": "Бакалея",
-        "staple": false
-      },
-      {
-        "name": "Сметана",
-        "qtyBase": 0,
-        "unit": "по вкусу",
-        "pricePerUnit": 0,
-        "aisle": "Молочное",
-        "staple": false,
-        "qtyLabel": "по вкусу"
-      }
-    ],
-    "source": {
-      "publisher": "Еда",
-      "title": "Сырники",
-      "url": "https://eda.rambler.ru/recepty/zavtraki/syrniki-125614",
-      "relation": "direct",
-      "verified": true
-    }
-  },
-  {
     "id": "eda_salmon_oven_140706",
     "name": "Лосось в духовке",
     "baseServings": 4,
@@ -899,6 +816,1313 @@ window.SALPCOOK_RECIPES = [
       "publisher": "Шефмаркет",
       "title": "Картофельная запеканка с палтусом",
       "url": "https://www.chefmarket.ru/blog/originalnye-recepty-vtoryh-bljud/",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_teriyaki_chicken_43147",
+    "name": "Куриное филе под соусом терияки",
+    "baseServings": 4,
+    "time": 30,
+    "steps": [
+      "Соедините соевый соус, мёд и томатную пасту в небольшой кастрюле. Доведите смесь до кипения, проварите около 5 минут и оставьте остывать.",
+      "Промойте куриное филе, обсушите и нарежьте небольшими кусочками. Переложите мясо в миску.",
+      "Залейте курицу приготовленным соусом, перемешайте и оставьте мариноваться примерно на 5 минут.",
+      "Разогрейте оливковое масло на сковороде. Выложите кусочки курицы и обжарьте до золотистой корочки.",
+      "Подавайте с отварным рисом."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриное филе",
+        "qtyBase": 600,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Соевый соус",
+        "qtyBase": 4,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Мёд",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Томатная паста",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Куриное филе под соусом терияки",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kurinoe-file-pod-sousom-terijaki-43147",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_turkey_cutlets_140750",
+    "name": "Котлеты из индейки",
+    "baseServings": 6,
+    "time": 60,
+    "steps": [
+      "Нарежьте репчатый лук мелкими кубиками. Растопите сливочное масло на сковороде на среднем огне и обжарьте лук до золотистого цвета.",
+      "Срежьте корки с черствого белого хлеба и залейте мякиш сливками, чтобы он размягчился.",
+      "Пропустите филе бедра индейки через мясорубку. Следом измельчите хлеб вместе со сливками, затем обжаренный лук.",
+      "Мелко порубите петрушку вместе со стеблями. Добавьте её в фарш, выдавите туда чеснок, приправьте солью и чёрным перцем и тщательно перемешайте.",
+      "Сформуйте небольшие котлеты и обваляйте их в муке.",
+      "Разогрейте растительное масло на сковороде. Жарьте котлеты на среднем огне 5–7 минут до золотистой корочки, затем переверните, накройте крышкой и готовьте ещё около 10 минут на немного меньшем огне."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе бедра индейки",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Черствый белый хлеб",
+        "qtyBase": 50,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Сливки 33%",
+        "qtyBase": 150,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 40,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Петрушка",
+        "qtyBase": 30,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 50,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Пшеничная мука",
+        "qtyBase": 0,
+        "unit": "для панировки",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false,
+        "qtyLabel": "для панировки"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Котлеты из индейки",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kotlety-iz-indeyki-140750",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_spaghetti_bolognese_190707",
+    "name": "Спагетти болоньезе",
+    "baseServings": 2,
+    "time": 40,
+    "steps": [
+      "Мелко нарежьте репчатый лук и обжарьте его на оливковом масле до мягкости.",
+      "Добавьте морковь, натёртую на крупной тёрке, и немного обжарьте вместе с луком.",
+      "Выложите в сковороду говяжий фарш, накройте крышкой и готовьте 7–10 минут, периодически перемешивая и разбивая комочки.",
+      "Приправьте фарш солью, молотым чёрным перцем и итальянскими травами.",
+      "Добавьте томатную пасту, перемешайте и обжаривайте около минуты без добавления жидкости.",
+      "Влейте стакан горячей воды и тушите соус ещё 7–10 минут до готовности.",
+      "Отварите спагетти в соответствии с инструкцией на упаковке, слейте воду и добавьте столовую ложку оливкового масла.",
+      "Разложите спагетти по тарелкам, сверху распределите мясной соус."
+    ],
+    "ingredients": [
+      {
+        "name": "Говяжий фарш",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Томатная паста",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Спагетти",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0.5,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Итальянские травы",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 30,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 250,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Спагетти болоньезе",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/spagetti-boloneze-190707",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_pork_chops_33904",
+    "name": "Сочные свиные отбивные",
+    "baseServings": 4,
+    "time": 25,
+    "steps": [
+      "Натрите свиные отбивные горчицей с обеих сторон. Посолите, поперчите и оставьте на 15 минут.",
+      "Разогрейте растительное масло на антипригарной сковороде.",
+      "Выложите отбивные на сковороду и жарьте на среднем огне до полной готовности. Если куски тонко отбиты, ориентировочное время составляет около 8 минут с каждой стороны; учитывайте толщину и жирность мяса."
+    ],
+    "ingredients": [
+      {
+        "name": "Свиные отбивные",
+        "qtyBase": 4,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Горчица",
+        "qtyBase": 4,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Сочные свиные отбивные",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/sochnie-svinie-otbivnie-33904",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_stuffed_zucchini_40299",
+    "name": "Кабачки, фаршированные фаршем и сыром",
+    "baseServings": 4,
+    "time": 60,
+    "steps": [
+      "Мелко нарежьте репчатый лук и обжарьте его вместе с мясным фаршем. Посолите и поперчите смесь.",
+      "Нарежьте сладкий перец небольшими кубиками, добавьте к фаршу вместе с майораном и готовьте ещё около 5 минут.",
+      "Пока начинка готовится, очистите крупный или средний зрелый кабачок от кожуры. Нарежьте его кружками толщиной 1–1,5 см и удалите сердцевину.",
+      "Смажьте противень подсолнечным маслом и разложите на нём кабачковые кружки.",
+      "Наполните углубления мясной смесью до краёв. Сверху посыпьте тёртым голландским сыром.",
+      "Запекайте при средней температуре около 25–30 минут, пока кабачки не станут мягкими, а сыр сверху не подрумянится."
+    ],
+    "ingredients": [
+      {
+        "name": "Кабачок",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сладкий перец",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Голландский сыр",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 0.5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Сушеный майоран",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Подсолнечное масло",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Мясной фарш",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Кабачки фаршированные фаршем и сыром",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kabachki-farshirovannie-farshem-i-sirom-40299",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_buckwheat_meat_tomato_81333",
+    "name": "Гречка с мясом и томатной пастой",
+    "baseServings": 4,
+    "time": 45,
+    "steps": [
+      "Мелко нарежьте лук, мясо нарежьте небольшими кубиками, морковь натрите на тёрке.",
+      "Разогрейте растительное масло и обжарьте лук, мясо и морковь до золотистого цвета.",
+      "Добавьте томатную пасту и тщательно перемешайте, чтобы она равномерно распределилась по мясу и овощам.",
+      "Всыпьте гречневую крупу. Влейте кипяток так, чтобы вода лишь слегка покрывала крупу, посолите.",
+      "Тушите на медленном огне под крышкой до готовности гречки.",
+      "Мелко нарежьте чеснок, добавьте его в готовое блюдо и перемешайте. По желанию дополните перцем, лавровым листом или зеленью.",
+      "Снимите с огня и оставьте под крышкой на 10–15 минут, чтобы блюдо настоялось."
+    ],
+    "ingredients": [
+      {
+        "name": "Гречневая крупа",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Томатная паста",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Мясо",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 300,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Гречка с мясом и томатной пастой",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/grechka-s-myasom-i-tomatnoy-pastoy-81333",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_pasta_hungarian_43090",
+    "name": "Макароны по-венгерски",
+    "baseServings": 4,
+    "time": 30,
+    "steps": [
+      "Отварите макароны в подсоленной воде до готовности, затем откиньте на дуршлаг.",
+      "Мелко нарежьте лук и пассеруйте его на растительном масле.",
+      "Добавьте к луку мясной фарш, измельчённый чеснок, мясной бульон, соль и молотый красный перец. Размешайте фарш и варите соус около 10 минут.",
+      "Добавьте сметану и лимонный сок по вкусу, перемешайте.",
+      "Полейте отваренные макароны готовым мясным соусом.",
+      "Перед подачей посыпьте блюдо рубленой петрушкой."
+    ],
+    "ingredients": [
+      {
+        "name": "Макароны",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Мясной фарш",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 1,
+        "unit": "зубчик",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Молотый красный перец",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Лимон",
+        "qtyBase": 0.5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Мясной бульон",
+        "qtyBase": 250,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Сметана",
+        "qtyBase": 1,
+        "unit": "банка",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Рубленая петрушка",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Макароны по-венгерски",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/makaroni-po-vengerski-43090",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_buckwheat_russian_53317",
+    "name": "Гречка по-русски",
+    "baseServings": 4,
+    "time": 45,
+    "steps": [
+      "Промойте гречневую крупу и отварите её до готовности.",
+      "Нарежьте шампиньоны и репчатый лук, морковь натрите на тёрке.",
+      "Обжарьте грибы с луком и морковью до готовности.",
+      "Яйца приготовьте отдельно, затем соедините с гречкой и грибной смесью.",
+      "Приправьте блюдо солью и чёрным перцем, перемешайте и подавайте горячим."
+    ],
+    "ingredients": [
+      {
+        "name": "Гречневая крупа",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Шампиньоны",
+        "qtyBase": 600,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Куриное яйцо",
+        "qtyBase": 4,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Гречка по-русски",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/grechka-po-russki-53317",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_macaroni_stew_54406",
+    "name": "Макароны с тушёнкой",
+    "baseServings": 4,
+    "time": 40,
+    "steps": [
+      "Отварите макароны в воде до полуготовности и слейте воду.",
+      "Выложите говяжью тушёнку на сковороду и обжаривайте около 5 минут.",
+      "Добавьте мелко нарезанные лук и чеснок. Продолжайте обжаривать ещё 5 минут.",
+      "Положите томатную пасту, нарезанные солёные огурцы и приправы. Готовьте ещё 5 минут.",
+      "Переложите зажарку к макаронам, перемешайте и прогревайте под крышкой на слабом огне 5–7 минут.",
+      "Разложите блюдо по тарелкам и посыпьте тёртым сыром."
+    ],
+    "ingredients": [
+      {
+        "name": "Макароны",
+        "qtyBase": 250,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Говяжья тушенка",
+        "qtyBase": 1,
+        "unit": "банка",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Томатная паста",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Соленые огурцы",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Тертый сыр",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Приправы",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Макароны с тушенкой",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/makaroni-s-tushenkoj-54406",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_meatballs_hedgehogs_19859",
+    "name": "Ёжики из фарша",
+    "baseServings": 4,
+    "time": 40,
+    "steps": [
+      "Очистите репчатый лук, мелко нарежьте и смешайте с мясным фаршем и рисом.",
+      "Сформируйте из полученной массы шарики диаметром примерно 5 см.",
+      "Разогрейте растительное масло в глубоком сотейнике и обжарьте мясные шарики в течение 5–7 минут.",
+      "Смешайте воду с мукой и солью, влейте смесь в сотейник к ёжикам и аккуратно перемешайте.",
+      "Тушите на среднем огне 20–30 минут до полной готовности мяса и риса."
+    ],
+    "ingredients": [
+      {
+        "name": "Вода",
+        "qtyBase": 500,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Мясной фарш",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Рис",
+        "qtyBase": 0.5,
+        "unit": "стакана",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Пшеничная мука",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Ежики из фарша",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/ezhiki-iz-farsha-19859",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_fish_foil_80860",
+    "name": "Красная рыба в фольге",
+    "baseServings": 4,
+    "time": 35,
+    "steps": [
+      "Застелите противень фольгой. Разложите на ней нарезанный лук и по кусочку лимона под каждый рыбный стейк.",
+      "Посолите и поперчите стейки, сбрызните лимонным соком.",
+      "На каждый кусок рыбы положите ломтик помидора и лавровый лист.",
+      "Накройте рыбу фольгой, герметично завернув края.",
+      "Запекайте около 30 минут при температуре 180–200 °C."
+    ],
+    "ingredients": [
+      {
+        "name": "Красная рыба",
+        "qtyBase": 4,
+        "unit": "куска",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лимон",
+        "qtyBase": 4,
+        "unit": "куска",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лавровый лист",
+        "qtyBase": 4,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 4,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Рыба в фольге",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/ryba-v-folge-80860",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_beef_garlic_sauce_47628",
+    "name": "Говядина в чесночном соусе",
+    "baseServings": 4,
+    "time": 45,
+    "steps": [
+      "Нарежьте говядину пластинками, слегка отбейте каждый кусок и затем нарежьте мясо крупной соломкой.",
+      "Разогрейте растительное масло в сковороде с толстым дном. Быстро обжарьте говядину, посолите и поперчите.",
+      "Посыпьте мясо мукой и перемешайте, затем влейте мясной бульон так, чтобы он полностью покрывал говядину.",
+      "Добавьте сметану, накройте сковороду крышкой и тушите на слабом огне около 30 минут.",
+      "Мелко нарежьте чеснок, добавьте к мясу и готовьте ещё 5–10 минут.",
+      "Подавайте с рисом, картофелем или овощами."
+    ],
+    "ingredients": [
+      {
+        "name": "Говядина",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Сметана 25%",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 5,
+        "unit": "зубчиков",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Мясной бульон",
+        "qtyBase": 250,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 50,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Пшеничная мука",
+        "qtyBase": 0,
+        "unit": "для загущения",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false,
+        "qtyLabel": "для загущения"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Говядина в чесночном соусе",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/govjadina-v-chesnochnom-souse-47628",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_fish_potato_stew_42317",
+    "name": "Рыба, тушённая с картофелем по-домашнему",
+    "baseServings": 4,
+    "time": 60,
+    "steps": [
+      "Подготовьте овощи и нарежьте их небольшими кубиками.",
+      "Мелко нарежьте лук и корень сельдерея, обжарьте их и переложите в глубокую сковороду или горшочек.",
+      "Добавьте картофель, морковь, соль, перец и молоко. Тушите овощи 15–20 минут.",
+      "Нарежьте рыбное филе порционными кусками и выложите поверх овощей.",
+      "Продолжайте тушить в духовке до готовности рыбы.",
+      "Перед подачей посыпьте блюдо мелко нарезанной зеленью."
+    ],
+    "ingredients": [
+      {
+        "name": "Рыбное филе",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 7,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Молоко",
+        "qtyBase": 0.5,
+        "unit": "л",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0.5,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Зелень",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Корень сельдерея",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Рыба, тушеная с картофелем, по-домашнему",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/riba-tushenaja-s-kartofelem-po-domashnemu-42317",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_vegetable_buckwheat_58563",
+    "name": "Овощная гречка",
+    "baseServings": 6,
+    "time": 35,
+    "steps": [
+      "Промойте все овощи, очистите их и нарежьте небольшими кусочками. Брюссельскую капусту разделите на половинки или четвертинки.",
+      "Соедините подготовленные овощи с сухой гречневой крупой.",
+      "Добавьте соль, чёрный перец и измельчённый чеснок. Тщательно перемешайте.",
+      "Переложите смесь в форму для запекания, влейте воду и растительное масло.",
+      "Плотно накройте форму фольгой, чтобы пар не выходил наружу.",
+      "Запекайте около 35 минут в духовке, разогретой до 180 °C."
+    ],
+    "ingredients": [
+      {
+        "name": "Гречневая крупа",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Замороженный зеленый горошек",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сладкий перец",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Кабачок",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Шампиньоны",
+        "qtyBase": 5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Брюссельская капуста",
+        "qtyBase": 6,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Зелень",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 250,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Овощная гречка",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/ovoschnaya-grechka-58563",
       "relation": "direct",
       "verified": true
     }
