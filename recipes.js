@@ -5081,5 +5081,962 @@ window.SALPCOOK_RECIPES = [
       "relation": "direct",
       "verified": true
     }
+  },
+  {
+    "id": "eda_beef_meatballs_kefte_69754",
+    "name": "Греческие тефтели кефтедес",
+    "baseServings": 3,
+    "time": 50,
+    "steps": [
+      "Очистите репчатый лук и очень мелко нарежьте его.",
+      "Соедините лук с говяжьим фаршем. Добавьте свежую мяту, зелёный базилик и яйцо.",
+      "Посолите и поперчите фарш, тщательно вымесите до однородности.",
+      "Сформуйте небольшие шарики диаметром 2–3 см и равномерно обваляйте их в пшеничной муке.",
+      "Разогрейте оливковое масло на сковороде.",
+      "Обжаривайте тефтели со всех сторон до полной готовности, примерно 10 минут.",
+      "Подавайте сразу после приготовления."
+    ],
+    "ingredients": [
+      {
+        "name": "Говяжий фарш",
+        "qtyBase": 600,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Свежая мята",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Зеленый базилик",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Куриное яйцо",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Пшеничная мука",
+        "qtyBase": 0.5,
+        "unit": "стакана",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Тефтели кефтедес",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/tefteli-keftedes-69754",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_veg_stew_33172",
+    "name": "Овощное рагу с кабачками и баклажанами",
+    "baseServings": 4,
+    "time": 40,
+    "steps": [
+      "Нарежьте все овощи кубиками.",
+      "Налейте растительное масло в кастрюлю или казан и выложите кабачки. Накройте посуду крышкой и тушите 7–10 минут.",
+      "Добавьте баклажаны и продолжайте тушить овощи.",
+      "Отдельно пассеруйте нарезанные лук и морковь.",
+      "Переложите сладкий перец и луково-морковную зажарку к кабачкам и баклажанам. Перемешайте и тушите 10 минут.",
+      "Добавьте нарезанные помидоры, посолите и поперчите.",
+      "Оставьте рагу тушиться ещё примерно 15 минут до готовности овощей."
+    ],
+    "ingredients": [
+      {
+        "name": "Кабачки",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Баклажаны",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сладкий перец",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Овощное рагу",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/ovoshhnoe-ragu-33172",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_veg_stew_189092",
+    "name": "Овощное рагу с чесноком и зеленью",
+    "baseServings": 4,
+    "time": 30,
+    "steps": [
+      "Нарежьте морковь и репчатый лук небольшими кубиками.",
+      "Разогрейте растительное масло в сковороде и пассеруйте лук с морковью.",
+      "Нарежьте кабачок и баклажан кубиками среднего размера.",
+      "Добавьте кабачок и баклажан к обжаренным овощам.",
+      "Нарежьте сладкий перец и положите его в сковороду.",
+      "Очистите и измельчите чеснок, добавьте к овощам вместе с солью и чёрным перцем.",
+      "Тушите до мягкости овощей, в конце добавьте мелко нарезанную зелень."
+    ],
+    "ingredients": [
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Баклажан",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Кабачок",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сладкий перец",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 30,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 4,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Зелень",
+        "qtyBase": 1,
+        "unit": "пучок",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Овощное рагу",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/ovoschnoe-ragu-189092",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_veg_stew_skillet_190241",
+    "name": "Овощное рагу со спаржевой фасолью",
+    "baseServings": 6,
+    "time": 90,
+    "steps": [
+      "Подготовьте овощи: нарежьте картофель, помидоры, морковь, лук и сладкий перец.",
+      "Разогрейте растительное масло в глубокой сковороде или сотейнике.",
+      "Последовательно добавляйте овощи, начиная с тех, которым требуется больше времени для приготовления.",
+      "Добавьте спаржевую фасоль и нарезанный чеснок.",
+      "Тушите овощи на умеренном огне до мягкости, периодически перемешивая.",
+      "Посолите блюдо и перед подачей посыпьте рубленой петрушкой."
+    ],
+    "ingredients": [
+      {
+        "name": "Картофель",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Спаржевая фасоль",
+        "qtyBase": 250,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 75,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 250,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сладкий перец",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Петрушка",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Овощное рагу на сковороде",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/ovoschnoe-ragu-na-skovorode-190241",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_veg_stew_seasonal_137555",
+    "name": "Овощное рагу с сезонными овощами",
+    "baseServings": 4,
+    "time": 40,
+    "steps": [
+      "Подготовьте овощи и нарежьте их кусочками, сохраняя последовательность закладки, указанную в рецепте.",
+      "Разогрейте казан с растительным маслом и начните обжаривать овощи партиями, начиная с более плотных.",
+      "Добавляйте следующие овощи по мере готовности предыдущих, каждый раз перемешивая содержимое казана.",
+      "Тушите овощи на умеренном огне до мягкости и готовности, не допуская пригорания.",
+      "Приправьте блюдо солью и перцем, перемешайте и подавайте горячим."
+    ],
+    "ingredients": [
+      {
+        "name": "Овощи сезонные",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Овощное рагу с сезонными овощами",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/ovoschnoe-ragu-s-sezonnymi-ovoschami-137555",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_cod_tomato_cheese_36750",
+    "name": "Треска, запечённая с помидорами и сыром",
+    "baseServings": 4,
+    "time": 50,
+    "steps": [
+      "Нарежьте филе трески небольшими кусочками, посолите и поперчите.",
+      "Выложите рыбу в форму для запекания.",
+      "Смешайте сметану с измельчённым чесноком и распределите смесь по поверхности рыбы.",
+      "Нарежьте помидор и разложите его поверх рыбы.",
+      "Посыпьте блюдо тёртым твёрдым сыром и добавьте зелень.",
+      "Запекайте до готовности рыбы и расплавления сыра."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе трески",
+        "qtyBase": 700,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Помидор",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сметана",
+        "qtyBase": 4,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 4,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Зелень",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Твердый сыр",
+        "qtyBase": 70,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Рыба, запеченная с помидорами и сыром",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/riba-zapechennaja-s-pomidorami-i-sirom-36750",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_fish_sourcream_54422",
+    "name": "Рыба, запечённая со сметаной и чеддером",
+    "baseServings": 4,
+    "time": 20,
+    "steps": [
+      "Подготовьте филе рыбы и выложите его в форму для запекания.",
+      "Смешайте воду с лимонным соком, посолите и поперчите.",
+      "Отдельно соедините сметану и майонез, добавьте молотый красный перец.",
+      "Покройте рыбу сметанно-майонезной смесью и полейте лимонной жидкостью.",
+      "Натрите сыр чеддер и посыпьте им рыбу.",
+      "Запекайте до готовности рыбы и расплавления сыра."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе рыбы",
+        "qtyBase": 2,
+        "unit": "куска",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Лимонный сок",
+        "qtyBase": 1.25,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Сметана",
+        "qtyBase": 2.5,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Майонез",
+        "qtyBase": 2.5,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Сыр чеддер",
+        "qtyBase": 30,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Молотый красный перец",
+        "qtyBase": 0.125,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Рыба, запеченная со сметаной",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/riba-zapechennaja-so-smetanoj-54422",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_steam_cutlets_57865",
+    "name": "Куриные паровые котлеты",
+    "baseServings": 8,
+    "time": 20,
+    "steps": [
+      "Измельчите куриное филе, репчатый и зелёный лук.",
+      "Переложите измельчённые продукты в миску, добавьте яйцо.",
+      "Посолите и поперчите фарш, затем тщательно перемешайте.",
+      "Смочите руки водой и сформируйте небольшие котлеты.",
+      "Разложите котлеты в пароварке и готовьте на пару 15–20 минут."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриное филе",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Куриное яйцо",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Зеленый лук",
+        "qtyBase": 50,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Куриные паровые котлеты",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kurinye-parovye-kotlety-57865",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_quick_cutlets_28423",
+    "name": "Быстрые куриные котлетки",
+    "baseServings": 4,
+    "time": 30,
+    "steps": [
+      "Мелко порубите куриную грудку.",
+      "Добавьте яйцо, пшеничную муку, майонез, соль и чёрный перец.",
+      "Тщательно перемешайте массу до однородности.",
+      "Разогрейте сковороду с растительным маслом.",
+      "Выкладывайте куриную смесь небольшими порциями на горячую сковороду.",
+      "Обжаривайте котлетки до готовности и румяной корочки с обеих сторон."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриная грудка",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Пшеничная мука",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Куриное яйцо",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Майонез",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для жарки",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для жарки"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Быстрые куриные котлетки",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/bistrie-kurinie-kotletki-28423",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_pepper_meat_15059",
+    "name": "Зелёный перец, фаршированный мясом",
+    "baseServings": 4,
+    "time": 30,
+    "steps": [
+      "Промойте зелёные сладкие перцы, срежьте верхушки вместе со стеблями и удалите семена.",
+      "Опустите подготовленные перцы в кипящую подсоленную воду на 2–3 минуты.",
+      "Переложите перцы на сито и дайте воде полностью стечь.",
+      "Подготовьте мясной фарш и наполните им перцы.",
+      "Разведите томатное пюре в посуде для тушения, добавьте фаршированные перцы и готовьте до готовности начинки.",
+      "Подавайте со сметаной."
+    ],
+    "ingredients": [
+      {
+        "name": "Зеленый перец",
+        "qtyBase": 6,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Мясной фарш",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Томатное пюре",
+        "qtyBase": 3,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Сметана",
+        "qtyBase": 1,
+        "unit": "банка",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 3,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "для воды",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "для воды"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Перец, фаршированный мясом",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/perec-farshirovannij-mjasom-15059",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_pumpkin_stew_190832",
+    "name": "Овощное рагу с тыквой",
+    "baseServings": 1,
+    "time": 40,
+    "steps": [
+      "Подготовьте продукты для рагу.",
+      "Очистите тыкву и нарежьте её кусочками.",
+      "Подготовьте картофель, морковь и лук: очистите и нарежьте их.",
+      "Разогрейте растительное масло в кастрюле и обжарьте подготовленные овощи.",
+      "Влейте бульон и тушите овощи до мягкости.",
+      "Добавьте сливки и прогрейте рагу до готовности."
+    ],
+    "ingredients": [
+      {
+        "name": "Тыква",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 4,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Бульон",
+        "qtyBase": 300,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Сливки",
+        "qtyBase": 100,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 20,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Овощное рагу",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/tykvenno-ovoschnoe-ragu-190832",
+      "relation": "direct",
+      "verified": true
+    }
   }
 ];
