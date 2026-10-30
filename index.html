@@ -96,6 +96,7 @@
   .pantry-suggestion-option:last-child { border-bottom:0; }
   .pantry-suggestion-option.active, .pantry-suggestion-option:focus { background:#263449; outline:none; }
   .pantry-search-row button { width:auto; white-space:nowrap; }
+  .pantry-search-row button.secondary { background:#2d3a4f; }
   .pantry-chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
   .pantry-chip { display:flex; align-items:center; gap:8px; background:#263449; border:1px solid var(--border); border-radius:999px; padding:6px 10px; font-size:.9rem; }
   .pantry-chip button { width:auto; padding:0 4px; background:transparent; color:var(--accent2); font-size:1rem; }
@@ -154,6 +155,9 @@
   }
   .stage2-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px; }
   .stage2-actions button { width: auto; flex: 1; min-width: 180px; }
+  .recipe-source { margin: 8px 0 14px; padding: 10px 12px; border-left: 2px solid var(--border); color:var(--muted); font-size:.88rem; overflow-wrap:anywhere; }
+  .recipe-source a { color:var(--accent2); text-decoration:underline; }
+  .shopping-note { color:var(--muted); font-size:.88rem; margin:-8px 0 18px; }
   .ingredient-owned { color: var(--success); font-weight: 650; }
 .ingredient-owned::after { content: " · ✓ Есть дома"; color: var(--success); font-size: .82em; font-weight: 600; white-space: nowrap; }
   .recipe-full { margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
@@ -167,7 +171,7 @@
     .form-grid { grid-template-columns:1fr; gap:12px; }
     .pantry-search-row { flex-wrap:wrap; }
     .pantry-input-wrap { flex:1 1 100%; }
-    .pantry-search-row > button { flex:1 1 100%; width:100%; }
+    .pantry-search-row > button { flex:1 1 calc(50% - 5px); width:auto; }
     .week { grid-template-columns:1fr; gap:12px; }
     .day-card { padding:15px; }
     .total-bar { flex-direction:column; align-items:flex-start; gap:6px; font-size:1rem; }
@@ -207,7 +211,7 @@
     </div>
     <div style="margin-bottom:18px;">
       <label for="pantrySearch">Что уже есть дома?</label>
-      <div class="pantry-search-row"><div class="pantry-input-wrap"><input id="pantrySearch" type="search" placeholder="Начни вводить продукт…" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="pantrySuggestions"><div id="pantrySuggestions" class="pantry-suggestions hidden" role="listbox"></div></div><button type="button" id="addPantry">Добавить</button></div>
+      <div class="pantry-search-row"><div class="pantry-input-wrap"><input id="pantrySearch" type="search" placeholder="Начни вводить продукт…" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="pantrySuggestions"><div id="pantrySuggestions" class="pantry-suggestions hidden" role="listbox"></div></div><button type="button" id="addPantry">Добавить</button><button type="button" id="clearPantry" class="secondary">Очистить</button></div>
       <div id="pantryChips" class="pantry-chips"></div>
       <div style="font-size:0.85rem;color:var(--muted);margin-top:6px;">Выбирай продукты из подсказок или вводи свои. Количество указывать не нужно: SalpCook будет в первую очередь подбирать блюда с этими продуктами.</div>
     </div>
@@ -219,6 +223,7 @@
     <div class="week" id="week"></div>
     <div class="grocery">
       <h2>Список продуктов</h2>
+      <p class="shopping-note">Соль, чёрный перец, растительное, сливочное и оливковое масло остаются в рецептах, но не включаются в список покупок.</p>
       <div class="total-bar">
         <span>Сводный список ингредиентов</span>
         <span id="ingredientCount">0 продуктов</span>
@@ -317,8 +322,15 @@ function pantryMatchCount(recipe) {
   return recipe.ingredients.filter(ing => hasPantryItem(ing.name)).length;
 }
 const COMMON_BASE_INGREDIENTS = new Set([
-  "соль", "перец", "масло", "растительное масло", "оливковое масло", "вода", "чеснок", "лук"
+  "соль", "перец", "черный перец", "масло", "растительное масло", "сливочное масло", "оливковое масло", "вода", "чеснок", "лук репчатый"
 ]);
+// These staples stay in recipe ingredients but are omitted from shopping lists.
+const SHOPPING_EXCLUDED_INGREDIENTS = new Set([
+  "соль", "черный перец", "растительное масло", "сливочное масло", "оливковое масло"
+]);
+function isShoppingExcluded(name) {
+  return SHOPPING_EXCLUDED_INGREDIENTS.has(canonicalIngredient(name));
+}
 function recipeIngredientKeys(recipe) {
   return [...new Set(recipe.ingredients.map(ing => canonicalIngredient(ing.name))
     .filter(key => !COMMON_BASE_INGREDIENTS.has(key)))];
@@ -378,6 +390,14 @@ function ingredientDisplayName(name) {
   return (window.SALPCOOK_INGREDIENT_DISPLAY_NAMES || {})[key] || name;
 }
 function escapeHtml(value) { return String(value).replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char])); }
+function recipeSourceHtml(recipe) {
+  const source = recipe && recipe.source;
+  if (source && typeof source.url === "string" && /^https:\/\//i.test(source.url)) {
+    const label = [source.publisher, source.title].filter(Boolean).join(" — ");
+    return `<p class="recipe-source"><strong>Основа рецепта:</strong> <a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label || "Открыть источник")}</a><br><span>${escapeHtml(source.note || "Рецепт адаптирован для SalpCook.")}</span></p>`;
+  }
+  return '<p class="recipe-source"><strong>Источник:</strong> внешняя ссылка не указана. Это редакционная версия SalpCook; точное соответствие опубликованному рецепту не подтверждено.</p>';
+}
 function persistPantry() { try { localStorage.setItem(STORAGE_KEYS.pantry,JSON.stringify([...pantryOwned])); } catch(e) {} }
 function renderPantry() {
   const chips=document.getElementById("pantryChips"); chips.innerHTML="";
@@ -422,6 +442,15 @@ function addPantryItem(){
  if(![...pantryOwned].some(n=>canonicalIngredient(n)===canonicalIngredient(name)))pantryOwned.add(name);
  input.value="";hidePantrySuggestions();persistPantry();renderPantry();
  if(currentPlan.length){renderPlan();refreshRecipeMarkers();}
+}
+function clearPantry(){
+ if(!pantryOwned.size)return;
+ if(!window.confirm("Убрать все продукты из списка «Что уже есть дома?»?"))return;
+ pantryOwned.clear();
+ persistPantry();
+ renderPantry();
+ if(currentPlan.length){renderPlan();refreshRecipeMarkers();}
+ savePlan();
 }
 
 function scaleIngredient(ing, people, baseServings) {
@@ -490,7 +519,9 @@ function showRecipeModal(item) {
   activeModalRecipeId = item.recipe.id;
   const people = parseInt(document.getElementById("people").value) || 2;
   document.getElementById("modalTitle").textContent = item.recipe.name;
-  let html = `<p style="color:var(--muted); margin-bottom:10px;">На ${people} чел. · ${item.recipe.time} мин</p><strong>Состав:</strong><ul>`;
+  let html = `<p style="color:var(--muted); margin-bottom:10px;">На ${people} чел. · ${item.recipe.time} мин</p>`;
+  html += recipeSourceHtml(item.recipe);
+  html += "<strong>Состав:</strong><ul>";
   item.scaledIngredients.forEach(ing => {
     const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.qty) + " " + ing.unit : Math.round(ing.qty) + " " + ing.unit;
     const owned = hasPantryItem(ing.name);
@@ -530,6 +561,7 @@ function renderGrocery() {
   const items = {};
   currentPlan.forEach(item => {
     item.scaledIngredients.forEach(ing => {
+      if (isShoppingExcluded(ing.name)) return;
       const key = canonicalIngredient(ing.name);
       if (!items[key]) items[key] = { ...ing, name: ingredientDisplayName(ing.name), totalQty: 0, totalCost: 0, forDishes: new Set() };
       items[key].totalQty += ing.qty;
@@ -593,7 +625,9 @@ function renderStage2() {
   currentPlan.forEach(item => {
     const div = document.createElement("div");
     div.className = "recipe-full";
-    let html = `<h4>${item.day}: ${item.recipe.name}</h4><p style="color:var(--muted); margin-bottom:8px;">На ${people} чел. · ~${item.recipe.time} мин</p><strong>Ингредиенты:</strong><ul>`;
+    let html = `<h4>${item.day}: ${item.recipe.name}</h4><p style="color:var(--muted); margin-bottom:8px;">На ${people} чел. · ~${item.recipe.time} мин</p>`;
+    html += recipeSourceHtml(item.recipe);
+    html += "<strong>Ингредиенты:</strong><ul>";
     item.scaledIngredients.forEach(ing => {
       const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.qty) + " " + ing.unit : Math.round(ing.qty) + " " + ing.unit;
       const owned = hasPantryItem(ing.name);
@@ -612,6 +646,7 @@ function exportProducts() {
   const items = {};
   currentPlan.forEach(item => {
     item.scaledIngredients.forEach(ing => {
+      if (isShoppingExcluded(ing.name)) return;
       const key = canonicalIngredient(ing.name);
       if (!items[key]) items[key] = { ...ing, name: ingredientDisplayName(ing.name), totalQty: 0, forDishes: new Set() };
       items[key].totalQty += ing.qty;
@@ -619,7 +654,7 @@ function exportProducts() {
     });
   });
   Object.values(items).forEach(ing => {
-    if (hasPantryItem(ing.name)) return;
+    if (isShoppingExcluded(ing.name) || hasPantryItem(ing.name)) return;
     const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.totalQty) + " " + ing.unit : Math.round(ing.totalQty) + " " + ing.unit;
     text += `- ${ing.name}: ${qtyText} (для: ${Array.from(ing.forDishes).join(", ")})\n`;
   });
@@ -637,6 +672,11 @@ function exportRecipes() {
     });
     text += `\nПриготовление:\n`;
     (item.recipe.steps || []).forEach((step, i) => text += `${i+1}. ${step}\n`);
+    if (item.recipe.source && item.recipe.source.url) {
+      text += `\nОснова рецепта: ${item.recipe.source.publisher || ""} — ${item.recipe.source.title || ""}\n${item.recipe.source.url}\nПримечание: ${item.recipe.source.note || "Адаптировано для SalpCook."}`;
+    } else {
+      text += "\nИсточник: внешняя ссылка не указана; редакционная версия SalpCook.";
+    }
     text += `\n\n`;
   });
   downloadText(text, "salpcook-recipes.txt");
@@ -669,6 +709,7 @@ try {
   renderPantry();
 } catch(e) {}
 document.getElementById("addPantry").addEventListener("click",addPantryItem);
+document.getElementById("clearPantry").addEventListener("click",clearPantry);
 const pantrySearchInput=document.getElementById("pantrySearch");
 pantrySearchInput.addEventListener("input",renderPantrySuggestions);
 pantrySearchInput.addEventListener("focus",renderPantrySuggestions);

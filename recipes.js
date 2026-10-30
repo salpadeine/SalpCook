@@ -1,4 +1,4 @@
-// Каталог рецептов SalpCook. Инструкции и ингредиенты хранятся отдельно от интерфейса.
+// Каталог рецептов SalpCook. Для рецептов с внешней основой указан источник и примечание об адаптации.
 window.SALPCOOK_RECIPES = [
   {
     "id": "homemade_cutlets",
@@ -41,7 +41,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -88,7 +88,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Масла",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "baked_chicken_veg",
@@ -155,7 +156,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Масла",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "bolognese_pasta",
@@ -199,7 +201,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -230,7 +232,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "baked_salmon",
@@ -280,7 +283,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_pilaf",
@@ -323,7 +327,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -338,7 +342,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_stroganoff",
@@ -381,7 +386,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -396,7 +401,13 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": {
+      "title": "Говядина по-строгановски (бефстроганов)",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/62993/govyadina-po-stroganovski-befstroganov",
+      "note": "Рецепт-основа для говядины в сметанном соусе; гречка и грибы — вариант SalpCook."
+    }
   },
   {
     "id": "fish_cutlets",
@@ -431,7 +442,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -446,7 +457,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_teriyaki",
@@ -465,7 +477,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 400,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -497,14 +509,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 40,
         "unit": "мл",
         "pricePerUnit": 0,
         "aisle": "Соусы",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "stuffed_peppers",
@@ -554,14 +567,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_mushroom_cream",
@@ -580,7 +594,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 400,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -604,7 +618,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -619,7 +633,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_chops_cabbage",
@@ -662,14 +677,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pasta_tomato_garlic",
@@ -719,7 +735,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_potato_stew",
@@ -762,14 +779,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_rice_simple",
@@ -804,7 +822,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -819,7 +837,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_ribs_potato",
@@ -853,14 +872,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pasta_carbonara",
@@ -910,7 +930,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "turkey_meatballs",
@@ -953,7 +974,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -968,7 +989,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "shrimp_pasta",
@@ -1017,7 +1039,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_fajitas",
@@ -1035,7 +1058,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 400,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -1059,7 +1082,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -1074,7 +1097,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_tacos",
@@ -1123,7 +1147,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_wings",
@@ -1149,7 +1174,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 40,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -1172,7 +1197,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_schnitzel",
@@ -1221,7 +1247,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "cod_potatoes",
@@ -1270,7 +1297,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_curry",
@@ -1289,7 +1317,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 400,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -1313,14 +1341,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "mushroom_pasta",
@@ -1370,7 +1399,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_broccoli",
@@ -1413,14 +1443,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 30,
         "unit": "мл",
         "pricePerUnit": 0,
         "aisle": "Соусы",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_apple",
@@ -1455,7 +1486,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -1470,7 +1501,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_potato_bake",
@@ -1488,7 +1520,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 400,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -1519,7 +1551,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "lentil_stew",
@@ -1568,7 +1601,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_caesar",
@@ -1587,7 +1621,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -1618,7 +1652,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_cabbage",
@@ -1652,14 +1687,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "salmon_dill",
@@ -1708,7 +1744,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Фрукты",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_pepper_rice",
@@ -1726,7 +1763,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -1750,14 +1787,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_onion",
@@ -1784,7 +1822,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 3,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -1799,7 +1837,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "shrimp_garlic",
@@ -1848,7 +1887,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_garlic_butter",
@@ -1867,7 +1907,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 400,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -1898,7 +1938,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "veg_fried_rice",
@@ -1948,14 +1989,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 25,
         "unit": "мл",
         "pricePerUnit": 0,
         "aisle": "Соусы",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_broccoli_rice",
@@ -1973,7 +2015,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -2004,7 +2046,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_mushroom",
@@ -2039,7 +2082,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -2054,7 +2097,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "fish_tomato",
@@ -2104,7 +2148,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_soy_ginger",
@@ -2123,7 +2168,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -2155,14 +2200,15 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 30,
         "unit": "мл",
         "pricePerUnit": 0,
         "aisle": "Соусы",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_potato_simple",
@@ -2196,14 +2242,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_simple_rice",
@@ -2221,7 +2268,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -2237,14 +2284,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_simple",
@@ -2278,14 +2326,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "fish_simple",
@@ -2334,7 +2383,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_simple",
@@ -2368,14 +2418,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_veg_stir",
@@ -2394,7 +2445,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -2425,7 +2476,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pasta_alfredo",
@@ -2452,7 +2504,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -2475,7 +2527,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "turkey_veg",
@@ -2525,7 +2578,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_honey",
@@ -2568,14 +2622,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 25,
         "unit": "мл",
         "pricePerUnit": 0,
         "aisle": "Соусы",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_tomato_basil",
@@ -2594,7 +2649,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -2625,7 +2680,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_garlic",
@@ -2668,14 +2724,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 25,
         "unit": "мл",
         "pricePerUnit": 0,
         "aisle": "Соусы",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_spinach",
@@ -2694,7 +2751,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -2725,7 +2782,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_ginger",
@@ -2775,7 +2833,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "cod_lemon",
@@ -2823,7 +2882,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_cashew",
@@ -2842,7 +2902,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -2873,7 +2933,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_soy",
@@ -2908,7 +2969,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 40,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -2923,7 +2984,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_lemon",
@@ -2942,7 +3004,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 400,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -2973,7 +3035,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "shrimp_rice",
@@ -3022,7 +3085,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Фрукты",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_potato_simple",
@@ -3063,7 +3127,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_veg_simple",
@@ -3113,7 +3178,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "shrimp_veg",
@@ -3163,7 +3229,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_onion",
@@ -3182,7 +3249,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -3190,7 +3257,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 2,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -3205,7 +3272,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_potato",
@@ -3239,14 +3307,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "fish_rice",
@@ -3287,7 +3356,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Фрукты",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_feta",
@@ -3305,7 +3375,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -3336,7 +3406,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_pepper",
@@ -3371,7 +3442,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -3386,7 +3457,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_sweet_potato",
@@ -3427,7 +3499,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_cutlets_mushroom",
@@ -3477,7 +3550,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_rice_bowl",
@@ -3496,7 +3570,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -3527,7 +3601,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "salmon_teriyaki",
@@ -3576,7 +3651,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_noodles",
@@ -3618,14 +3694,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 30,
         "unit": "мл",
         "pricePerUnit": 0,
         "aisle": "Соусы",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_skewers",
@@ -3644,7 +3721,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 400,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -3660,7 +3737,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -3675,7 +3752,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_veg",
@@ -3725,7 +3803,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "fish_herb",
@@ -3774,7 +3853,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_tomato_rice",
@@ -3793,7 +3873,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -3817,14 +3897,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "shrimp_garlic_lemon_rice",
@@ -3873,7 +3954,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Фрукты",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_soy_rice",
@@ -3908,7 +3990,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 30,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -3923,7 +4005,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_mushroom_rice",
@@ -3942,7 +4025,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -3966,14 +4049,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_garlic_rice",
@@ -4015,14 +4099,15 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 25,
         "unit": "мл",
         "pricePerUnit": 0,
         "aisle": "Соусы",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "fish_potato_herb",
@@ -4071,7 +4156,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_broccoli_cheese",
@@ -4089,7 +4175,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -4120,7 +4206,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_mushroom_pie",
@@ -4163,14 +4250,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_pesto_pasta",
@@ -4189,7 +4277,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -4205,7 +4293,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Песто",
+        "name": "Соус песто",
         "qtyBase": 80,
         "unit": "г",
         "pricePerUnit": 0.8,
@@ -4220,7 +4308,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_belly",
@@ -4262,14 +4351,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_satay",
@@ -4287,7 +4377,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 400,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -4311,14 +4401,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 20,
         "unit": "мл",
         "pricePerUnit": 0,
         "aisle": "Соусы",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_kebab",
@@ -4353,7 +4444,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -4368,7 +4459,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_quinoa",
@@ -4387,7 +4479,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -4418,7 +4510,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "salmon_avocado",
@@ -4468,7 +4561,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_avocado_salad",
@@ -4487,7 +4581,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -4518,7 +4612,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_pepper_stir",
@@ -4553,7 +4648,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
@@ -4568,7 +4663,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "turkey_stirfry",
@@ -4618,7 +4714,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_enchiladas",
@@ -4637,7 +4734,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -4668,7 +4765,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_stew",
@@ -4710,14 +4808,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 15,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_parmesan",
@@ -4736,7 +4835,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 400,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -4767,7 +4866,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "baked_cod",
@@ -4817,7 +4917,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Масла",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_tikka",
@@ -4836,7 +4937,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 400,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -4875,7 +4976,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pasta_arrabbiata",
@@ -4925,7 +5027,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_potatoes_rosemary",
@@ -4974,7 +5077,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_rice_bowl",
@@ -5024,7 +5128,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "shrimp_avocado_salad",
@@ -5074,7 +5179,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_cashew_rice",
@@ -5093,7 +5199,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -5124,7 +5230,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_gremolata_potatoes",
@@ -5142,7 +5249,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -5189,7 +5296,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "turkey_mustard_batata",
@@ -5223,7 +5331,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Дижонская горчица",
+        "name": "Горчица дижонская",
         "qtyBase": 20,
         "unit": "г",
         "pricePerUnit": 0.18,
@@ -5254,7 +5362,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_mozzarella_basil",
@@ -5272,7 +5381,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -5319,7 +5428,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_apple_mustard",
@@ -5353,7 +5463,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Дижонская горчица",
+        "name": "Горчица дижонская",
         "qtyBase": 20,
         "unit": "г",
         "pricePerUnit": 0.18,
@@ -5369,7 +5479,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -5384,7 +5494,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_ginger_rice",
@@ -5418,7 +5529,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 35,
         "unit": "мл",
         "pricePerUnit": 0.18,
@@ -5457,7 +5568,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_bulgur_pumpkin",
@@ -5499,7 +5611,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -5522,7 +5634,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "turkey_coconut_curry",
@@ -5540,7 +5653,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -5587,7 +5700,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "cod_cream_couscous",
@@ -5652,7 +5766,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "salmon_dill_potatoes",
@@ -5709,7 +5824,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "shrimp_soba_vegetables",
@@ -5735,7 +5851,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Гречневая лапша",
+        "name": "Лапша гречневая",
         "qtyBase": 180,
         "unit": "г",
         "pricePerUnit": 0.12,
@@ -5759,7 +5875,7 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 30,
         "unit": "мл",
         "pricePerUnit": 0.18,
@@ -5774,7 +5890,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "mussels_cream_baguette",
@@ -5839,7 +5956,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_texmex_rice",
@@ -5904,7 +6022,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "meatballs_tomato_orzo",
@@ -5946,7 +6065,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -5969,7 +6088,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "baked_meat_potato_cheese",
@@ -6019,7 +6139,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -6034,7 +6154,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "greek_moussaka_easy",
@@ -6084,7 +6205,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -6107,7 +6228,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_cutlets_bulgur",
@@ -6172,7 +6294,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_rolls_bacon",
@@ -6237,7 +6360,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_stew_mushrooms",
@@ -6287,7 +6411,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -6302,7 +6426,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_buckwheat_mushrooms",
@@ -6344,7 +6469,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -6359,7 +6484,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_paprikash",
@@ -6401,7 +6527,7 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -6424,7 +6550,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "shakshuka_feta",
@@ -6466,7 +6593,7 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -6489,7 +6616,13 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": {
+      "title": "Классическая шакшука",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/44355/jaichnica-shakshuka-klassicheskij-recept",
+      "note": "Основа — томатно-перечная шакшука с яйцами; фета и зелень добавлены в варианте SalpCook."
+    }
   },
   {
     "id": "frittata_potato_spinach",
@@ -6546,7 +6679,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "lentil_tomato_soup",
@@ -6580,7 +6714,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -6611,7 +6745,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_noodle_soup",
@@ -6629,7 +6764,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0.45,
@@ -6661,7 +6796,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -6676,7 +6811,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "tomato_basil_pasta",
@@ -6741,7 +6877,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "tuna_pasta_peas",
@@ -6798,7 +6935,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "baked_feta_chickpeas",
@@ -6863,7 +7001,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "stuffed_peppers_rice",
@@ -6905,7 +7044,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -6928,7 +7067,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "oven_sausage_vegetables",
@@ -6978,7 +7118,7 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       },
       {
-        "name": "Красный лук",
+        "name": "Лук красный",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -6993,7 +7133,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_chili_con_carne",
@@ -7035,7 +7176,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -7058,7 +7199,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "couscous_roasted_veg_halloumi",
@@ -7108,7 +7250,7 @@ window.SALPCOOK_RECIPES = [
         "staple": true
       },
       {
-        "name": "Красный лук",
+        "name": "Лук красный",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -7123,7 +7265,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "potato_pancakes_sourcream",
@@ -7165,7 +7308,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -7181,14 +7324,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Зелёный лук",
+        "name": "Лук зелёный",
         "qtyBase": 15,
         "unit": "г",
         "pricePerUnit": 0.18,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "creamy_mushroom_risotto",
@@ -7222,7 +7366,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -7253,7 +7397,13 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": {
+      "title": "Ризотто с грибами",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/24833/rizotto-s-gribami",
+      "note": "Ссылка подтверждает базовую технологию ризотто с грибами; набор грибов и пропорции в SalpCook упрощены."
+    }
   },
   {
     "id": "honey_soy_salmon_broccoli",
@@ -7287,7 +7437,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 30,
         "unit": "мл",
         "pricePerUnit": 0.18,
@@ -7318,7 +7468,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_schnitzel_cucumber_salad",
@@ -7383,7 +7534,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_teriyaki_noodles",
@@ -7401,7 +7553,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.65,
@@ -7440,7 +7592,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_medallions_mushrooms",
@@ -7482,7 +7635,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -7497,7 +7650,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "salmon_lemon_orzo",
@@ -7554,7 +7708,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "turkey_meatballs_couscous",
@@ -7604,14 +7759,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_tacos_avocado",
@@ -7676,7 +7832,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "creamy_chicken_spinach_pasta",
@@ -7702,7 +7859,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0.65,
@@ -7733,7 +7890,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "cod_tomato_olive_couscous",
@@ -7790,7 +7948,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "sausage_lentil_stew",
@@ -7832,7 +7991,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -7847,7 +8006,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "eggplant_parmesan",
@@ -7904,7 +8064,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "shrimp_garlic_lime_rice",
@@ -7961,7 +8122,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_fajita_bowl",
@@ -7979,7 +8141,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.65,
@@ -8003,7 +8165,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Красный лук",
+        "name": "Лук красный",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -8026,7 +8188,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_rice_ginger_bowl",
@@ -8068,7 +8231,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 30,
         "unit": "мл",
         "pricePerUnit": 0.18,
@@ -8091,7 +8254,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pumpkin_sage_pasta",
@@ -8148,7 +8312,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chickpea_coconut_curry",
@@ -8190,7 +8355,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -8213,7 +8378,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "baked_feta_pasta",
@@ -8270,7 +8436,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_shepherds_pie",
@@ -8312,7 +8479,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -8335,7 +8502,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_quesadilla",
@@ -8353,7 +8521,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 250,
         "unit": "г",
         "pricePerUnit": 0.65,
@@ -8392,7 +8560,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "miso_salmon_noodles",
@@ -8442,14 +8611,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Зелёный лук",
+        "name": "Лук зелёный",
         "qtyBase": 15,
         "unit": "г",
         "pricePerUnit": 0.18,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "turkey_chili_sweetcorn",
@@ -8499,14 +8669,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "mushroom_barley_pot",
@@ -8540,7 +8711,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -8563,7 +8734,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "halloumi_greek_pita",
@@ -8628,7 +8800,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "potato_leek_soup",
@@ -8654,7 +8827,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук-порей",
+        "name": "Лук порей",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -8685,7 +8858,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "tomato_mozzarella_gnocchi",
@@ -8742,7 +8916,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_broccoli_noodles",
@@ -8784,7 +8959,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 35,
         "unit": "мл",
         "pricePerUnit": 0.18,
@@ -8799,7 +8974,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_pesto_gnocchi",
@@ -8817,7 +8993,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0.65,
@@ -8833,7 +9009,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Песто",
+        "name": "Соус песто",
         "qtyBase": 50,
         "unit": "г",
         "pricePerUnit": 0.18,
@@ -8856,7 +9032,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "lemon_chicken_orzo",
@@ -8874,7 +9051,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 320,
         "unit": "г",
         "pricePerUnit": 0.65,
@@ -8913,7 +9090,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_apple_roast",
@@ -8963,14 +9141,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Дижонская горчица",
+        "name": "Горчица дижонская",
         "qtyBase": 15,
         "unit": "г",
         "pricePerUnit": 0.18,
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "turkey_stuffed_zucchini",
@@ -9027,7 +9206,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "cod_potato_mustard",
@@ -9069,7 +9249,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Дижонская горчица",
+        "name": "Горчица дижонская",
         "qtyBase": 15,
         "unit": "г",
         "pricePerUnit": 0.18,
@@ -9084,7 +9264,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_meatballs_polenta",
@@ -9134,14 +9315,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_harissa_couscous",
@@ -9159,7 +9341,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.65,
@@ -9198,7 +9380,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "shrimp_coconut_noodles",
@@ -9255,7 +9438,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Фрукты",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "mushroom_spinach_frittata",
@@ -9312,7 +9496,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "red_lentil_coconut_soup",
@@ -9354,7 +9539,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -9369,7 +9554,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "halloumi_roasted_veg",
@@ -9426,7 +9612,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_stuffed_pita",
@@ -9483,7 +9670,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_parmesan_potato",
@@ -9501,7 +9689,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0.65,
@@ -9540,7 +9728,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "tuna_white_bean_salad",
@@ -9582,7 +9771,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Красный лук",
+        "name": "Лук красный",
         "qtyBase": 0.5,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -9597,7 +9786,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_soba_bowl",
@@ -9623,7 +9813,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Гречневая лапша",
+        "name": "Лапша гречневая",
         "qtyBase": 180,
         "unit": "г",
         "pricePerUnit": 0.18,
@@ -9647,14 +9837,15 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соевый соус",
+        "name": "Соус соевый",
         "qtyBase": 30,
         "unit": "мл",
         "pricePerUnit": 0.18,
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "tomato_chickpea_shakshuka",
@@ -9711,7 +9902,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "salmon_teriyaki_broccoli",
@@ -9768,7 +9960,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "baked_sausage_gnocchi",
@@ -9810,7 +10003,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Красный лук",
+        "name": "Лук красный",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -9825,7 +10018,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "mushroom_chicken_risotto",
@@ -9851,7 +10045,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 250,
         "unit": "г",
         "pricePerUnit": 0.65,
@@ -9882,7 +10076,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "sweet_potato_blackbean_bowl",
@@ -9939,7 +10134,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Фрукты",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_schnitzel_potato_salad",
@@ -9996,7 +10192,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Овощи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chickpea_spinach_tomato_stew",
@@ -10038,7 +10235,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.18,
@@ -10053,7 +10250,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Молочное",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_mustard_meatballs",
@@ -10087,7 +10285,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.2,
@@ -10166,7 +10364,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "turkey_cabbage_rice_pan",
@@ -10217,7 +10416,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.2,
@@ -10256,7 +10455,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "chicken_frikassee_mushrooms",
@@ -10274,7 +10474,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе",
+        "name": "Филе куриное",
         "qtyBase": 400,
         "unit": "г",
         "pricePerUnit": 0.2,
@@ -10298,7 +10498,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.2,
@@ -10361,7 +10561,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "beef_goulash_bulgur",
@@ -10404,7 +10605,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.2,
@@ -10451,7 +10652,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "pork_tenderloin_plum",
@@ -10486,7 +10688,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.2,
@@ -10533,7 +10735,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "cod_crispy_potato_crust",
@@ -10614,7 +10817,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "trout_spinach_creamy_rice",
@@ -10665,7 +10869,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.2,
@@ -10704,7 +10908,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "shrimp_coconut_curry_basmati",
@@ -10755,7 +10960,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.2,
@@ -10802,7 +11007,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "eggplant_chickpea_bulgur",
@@ -10853,7 +11059,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.2,
@@ -10900,7 +11106,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Масла",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "cauliflower_cheddar_gratin",
@@ -10990,7 +11197,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Бакалея",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "zucchini_feta_fritters",
@@ -11072,7 +11280,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Масла",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "spinach_ricotta_cannelloni",
@@ -11115,7 +11324,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Томатный соус",
+        "name": "Соус томатный",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0.2,
@@ -11154,7 +11363,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Масла",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "mushroom_barley_soup",
@@ -11197,7 +11407,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.2,
@@ -11244,7 +11454,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Масла",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "sweet_potato_chickpea_shawarma",
@@ -11287,7 +11498,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Красный лук",
+        "name": "Лук красный",
         "qtyBase": 0.5,
         "unit": "шт",
         "pricePerUnit": 0.2,
@@ -11350,7 +11561,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Масла",
         "staple": true
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "sausage_white_bean_ragu",
@@ -11401,7 +11613,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.2,
@@ -11432,7 +11644,8 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Специи",
         "staple": false
       }
-    ]
+    ],
+    "source": null
   },
   {
     "id": "lamb_meatballs_couscous",
@@ -11475,7 +11688,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лук",
+        "name": "Лук репчатый",
         "qtyBase": 1,
         "unit": "шт",
         "pricePerUnit": 0.2,
@@ -11522,6 +11735,735 @@ window.SALPCOOK_RECIPES = [
         "aisle": "Масла",
         "staple": true
       }
-    ]
+    ],
+    "source": null
+  },
+  {
+    "id": "chicken_kiev_garlic_butter",
+    "name": "Куриные котлеты по-киевски с чесночным маслом и картофелем",
+    "baseServings": 2,
+    "time": 65,
+    "steps": [
+      "Размягчите сливочное масло, смешайте его с измельчённым чесноком, рубленой петрушкой и щепоткой соли. Сформируйте небольшую колбаску, заверните в плёнку и охладите до плотности.",
+      "Филе куриное разрежьте вдоль на два крупных пласта. Накройте плёнкой и осторожно отбейте до равномерной толщины, не разрывая мясо.",
+      "Охлаждённое чесночное масло разделите на две части. Положите каждую на край куриного пласта, подверните боковые края и плотно сверните котлету, полностью закрыв масло.",
+      "Уберите заготовки в морозильную камеру на 10–15 минут или в холодильник на 30 минут, чтобы масло не вытекло при панировке.",
+      "Подготовьте три миски: мука, взбитое яйцо с молоком и панировочные сухари. Каждую котлету обваляйте в муке, яйце и сухарях, затем повторите яйцо и сухари для плотной оболочки.",
+      "Разогрейте духовку до 180°C. На сковороде разогрейте масло и быстро обжарьте котлеты со всех сторон до золотистой корочки.",
+      "Переложите котлеты на противень и доведите в духовке примерно 12–15 минут до полной готовности курицы. Не прокалывайте оболочку во время запекания.",
+      "Картофель отварите в подсоленной воде, слейте воду и разомните с небольшим количеством молока. Дайте котлетам постоять 3 минуты и подавайте с пюре."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе куриное",
+        "qtyBase": 350,
+        "unit": "г",
+        "pricePerUnit": 0.34,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 60,
+        "unit": "г",
+        "pricePerUnit": 0.7,
+        "aisle": "Молочное",
+        "staple": true
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 5,
+        "aisle": "Овощи",
+        "staple": true
+      },
+      {
+        "name": "Петрушка",
+        "qtyBase": 10,
+        "unit": "г",
+        "pricePerUnit": 0.5,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Мука",
+        "qtyBase": 35,
+        "unit": "г",
+        "pricePerUnit": 0.08,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Яйцо",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 12,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Молоко",
+        "qtyBase": 30,
+        "unit": "мл",
+        "pricePerUnit": 0.08,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Панировочные сухари",
+        "qtyBase": 70,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0.04,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 25,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": true
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 3,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": true
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 1,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": true
+      }
+    ],
+    "source": {
+      "title": "Вкусные куриные котлеты",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/24078/vkusnye-kurinye-kotlety",
+      "note": "Адаптация идеи чесночного масла и сочной куриной котлеты: в SalpCook используется филе и отдельная панировка."
+    }
+  },
+  {
+    "id": "tuna_pasta_pine_nuts",
+    "name": "Паста с тунцом, пармезаном и кедровыми орешками",
+    "baseServings": 2,
+    "time": 25,
+    "steps": [
+      "Поставьте большую кастрюлю с водой на огонь. Когда вода закипит, посолите её и отварите пасту до al dente по времени на упаковке.",
+      "Пока варится паста, слейте жидкость из банки с тунцом и разберите рыбу вилкой на крупные кусочки.",
+      "Укроп промойте, обсушите и мелко порубите. Чеснок очистите и нарежьте тонкими пластинками. Сыр пармезан натрите.",
+      "На сухой сковороде слегка подрумяньте кедровые орешки, постоянно помешивая. Переложите их на тарелку, чтобы не пережарились.",
+      "В той же сковороде прогрейте оливковое масло и быстро обжарьте чеснок до появления аромата, не давая ему потемнеть.",
+      "Добавьте тунец, лимонный сок и укроп. Влейте несколько ложек воды из-под пасты, чтобы получился лёгкий соус, и аккуратно перемешайте.",
+      "Переложите пасту в сковороду, перемешайте с тунцом и соусом. При необходимости добавьте ещё немного воды из-под пасты.",
+      "Разложите по тарелкам, посыпьте пармезаном и кедровыми орешками, приправьте чёрным перцем и сразу подавайте."
+    ],
+    "ingredients": [
+      {
+        "name": "Паста",
+        "qtyBase": 180,
+        "unit": "г",
+        "pricePerUnit": 0.12,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Тунец консервированный",
+        "qtyBase": 160,
+        "unit": "г",
+        "pricePerUnit": 0.45,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 5,
+        "aisle": "Овощи",
+        "staple": true
+      },
+      {
+        "name": "Укроп",
+        "qtyBase": 10,
+        "unit": "г",
+        "pricePerUnit": 0.8,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сыр пармезан",
+        "qtyBase": 40,
+        "unit": "г",
+        "pricePerUnit": 0.95,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Кедровые орешки",
+        "qtyBase": 20,
+        "unit": "г",
+        "pricePerUnit": 1.2,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Лимон",
+        "qtyBase": 0.5,
+        "unit": "шт",
+        "pricePerUnit": 25,
+        "aisle": "Фрукты",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 15,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": true
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 2,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": true
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 1,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": true
+      }
+    ],
+    "source": {
+      "title": "Паста с тунцом, пармезаном и кедровыми орешками",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/amp/28418",
+      "note": "Адаптация рецепта-основы: количество уменьшено до двух порций, формулировки шагов переписаны для SalpCook."
+    }
+  },
+  {
+    "id": "chicken_tomato_wine_olives",
+    "name": "Куриные голени в томатно-винном соусе с оливками",
+    "baseServings": 2,
+    "time": 65,
+    "steps": [
+      "Разогрейте духовку до 200°C. Куриные голени обсушите бумажными полотенцами и проверьте, чтобы на коже не осталось перьев.",
+      "Смешайте оливковое масло с лимонным соком, паприкой, сушёным базиликом, карри, солью и чёрным перцем.",
+      "Переложите голени в жаропрочную форму, обмажьте пряной смесью и запекайте 15 минут, чтобы мясо начало подрумяниваться.",
+      "Пока курица запекается, очистите лук и чеснок. Перец болгарский очистите от семян; нарежьте овощи небольшими кусочками.",
+      "Добавьте в форму овощи и оливки, распределив их между голенями. Томаты в собственном соку измельчите вилкой и вылейте сверху.",
+      "Влейте красное вино по краю формы, перемешайте только овощи с жидкостью и верните форму в духовку.",
+      "Запекайте ещё 35–40 минут, один раз полив голени соусом. Проверьте готовность у кости: мясо должно быть полностью приготовлено.",
+      "Подавайте голени с густым томатным соусом и овощами; в качестве гарнира подойдёт рис или кус-кус."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриные голени",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0.3,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Перец болгарский",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 45,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 15,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 5,
+        "aisle": "Овощи",
+        "staple": true
+      },
+      {
+        "name": "Оливки",
+        "qtyBase": 40,
+        "unit": "г",
+        "pricePerUnit": 0.35,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Помидоры в собственном соку",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 20,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": true
+      },
+      {
+        "name": "Лимон",
+        "qtyBase": 0.5,
+        "unit": "шт",
+        "pricePerUnit": 25,
+        "aisle": "Фрукты",
+        "staple": false
+      },
+      {
+        "name": "Паприка",
+        "qtyBase": 2,
+        "unit": "г",
+        "pricePerUnit": 0.8,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Карри",
+        "qtyBase": 1,
+        "unit": "г",
+        "pricePerUnit": 0.8,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Базилик",
+        "qtyBase": 2,
+        "unit": "г",
+        "pricePerUnit": 0.7,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Красное вино",
+        "qtyBase": 100,
+        "unit": "мл",
+        "pricePerUnit": 0.2,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 3,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": true
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 1,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": true
+      }
+    ],
+    "source": {
+      "title": "Курица в томатно-винном соусе",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/50735/kurica-v-tomatno-vinnom-souse",
+      "note": "Адаптация запечённой курицы с овощами, томатами, оливками и вином; в SalpCook используются голени и пересчитанные пропорции."
+    }
+  },
+  {
+    "id": "chickpea_spicy_passata_ragout",
+    "name": "Овощное рагу с нутом, баклажаном и пряной пассатой",
+    "baseServings": 2,
+    "time": 65,
+    "steps": [
+      "Если используете сухой нут, промойте его и замочите в большом количестве холодной воды на 12–24 часа. Затем слейте воду и отварите нут до мягкости; готовый консервированный нут достаточно промыть и обсушить.",
+      "Баклажан и кабачок нарежьте крупными кубиками, морковь — полукружьями, лук — полукольцами, перец болгарский — полосками.",
+      "Чеснок и имбирь мелко порубите. Перец чили очистите от семян и нарежьте очень мелко; регулируйте количество по желаемой остроте.",
+      "В глубокой кастрюле разогрейте растительное масло и обжарьте лук с морковью 4–5 минут до мягкости.",
+      "Добавьте баклажан и кабачок, перемешайте и готовьте ещё 5 минут, чтобы овощи слегка подрумянились.",
+      "Вмешайте чеснок, имбирь, чили и корицу, затем добавьте нут и томатную пассату. При необходимости влейте немного воды.",
+      "Накройте крышкой и тушите 20–25 минут на слабом огне, периодически помешивая, пока овощи не станут мягкими, а соус не загустеет.",
+      "Удалите палочку корицы, попробуйте рагу, отрегулируйте соль и остроту, посыпьте свежей зеленью и подавайте самостоятельно или с булгуром."
+    ],
+    "ingredients": [
+      {
+        "name": "Нут сухой",
+        "qtyBase": 130,
+        "unit": "г",
+        "pricePerUnit": 0.22,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Баклажан",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 65,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Кабачок",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 60,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 20,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 15,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Перец болгарский",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 45,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Пассата томатная",
+        "qtyBase": 200,
+        "unit": "мл",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Перец чили",
+        "qtyBase": 0.5,
+        "unit": "шт",
+        "pricePerUnit": 25,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Имбирь",
+        "qtyBase": 10,
+        "unit": "г",
+        "pricePerUnit": 0.6,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Корица",
+        "qtyBase": 0.5,
+        "unit": "шт",
+        "pricePerUnit": 2,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 5,
+        "aisle": "Овощи",
+        "staple": true
+      },
+      {
+        "name": "Петрушка",
+        "qtyBase": 10,
+        "unit": "г",
+        "pricePerUnit": 0.5,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 20,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": true
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 3,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": true
+      }
+    ],
+    "source": {
+      "title": "Овощное рагу с нутом и острой пассатой",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/recipe/22861/ovoshchnoe-ragu-s-nutom-i-ostroj-passatoj",
+      "note": "Адаптация рецепта с сухим нутом, баклажаном, кабачком и пассатой; время замачивания нута указано отдельно в первом шаге."
+    }
+  },
+  {
+    "id": "easy_fish_pie_potato_top",
+    "name": "Рыбная запеканка с картофельной шапкой и горчичным соусом",
+    "baseServings": 2,
+    "time": 70,
+    "steps": [
+      "Разогрейте духовку до 200°C. Картофель очистите, нарежьте крупными кусками и отварите в подсоленной воде до мягкости.",
+      "Пока варится картофель, проверьте филе трески и филе лосося на кости, обсушите и нарежьте крупными кусочками примерно одинакового размера.",
+      "Лук зелёный тонко нарежьте. Кукурузу и зелёный горошек разморозьте или слейте жидкость, если они консервированные.",
+      "В сотейнике растопите сливочное масло, вмешайте муку и прогрейте около минуты. Постепенно влейте молоко, постоянно размешивая венчиком, чтобы не образовались комочки.",
+      "Добавьте горчицу дижонскую, лук зелёный, кукурузу и горошек. Снимите соус с огня, вмешайте рыбу и аккуратно перемешайте.",
+      "Слейте воду с картофеля, добавьте немного молока и разомните в гладкое пюре. Не делайте его слишком жидким, чтобы оно держало форму сверху.",
+      "Переложите рыбную смесь в форму, распределите картофельное пюре сверху и посыпьте тёртым сыром чеддер.",
+      "Запекайте 20–25 минут до золотистой корочки и пузырьков по краям. Дайте запеканке постоять 5 минут перед подачей."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе трески",
+        "qtyBase": 180,
+        "unit": "г",
+        "pricePerUnit": 0.68,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Филе лосося",
+        "qtyBase": 170,
+        "unit": "г",
+        "pricePerUnit": 1.2,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0.04,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Молоко",
+        "qtyBase": 120,
+        "unit": "мл",
+        "pricePerUnit": 0.08,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 25,
+        "unit": "г",
+        "pricePerUnit": 0.7,
+        "aisle": "Молочное",
+        "staple": true
+      },
+      {
+        "name": "Мука",
+        "qtyBase": 20,
+        "unit": "г",
+        "pricePerUnit": 0.08,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Лук зелёный",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 12,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Горчица дижонская",
+        "qtyBase": 10,
+        "unit": "г",
+        "pricePerUnit": 0.5,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Кукуруза консервированная",
+        "qtyBase": 50,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Горошек зелёный",
+        "qtyBase": 50,
+        "unit": "г",
+        "pricePerUnit": 0.16,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сыр чеддер",
+        "qtyBase": 35,
+        "unit": "г",
+        "pricePerUnit": 0.7,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 3,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": true
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 1,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": true
+      }
+    ],
+    "source": {
+      "title": "Family meals: Easy fish pie recipe",
+      "publisher": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/family-meals-easy-fish-pie-recipe",
+      "note": "Адаптация британского fish pie: рыбная начинка с горчицей, зелёным луком и овощами под картофельным пюре; порции и пропорции пересчитаны."
+    }
+  },
+  {
+    "id": "chicken_liver_sourcream_mustard",
+    "name": "Куриная печень в сметанном соусе с зернистой горчицей",
+    "baseServings": 2,
+    "time": 35,
+    "steps": [
+      "Печень куриную очистите от плёнок и крупных сосудов, быстро промойте в холодной воде и тщательно обсушите бумажными полотенцами.",
+      "Лук репчатый очистите и нарежьте тонкими полукольцами. В отдельной миске смешайте муку, соль и чёрный перец.",
+      "Разогрейте растительное масло в широкой сковороде. Обваляйте печень в муке, стряхните излишки и обжарьте небольшими партиями до лёгкой корочки.",
+      "Переложите печень на тарелку и убавьте огонь. В той же сковороде растопите сливочное масло и обжарьте лук до мягкости.",
+      "Влейте куриный бульон, соскребите со дна поджаристые частицы и доведите жидкость до слабого кипения.",
+      "Убавьте нагрев, вмешайте сметану и горчицу зернистую. Не кипятите соус бурно, чтобы сметана не расслоилась.",
+      "Верните печень в сковороду и прогревайте на слабом огне 4–5 минут, пока она не будет полностью приготовлена. Не передерживайте, чтобы кусочки не стали сухими.",
+      "Попробуйте соус, отрегулируйте соль и перец и подавайте с гречкой, картофельным пюре или свежим хлебом."
+    ],
+    "ingredients": [
+      {
+        "name": "Печень куриная",
+        "qtyBase": 350,
+        "unit": "г",
+        "pricePerUnit": 0.28,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Мука",
+        "qtyBase": 25,
+        "unit": "г",
+        "pricePerUnit": 0.08,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 15,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Куриный бульон",
+        "qtyBase": 120,
+        "unit": "мл",
+        "pricePerUnit": 0.05,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Сметана",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0.18,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Горчица зернистая",
+        "qtyBase": 15,
+        "unit": "г",
+        "pricePerUnit": 0.55,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 15,
+        "unit": "г",
+        "pricePerUnit": 0.7,
+        "aisle": "Молочное",
+        "staple": true
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 15,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": true
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 3,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": true
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 1,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": true
+      }
+    ],
+    "source": {
+      "title": "Куриная печень в сметане: рецепт с горчицей",
+      "publisher": "Гастроном",
+      "url": "https://www.gastronom.ru/text/kurinaya-pechen-v-smetane-8-receptov-s-lukom-gribami-ovoshami-i-ne-tolko-1029836",
+      "note": "Адаптация одного из вариантов из подборки Gastronom: сметанный соус с горчицей и бульоном, пропорции пересчитаны на две порции."
+    }
   }
 ];
