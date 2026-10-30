@@ -2126,5 +2126,893 @@ window.SALPCOOK_RECIPES = [
       "relation": "direct",
       "verified": true
     }
+  },
+  {
+    "id": "eda_mintai_188758",
+    "name": "Минтай, запечённый с помидорами и сулугуни",
+    "baseServings": 4,
+    "time": 40,
+    "steps": [
+      "Нарежьте помидоры тонкими ломтиками.",
+      "Смажьте форму для запекания оливковым маслом и выложите в неё филе минтая.",
+      "Посолите рыбу, добавьте чёрный перец и приправу для рыбы.",
+      "Смажьте филе майонезом и посыпьте прованскими травами.",
+      "Разложите сверху ломтики помидоров, затем добавьте сулугуни.",
+      "Поставьте форму в духовку, разогретую до 180 °C, и запекайте около 30 минут.",
+      "Разделите рыбу на порции и подавайте."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе минтая",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Майонез",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Сыр сулугуни",
+        "qtyBase": 175,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Морская соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Приправа для рыбы",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Прованские травы",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Минтай",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/mintay-188758",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_stuffed_peppers_125798",
+    "name": "Фаршированные перцы с мясом и овощами",
+    "baseServings": 6,
+    "time": 60,
+    "steps": [
+      "Обжарьте смешанный фарш на растительном масле вместе с мелко нарезанным луком и натёртой морковью.",
+      "Мелко нарежьте 4–5 сладких перцев и помидоры, добавьте их к фаршу. При необходимости влейте немного кипячёной воды и тушите на слабом огне 15–20 минут.",
+      "У остальных перцев удалите плодоножки, сердцевину и семена. Опустите их в кипяток на 2–3 минуты, затем выньте.",
+      "Добавьте к мясо-овощной смеси соль, сушёные травы и томатную пасту. Перемешайте и тушите ещё 5–7 минут.",
+      "Наполните подготовленные перцы начинкой и уложите их в смазанную растительным маслом форму.",
+      "Нарежьте сыр тонкими ломтиками, накройте им начинку и запекайте при 180 °C около 20 минут."
+    ],
+    "ingredients": [
+      {
+        "name": "Смешанный фарш",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Сладкий перец",
+        "qtyBase": 16,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Томатная паста",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Сушеный розмарин",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Сушеный майоран",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для жарки",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для жарки"
+      },
+      {
+        "name": "Сыр",
+        "qtyBase": 0,
+        "unit": "для верхнего слоя",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false,
+        "qtyLabel": "для верхнего слоя"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Фаршированные перцы",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/farshirovannye-percy-125798",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_turkey_sourcream_43309",
+    "name": "Филе индейки, тушённое со сметаной",
+    "baseServings": 4,
+    "time": 35,
+    "steps": [
+      "Нарежьте филе индейки кусочками, переложите на сковороду и тушите на среднем огне 10–15 минут.",
+      "Нарежьте репчатый лук и добавьте к индейке. Продолжайте тушить около 5 минут, пока лук не станет мягким.",
+      "Мелко нарежьте чеснок и положите его в сковороду.",
+      "Добавьте сметану, соевый соус, смесь перцев и соль по вкусу. Перемешайте.",
+      "Влейте немного кипячёной воды, чтобы получить жидкий соус, и тушите ещё около 10 минут, пока соус не загустеет.",
+      "Подавайте с гарниром по выбору."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе индейки",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Сметана 10%",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соевый соус",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Смесь перцев",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 0,
+        "unit": "немного",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false,
+        "qtyLabel": "немного"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Филе индейки, тушеное со сметаной",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/file-indejki-tushenoe-so-smetanoj-43309",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_cod_parchment_137283",
+    "name": "Треска, запечённая в пергаменте",
+    "baseServings": 2,
+    "time": 30,
+    "steps": [
+      "Смешайте соевый соус, кунжутное масло, соус мицукан и рыбный бульон. Приправьте смесь солью и чёрным перцем.",
+      "Нарежьте морковь и цукини тонкой соломкой. Залейте овощи приготовленным соусом и оставьте мариноваться на 5–10 минут.",
+      "Положите филе трески на лист пергамента. Распределите сверху овощи вместе с маринадом и добавьте зелень.",
+      "Сверните пергамент конвертом, чтобы сок и пар оставались внутри.",
+      "Запекайте в духовке, разогретой до 180 °C, в течение 7–10 минут."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе трески",
+        "qtyBase": 360,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 60,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Цукини",
+        "qtyBase": 60,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соевый соус",
+        "qtyBase": 20,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Кунжутное масло",
+        "qtyBase": 10,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Соус мицукан",
+        "qtyBase": 10,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Кинза",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Петрушка",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Рыбный бульон",
+        "qtyBase": 60,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Треска, запеченная в пергаменте",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/treska-zapechennaya-v-pergamente-137283",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_cod_bacalhau_93033",
+    "name": "Треска бакаляу",
+    "baseServings": 4,
+    "time": 30,
+    "steps": [
+      "Опустите треску в кипящую воду и варите около 10 минут.",
+      "Пока рыба варится, нарежьте репчатый лук полукольцами. Обжарьте его на оливковом масле до мягкости.",
+      "Мелко нарежьте чеснок, добавьте к луку вместе с лавровым листом и обжаривайте ещё около 7 минут.",
+      "Слейте воду с готовой трески и разделите рыбу на небольшие кусочки. Переложите её к луку и чесноку, обжаривайте 3–4 минуты.",
+      "Добавьте картофельную соломку.",
+      "Взбейте яйца, посолите и поперчите. Влейте их в сковороду и готовьте, помешивая, около 5 минут.",
+      "В конце посыпьте блюдо петрушкой и добавьте чёрные оливки."
+    ],
+    "ingredients": [
+      {
+        "name": "Треска",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Куриное яйцо",
+        "qtyBase": 5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Маслины",
+        "qtyBase": 50,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 2,
+        "unit": "головки",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 5,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Рубленая петрушка",
+        "qtyBase": 50,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лавровый лист",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Треска бакаляу",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/treska-bakalyau-93033",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_stuffed_eggplant_17069",
+    "name": "Баклажаны, фаршированные мясом и рисом",
+    "baseServings": 6,
+    "time": 60,
+    "steps": [
+      "Промойте баклажаны и срежьте концы. Сделайте вдоль каждого плода небольшой надрез и чайной ложкой удалите семена.",
+      "Опустите баклажаны в кипящую подсоленную воду на 5 минут, затем выньте и дайте воде стечь.",
+      "Отварите рис до готовности.",
+      "Пропустите мясо через мясорубку. Смешайте фарш с рисом и томатной пастой.",
+      "Мелко нарежьте и обжарьте репчатый лук, добавьте его к начинке. Посолите и поперчите смесь.",
+      "Наполните баклажаны приготовленным фаршем и уложите в смазанную жиром форму или на противень.",
+      "Посыпьте баклажаны тёртым сыром и запекайте в духовке около 40 минут."
+    ],
+    "ingredients": [
+      {
+        "name": "Мясо",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Баклажаны",
+        "qtyBase": 1500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Рис",
+        "qtyBase": 0.5,
+        "unit": "стакана",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 2,
+        "unit": "головки",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Сыр",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Томатная паста",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Баклажаны фаршированные",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/baklazhani-farshirovannie-17069",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_goulash_pork_140155",
+    "name": "Гуляш из свинины",
+    "baseServings": 6,
+    "time": 120,
+    "steps": [
+      "Подготовьте продукты. Мелко нарежьте репчатый лук.",
+      "Разогрейте в толстостенной кастрюле растительное и сливочное масло. Обжарьте лук до прозрачности.",
+      "Добавьте паприку и тмин, перемешайте с луком.",
+      "Нарежьте свинину крупными кубиками, смешайте с мукой и переложите в кастрюлю. Обжаривайте 2–3 минуты, помешивая.",
+      "Крупно нарежьте морковь и картофель.",
+      "Влейте бульон или воду, добавьте помидоры, морковь и картофель. Посолите и поперчите.",
+      "Доведите до кипения, накройте крышкой и готовьте на слабом огне 1,5–2 часа до мягкости мяса."
+    ],
+    "ingredients": [
+      {
+        "name": "Свинина",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Паприка",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Тмин",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Пшеничная мука",
+        "qtyBase": 0,
+        "unit": "для обваливания",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false,
+        "qtyLabel": "для обваливания"
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Бульон или вода",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Гуляш из свинины",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/gulyash-iz-svininy-140155",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_veg_casserole_38702",
+    "name": "Куриная запеканка с овощами и сметаной",
+    "baseServings": null,
+    "time": 60,
+    "steps": [
+      "Отварите рис до готовности.",
+      "Нарежьте куриное филе небольшими кусочками. Очистите сладкий перец от семян и нарежьте кубиками, морковь натрите на крупной тёрке, лук мелко порубите.",
+      "Обжарьте куриное филе на растительном масле до готовности, слегка посолив и поперчив.",
+      "На отдельной сковороде обжарьте морковь, добавьте перец и готовьте, пока он не станет мягким.",
+      "Добавьте лук и немного соли, слегка обжарьте овощи.",
+      "Смажьте форму маслом и выложите рис ровным слоем. Сверху распределите овощи, затем половину сметаны.",
+      "Добавьте слой куриного филе и слой кукурузы. Покройте оставшейся сметаной и посыпьте тёртым сыром.",
+      "Запекайте около 30 минут при температуре примерно 180 °C. Дайте запеканке остыть перед нарезкой на порции."
+    ],
+    "ingredients": [
+      {
+        "name": "Рис",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Куриное филе",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Сладкий перец",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для жарки",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для жарки"
+      },
+      {
+        "name": "Сметана",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Кукуруза",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Твердый сыр",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Куриная запеканка с овощами и сметаной",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kurinaja-zapekanka-s-ovoshhami-i-smetanoj-38702",
+      "relation": "direct",
+      "verified": true
+    }
   }
 ];
