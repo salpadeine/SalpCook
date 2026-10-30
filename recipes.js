@@ -4036,5 +4036,1050 @@ window.SALPCOOK_RECIPES = [
       "relation": "direct",
       "verified": true
     }
+  },
+  {
+    "id": "eda_beef_stew_189924",
+    "name": "Говядина тушёная с овощами",
+    "baseServings": 6,
+    "time": 60,
+    "steps": [
+      "Подготовьте продукты. Нарежьте репчатый лук и морковь, говядину нарежьте кусочками.",
+      "Разогрейте растительное масло в глубокой сковороде или сотейнике и обжарьте лук с морковью.",
+      "Добавьте к овощам нарезанную говядину и перемешайте.",
+      "Влейте воду, добавьте молотый сушёный чеснок, соль и специи для мяса.",
+      "Накройте посуду крышкой и тушите всё вместе до мягкости говядины.",
+      "Подавайте с овощным гарниром."
+    ],
+    "ingredients": [
+      {
+        "name": "Говядина без кости",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Специи для мяса",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Молотый сушеный чеснок",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 250,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 70,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Говядина тушеная",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/govyadina-tushenaya-189924",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_beef_home_stew_190654",
+    "name": "Говядина, тушённая по-домашнему",
+    "baseServings": 5,
+    "time": 60,
+    "steps": [
+      "Промойте говядину, обсушите бумажным полотенцем и нарежьте тонкими полосками.",
+      "Нарежьте репчатый лук полукольцами.",
+      "Разогрейте сковороду и выложите на неё лук и говядину. Обжаривайте, пока мясной сок не выпарится.",
+      "Влейте воду, накройте сковороду крышкой и тушите мясо до готовности. При необходимости понемногу подливайте воду.",
+      "Очистите морковь и нарежьте кубиками. Добавьте её к мясу и перемешайте.",
+      "Приправьте солью, чёрным перцем, сушёным чесноком и хмели-сунели.",
+      "Перемешайте и тушите ещё 3–5 минут. Подавайте с гарниром."
+    ],
+    "ingredients": [
+      {
+        "name": "Говядина",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Хмели-сунели",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый сушеный чеснок",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 250,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Говядина, тушеная по-домашнему",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/govyadina-po-domashnemu-190654",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_beef_sourcream_42118",
+    "name": "Говядина, тушённая в сметане",
+    "baseServings": 4,
+    "time": 135,
+    "steps": [
+      "Нарежьте говядину небольшими кусочками и подготовьте репчатый лук.",
+      "Обжарьте мясо на сковороде до изменения цвета, затем добавьте лук.",
+      "Приправьте солью и чёрным перцем, перемешайте.",
+      "Добавьте сметану и влейте немного воды, чтобы мясо тушилось в соусе.",
+      "Накройте посуду крышкой и тушите на слабом огне до мягкости говядины. В конце при необходимости загустите соус мукой.",
+      "Подавайте горячим с гарниром."
+    ],
+    "ingredients": [
+      {
+        "name": "Говядина",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Сметана",
+        "qtyBase": 5,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Пшеничная мука",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Говядина, тушенная в сметане",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/govyadina-tushennaya-v-smetane-42118",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_beef_multicooker_48557",
+    "name": "Говядина, тушённая в мультиварке",
+    "baseServings": 6,
+    "time": 120,
+    "steps": [
+      "Нарежьте говядину кусочками подходящего размера.",
+      "Очистите и нарежьте лук, чеснок, морковь и стебли сельдерея.",
+      "Положите говядину и подготовленные овощи в чашу мультиварки.",
+      "Добавьте томатную пасту, воду и специи, перемешайте ингредиенты.",
+      "Готовьте на режиме тушения до мягкости мяса, ориентируясь на программу вашей мультиварки."
+    ],
+    "ingredients": [
+      {
+        "name": "Говядина",
+        "qtyBase": 600,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Стебель сельдерея",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Томатная паста",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 300,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Специи",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Говядина, тушеная в мультиварке",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/govjadina-tushenaja-v-multivarke-48557",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_beef_kremlin_191250",
+    "name": "Говядина по-кремлёвски",
+    "baseServings": null,
+    "time": null,
+    "steps": [
+      "Подготовьте ингредиенты. Очистите репчатый лук и мелко нарежьте его.",
+      "Промойте и обсушите говядину, удалите плёнки и нарежьте мясо крупными кусками.",
+      "Разогрейте толстостенную сковороду или кастрюлю и выложите в неё говядину.",
+      "Нарежьте сливочное масло крупными кусками и распределите поверх мяса.",
+      "Выложите на мясо лук и масло, влейте стакан кипятка.",
+      "Дождитесь закипания, накройте посуду крышкой и томите на небольшом огне 60 минут.",
+      "Добавьте соль и сахар, затем измельчённый чеснок.",
+      "Влейте яблочный уксус, снова накройте крышкой и томите ещё около часа.",
+      "Подавайте горячим с гарниром."
+    ],
+    "ingredients": [
+      {
+        "name": "Говядина",
+        "qtyBase": 450,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 2,
+        "unit": "головки",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 50,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "щепотка",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "щепотка"
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 200,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Яблочный уксус",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Сахар",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Говядина, тушенная по-кремлёвски в сковороде",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/govyadina-po-ministerski-v-skovorode-191250",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_beef_long_stew_140361",
+    "name": "Нежная тушёная говядина",
+    "baseServings": 10,
+    "time": 150,
+    "steps": [
+      "Нарежьте говядину порционными кусками, лук очистите и нарежьте.",
+      "Выложите мясо в посуду для тушения, добавьте лук и сливочное масло.",
+      "Влейте воду и начните тушить на слабом огне.",
+      "Добавьте чеснок, соль, сахар, уксус, душистый и чёрный перец горошком, а также лавровый лист.",
+      "Продолжайте тушение на небольшом огне до очень мягкой текстуры говядины.",
+      "Подавайте с картофельным пюре, рисом или пшеничной кашей."
+    ],
+    "ingredients": [
+      {
+        "name": "Говядина",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 100,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Сахар",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Уксус",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Душистый перец горошком",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Черный перец горошком",
+        "qtyBase": 8,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Лавровый лист",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Нежная тушеная говядина",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/nezhnaya-tushenaya-govyadina-140361",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_beef_stew_40151",
+    "name": "Тушёная говядина с морковью и перцем",
+    "baseServings": 4,
+    "time": 105,
+    "steps": [
+      "Очистите говядину от плёнок и жил, затем нарежьте кусочками.",
+      "Разогрейте растительное масло в глубокой посуде и обжарьте мясо со всех сторон.",
+      "Нарежьте лук и морковь, добавьте к мясу и обжарьте до мягкости овощей.",
+      "Приправьте душистым перцем, паприкой, чили, солью и чёрным перцем.",
+      "Влейте воду, добавьте лавровый лист, накройте крышкой и тушите на слабом огне до мягкости мяса.",
+      "Периодически проверяйте уровень жидкости и при необходимости добавляйте немного воды."
+    ],
+    "ingredients": [
+      {
+        "name": "Говядина",
+        "qtyBase": 600,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Душистый перец горошком",
+        "qtyBase": 5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Лавровый лист",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Паприка",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Молотый перец чили",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 30,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Тушеная говядина",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/tushenaya-govyadina-40151",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_turkey_sourcream_cutlets_93502",
+    "name": "Котлеты из индейки со сметаной",
+    "baseServings": 4,
+    "time": 20,
+    "steps": [
+      "Соедините фарш из индейки с мелко нарезанным луком, сметаной и мякишем батона без корки.",
+      "Приправьте смесь солью и чёрным перцем, затем измельчите и перемешайте до однородности.",
+      "Сформуйте из фарша котлеты. При желании обваляйте их в муке или панировочных сухарях.",
+      "Разогрейте растительное масло на сковороде.",
+      "Обжарьте котлеты на сильном огне до образования корочки, затем уменьшите нагрев до среднего и доведите до готовности.",
+      "Переложите готовые котлеты на бумажное полотенце, чтобы убрать лишнее масло."
+    ],
+    "ingredients": [
+      {
+        "name": "Фарш из индейки",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Батон",
+        "qtyBase": 1,
+        "unit": "кусок",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Сметана 20%",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для жарки",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для жарки"
+      },
+      {
+        "name": "Мука или панировочные сухари",
+        "qtyBase": 0,
+        "unit": "по желанию",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false,
+        "qtyLabel": "по желанию"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Котлеты из индейки и сметаны",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kotlety-iz-indeyki-i-smetany-93502",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_meat_cutlets_31020",
+    "name": "Мясные котлеты",
+    "baseServings": 4,
+    "time": 30,
+    "steps": [
+      "Смешайте свино-говяжий фарш с мелко нарезанным репчатым луком и зеленью.",
+      "Добавьте яйцо, соль и чёрный перец.",
+      "Размочите серый хлеб без корки и добавьте мякиш к фаршу.",
+      "Тщательно вымесите массу, чтобы ингредиенты равномерно распределились.",
+      "Сформуйте котлеты одинакового размера.",
+      "Разогрейте растительное масло на сковороде и обжарьте котлеты до готовности.",
+      "Подавайте с овощами."
+    ],
+    "ingredients": [
+      {
+        "name": "Фарш свино-говяжий",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Куриное яйцо",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Белый хлебный мякиш",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Зелень",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для жарки",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для жарки"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Котлеты мясные",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kotleti-mjasnie-31020",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_vegetable_casserole_139945",
+    "name": "Овощная запеканка с брокколи и цветной капустой",
+    "baseServings": null,
+    "time": 30,
+    "steps": [
+      "Разберите брокколи и цветную капусту на соцветия.",
+      "Вскипятите воду, посолите и опустите капусту на 1–2 минуты. Затем переложите овощи в холодную воду и откиньте на сито, чтобы стекла лишняя жидкость.",
+      "Натрите твёрдый сыр на мелкой тёрке.",
+      "Взбейте яйца со сливками, добавьте сыр, соль и чёрный перец.",
+      "Смажьте форму для запекания сливочным маслом и выложите в неё капусту.",
+      "Нарежьте красный лук тонкой соломкой, распределите поверх капусты и залейте яично-сливочной смесью.",
+      "Разрежьте помидоры черри пополам и разложите сверху срезом вверх.",
+      "Запекайте 25–30 минут в духовке, разогретой до 200 °C."
+    ],
+    "ingredients": [
+      {
+        "name": "Капуста брокколи",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Цветная капуста",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Красный лук",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Куриное яйцо",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Твердый сыр",
+        "qtyBase": 60,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Сливки",
+        "qtyBase": 300,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 15,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Помидоры черри",
+        "qtyBase": 8,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Овощная запеканка",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/ovoschnaya-zapekanka-139945",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_meatballs_17243",
+    "name": "Мясные тефтели",
+    "baseServings": 4,
+    "time": 30,
+    "steps": [
+      "Положите панировочные сухари в миску и залейте молоком. Оставьте, чтобы они размокли.",
+      "Мелко нарежьте репчатый лук.",
+      "Соедините фарш с размоченными сухарями, луком и яйцом.",
+      "Добавьте соль и чёрный перец, тщательно перемешайте фарш.",
+      "Сформуйте небольшие тефтели.",
+      "Разогрейте растительное масло на сковороде и обжарьте тефтели до готовности."
+    ],
+    "ingredients": [
+      {
+        "name": "Фарш",
+        "qtyBase": 600,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Молоко",
+        "qtyBase": 250,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Панировочные сухари",
+        "qtyBase": 0.5,
+        "unit": "стакана",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для жарки",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для жарки"
+      },
+      {
+        "name": "Куриное яйцо",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Мясные тефтели",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/mjasnie-tefteli-17243",
+      "relation": "direct",
+      "verified": true
+    }
   }
 ];
