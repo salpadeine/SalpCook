@@ -8416,5 +8416,1059 @@ window.SALPCOOK_RECIPES = [
       "relation": "direct",
       "verified": true
     }
+  },
+  {
+    "id": "eda_pork_foil_potato_190901",
+    "name": "Свинина с картошкой в фольге",
+    "baseServings": 4,
+    "time": 105,
+    "steps": [
+      "Нарежьте свиную лопатку кусочками среднего размера.",
+      "Очистите картофель и нарежьте его крупными кусочками.",
+      "Смешайте майонез с измельчённым чесноком.",
+      "Разложите картофель на листе фольги, сверху распределите кусочки свинины.",
+      "Посолите, поперчите и посыпьте хмели-сунели.",
+      "Накройте мясо фольгой и тщательно скрепите края, не оставляя отверстий.",
+      "Запекайте около 1,5 часа при температуре 200 °C.",
+      "Снимите верхний слой фольги и подрумянивайте мясо с картофелем ещё 10–15 минут.",
+      "Подавайте горячим."
+    ],
+    "ingredients": [
+      {
+        "name": "Свиная лопатка",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Майонез",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Хмели-сунели",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Свинина с картошкой в фольге",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/svinina-s-kartoshkoy-v-folge-190901",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_potato_mushroom_meat_casserole_27992",
+    "name": "Картофельная запеканка с грибами, фаршем и сыром",
+    "baseServings": 6,
+    "time": 70,
+    "steps": [
+      "Приправьте мясной фарш солью и перцем, добавьте мелко нарезанный чеснок и немного измельчённого лука.",
+      "Очистите картофель и нарежьте его ломтиками.",
+      "Нарежьте шампиньоны и оставшийся лук.",
+      "Подготовьте форму для запекания и выложите слоями картофель, фарш и грибы с луком.",
+      "Добавьте майонез и распределите его по поверхности блюда.",
+      "Посыпьте запеканку тёртым твёрдым сыром.",
+      "Запекайте до готовности картофеля и фарша, пока сверху не образуется сырная корочка."
+    ],
+    "ingredients": [
+      {
+        "name": "Картофель",
+        "qtyBase": 10,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Мясной фарш",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 2,
+        "unit": "головки",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Твердый сыр",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Свежий перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Свежие шампиньоны",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Майонез",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Картофельная запеканка с грибами и сыром",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kartofelnaya-zapekanka-s-gribami-i-syrom-27992",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_beef_goulash_multicooker_80894",
+    "name": "Гуляш из говядины в мультиварке",
+    "baseServings": 4,
+    "time": 75,
+    "steps": [
+      "Промойте говядину и нарежьте мясо кубиками размером примерно 1,5–2 см.",
+      "Нарежьте репчатый лук кубиками такого же размера, чеснок измельчите ножом.",
+      "Переложите говядину, лук и чеснок в чашу мультиварки.",
+      "Добавьте томатную пасту, растительное масло, воду, соль и специи. Тщательно перемешайте.",
+      "Закройте крышку мультиварки и установите паровой клапан в положение «0».",
+      "Выберите программу «Тушение/Холодец», тип продукта «Мясо» и время приготовления 1 час.",
+      "Запустите программу и готовьте до её завершения."
+    ],
+    "ingredients": [
+      {
+        "name": "Говядина",
+        "qtyBase": 700,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Томатная паста",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 70,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 20,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 200,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 1,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Специи",
+        "qtyBase": 1,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Гуляш из говядины в мультиварке",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/gulyash-iz-govyadiny-v-multivarke-80894",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_potato_meat_casserole_34221",
+    "name": "Картофельная запеканка с мясным фаршем",
+    "baseServings": 8,
+    "time": 60,
+    "steps": [
+      "Очистите картофель и нарежьте его тонкими ломтиками.",
+      "Подготовьте мясной фарш и смешайте его с яйцом.",
+      "Натрите пармезан и подготовьте красный лук и чеснок.",
+      "Смажьте форму растительным маслом и выложите слой картофеля.",
+      "Распределите поверх картофеля мясной фарш, затем добавьте оставшийся картофель.",
+      "Смешайте сливки со сливочным маслом и подготовленными ингредиентами для заливки.",
+      "Залейте запеканку сливочной смесью и посыпьте тёртым пармезаном.",
+      "Запекайте до полной готовности картофеля и мяса."
+    ],
+    "ingredients": [
+      {
+        "name": "Картофель",
+        "qtyBase": 800,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Мясной фарш",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Куриное яйцо",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Тертый сыр пармезан",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Красный лук",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 3,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Сливки 20%",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Картофельная запеканка с мясным фаршем",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kartofelnaja-zapekanka-s-mjasnim-farshem-34221",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_veg_oven_151620",
+    "name": "Овощи, запечённые в духовке",
+    "baseServings": 4,
+    "time": 40,
+    "steps": [
+      "Подготовьте брокколи, картофель, цукини, лук и сладкий перец.",
+      "Нарежьте овощи кусочками, подходящими для запекания.",
+      "Разложите овощи в форме для духовки.",
+      "Полейте овощи лимонным соком и добавьте чеснок.",
+      "Запекайте до мягкости и лёгкого подрумянивания овощей."
+    ],
+    "ingredients": [
+      {
+        "name": "Брокколи",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Цукини",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Лук",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Сладкий перец",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Лимонный сок",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Овощи в духовке",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/ovoschi-v-duhovke-151620",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_potato_casserole_51639",
+    "name": "Картофельная запеканка с молочным соусом",
+    "baseServings": 4,
+    "time": 50,
+    "steps": [
+      "Очистите картофель и нарежьте его кружочками толщиной около 0,5 см или тоньше.",
+      "Растопите сливочное масло в сотейнике.",
+      "Постепенно добавьте муку и тщательно перемешайте, чтобы не образовались комочки.",
+      "Понемногу влейте молоко, продолжая перемешивать. Добавьте мускатный орех, соль и чёрный перец.",
+      "Положите картофель в соус и тушите под крышкой, пока соус не загустеет.",
+      "Переложите картофель с соусом в форму для запекания.",
+      "Поставьте форму в духовку, разогретую до 180 °C, на 20 минут.",
+      "Посыпьте картофель сыром и запекайте ещё около 10 минут до румяной корочки."
+    ],
+    "ingredients": [
+      {
+        "name": "Картофель",
+        "qtyBase": 4,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Молоко",
+        "qtyBase": 600,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Пшеничная мука",
+        "qtyBase": 40,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 40,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Мускатный орех",
+        "qtyBase": 0.5,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Сыр",
+        "qtyBase": 70,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Запеканка с картофелем",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/zapekanka-s-kartofelem-51639",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_turkey_potato_casserole_40833",
+    "name": "Картофельная запеканка с индейкой",
+    "baseServings": 6,
+    "time": 45,
+    "steps": [
+      "Очистите картофель и отварите до мягкости.",
+      "Разомните картофель в пюре; при желании добавьте молоко и сливочное масло.",
+      "Параллельно обжарьте фарш из индейки с нарезанным луком до готовности.",
+      "Посолите фарш и добавьте приправу для курицы.",
+      "Выложите картофельное пюре на противень первым слоем, сверху распределите фарш.",
+      "Посыпьте тёртым твёрдым сыром и накройте форму фольгой.",
+      "Запекайте около 20 минут в духовке, разогретой до 200 °C."
+    ],
+    "ingredients": [
+      {
+        "name": "Фарш из индейки",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 800,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Твердый сыр",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Приправа для курицы",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Молоко",
+        "qtyBase": 0,
+        "unit": "по желанию для пюре",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false,
+        "qtyLabel": "по желанию для пюре"
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 0,
+        "unit": "по желанию для пюре",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false,
+        "qtyLabel": "по желанию для пюре"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Картофельная запеканка с индейкой",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kartofelnaja-zapekanka-s-indejkoj-40833",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_potato_casserole_125440",
+    "name": "Запеканка из курицы, сыра и картофеля",
+    "baseServings": 8,
+    "time": 90,
+    "steps": [
+      "Разогрейте духовку. Промойте куриное филе, обсушите и нарежьте небольшими кусочками.",
+      "Очистите картофель и нарежьте его тонкими ломтиками.",
+      "Нарежьте репчатый лук.",
+      "Смешайте майонез со сметаной, солью, чёрным перцем и приправой для курицы.",
+      "Выложите в форму картофель, куриное филе и лук, распределяя соус между слоями.",
+      "Посыпьте запеканку тёртым твёрдым сыром.",
+      "Запекайте до готовности курицы и картофеля."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриное филе",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Твердый сыр",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Майонез",
+        "qtyBase": 50,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Сметана",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Приправа для курицы",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Запеканка из курицы, сыра и картофеля",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/zapekanka-iz-kuricy-syra-i-kartofelya-125440",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_classic_goulash_189091",
+    "name": "Классический гуляш из говядины",
+    "baseServings": 5,
+    "time": 60,
+    "steps": [
+      "Нарежьте говядину тонкими полосками.",
+      "Хорошо разогрейте растительное масло в сковороде.",
+      "Нарежьте репчатый лук полукольцами.",
+      "Обжарьте говядину до золотистого цвета.",
+      "Добавьте лук, уменьшите огонь и тушите около 20 минут, пока сок не выпарится.",
+      "Посолите и поперчите гуляш.",
+      "Влейте воду, накройте сковороду крышкой и тушите мясо до готовности.",
+      "За 5 минут до окончания приготовления добавьте измельчённый чеснок.",
+      "Всыпьте муку и тщательно перемешайте, чтобы соус загустел.",
+      "Подавайте горячим с гарниром."
+    ],
+    "ingredients": [
+      {
+        "name": "Говядина",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Пшеничная мука",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 100,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый перец чили",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для жарки",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для жарки"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Классический гуляш",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/klassicheskiy-gulyash-189091",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_teriyaki_veg_42066",
+    "name": "Курица терияки с овощами",
+    "baseServings": 3,
+    "time": 120,
+    "steps": [
+      "Нарежьте куриное филе и подготовьте лук-порей, спаржу, морковь и цукини.",
+      "Смешайте соевый соус с белым сухим вином, коричневым сахаром и молотым имбирём.",
+      "Поместите курицу в маринад и оставьте пропитаться соусом.",
+      "Обжарьте курицу на оливковом масле.",
+      "Добавьте подготовленные овощи и продолжайте готовить до их мягкости.",
+      "При необходимости загустите соус кукурузным крахмалом, разведённым в воде.",
+      "Перед подачей посыпьте кунжутом."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриное филе",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Соевый соус",
+        "qtyBase": 100,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Лук-порей",
+        "qtyBase": 0.5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 100,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Молотый имбирь",
+        "qtyBase": 0.5,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Кунжут",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Белое сухое вино",
+        "qtyBase": 100,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Напитки",
+        "staple": false
+      },
+      {
+        "name": "Коричневый сахар",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Спаржа",
+        "qtyBase": 5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Цукини",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Кукурузный крахмал",
+        "qtyBase": 3,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Ржаная мука",
+        "qtyBase": 1,
+        "unit": "стакан",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 1,
+        "unit": "стакан",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Курица терияки с овощами",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kurica-terijaki-s-ovoshhami-42066",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_rice_minced_meat_188738",
+    "name": "Рис с фаршем",
+    "baseServings": 3,
+    "time": 25,
+    "steps": [
+      "Промойте рис и отварите его в воде до готовности.",
+      "Растопите сливочное масло на сковороде.",
+      "Добавьте измельчённый чеснок и розмарин, прогрейте, чтобы масло пропиталось ароматом.",
+      "Подготовьте мясной фарш и обжарьте его до готовности.",
+      "Соедините готовый рис с фаршем и перемешайте.",
+      "Приправьте морской солью и подавайте горячим."
+    ],
+    "ingredients": [
+      {
+        "name": "Рис",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 400,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Морская соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 15,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 1,
+        "unit": "зубчик",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Розмарин",
+        "qtyBase": 0.5,
+        "unit": "веточки",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Мясной фарш",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Рис с фаршем",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/ris-s-farshem-188738",
+      "relation": "direct",
+      "verified": true
+    }
   }
 ];
