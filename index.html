@@ -268,7 +268,7 @@
 <script src="ingredients.js"></script>
 <script>
 const DAYS = ["Первый день", "Второй день", "Третий день", "Четвёртый день", "Пятый день", "Шестой день", "Седьмой день"];
-const RECIPES = window.SALPCOOK_RECIPES || [];
+const RECIPES = (window.SALPCOOK_RECIPES || []).filter(recipe => recipe.source && recipe.source.verified === true);
 
 let currentPlan = [];
 let pantryOwned = new Set();
@@ -462,9 +462,25 @@ function clearPantry(){
 }
 
 function scaleIngredient(ing, people, baseServings) {
-  const factor = people / baseServings;
+  const factor = Number.isFinite(baseServings) && baseServings > 0 ? people / baseServings : 1;
   const qty = Math.ceil(ing.qtyBase * factor * 10) / 10;
   return { ...ing, qty, cost: calculateCost(ing, qty) };
+}
+function ingredientQuantityText(ing, qty) {
+  if (ing.qtyLabel) return ing.qtyLabel;
+  if (["по вкусу", "по желанию", "для подачи", "для формы"].includes(ing.unit)) return ing.unit;
+  const integerUnits = ["шт", "головка", "пучок", "зубчика", "веточки"].includes(ing.unit);
+  const value = integerUnits ? Math.ceil(qty) : Number(qty.toFixed(1)).toLocaleString("ru-RU");
+  return value + " " + ing.unit;
+}
+function recipeServingsLabel(recipe, people) {
+  return Number.isFinite(recipe.baseServings) && recipe.baseServings > 0
+    ? "На " + people + " чел."
+    : "Количество по рецепту источника (число порций не указано)";
+}
+function recipeTimeLabel(recipe) {
+  if (recipe.timeLabel) return recipe.timeLabel;
+  return Number.isFinite(recipe.time) && recipe.time > 0 ? recipe.time + " минут" : "Время не указано";
 }
 function calculateCost(ing, qty) {
   if (ing.staple && ing.pricePerUnit === 0) return 0;
@@ -514,7 +530,7 @@ function renderPlan() {
     card.innerHTML = `
       <h3>${item.day}</h3>
       <div class="meal-name">${item.recipe.name}</div>
-      <div class="meal-cost">${item.recipe.time} минут · ${pantryMatchCount(item.recipe)} продукта из запасов</div>
+      <div class="meal-cost">${recipeTimeLabel(item.recipe)} · ${pantryMatchCount(item.recipe)} продукта из запасов</div>
       <button class="swap-btn secondary" onclick="event.stopPropagation(); swapMeal(${idx})">Заменить</button>
     `;
     card.addEventListener("click", () => showRecipeModal(item));
@@ -527,11 +543,11 @@ function showRecipeModal(item) {
   activeModalRecipeId = item.recipe.id;
   const people = parseInt(document.getElementById("people").value) || 2;
   document.getElementById("modalTitle").textContent = item.recipe.name;
-  let html = `<p style="color:var(--muted); margin-bottom:10px;">На ${people} чел. · ${item.recipe.time} мин</p>`;
+  let html = `<p style="color:var(--muted); margin-bottom:10px;">${recipeServingsLabel(item.recipe, people)} · ${recipeTimeLabel(item.recipe)}</p>`;
   html += recipeSourceHtml(item.recipe);
   html += "<strong>Состав:</strong><ul>";
   item.scaledIngredients.forEach(ing => {
-    const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.qty) + " " + ing.unit : Math.round(ing.qty) + " " + ing.unit;
+    const qtyText = ingredientQuantityText(ing, ing.qty);
     const owned = hasPantryItem(ing.name);
     html += `<li><span class="${owned ? "ingredient-owned" : ""}">${escapeHtml(ingredientDisplayName(ing.name))}</span> — ${escapeHtml(qtyText)}</li>`;
   });
@@ -603,7 +619,7 @@ function renderGrocery() {
 
     byAisle[aisle].forEach(ing => {
       const isOwned = hasPantryItem(ing.name);
-      const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.totalQty) + " " + ing.unit : Math.round(ing.totalQty) + " " + ing.unit;
+      const qtyText = ingredientQuantityText(ing, ing.totalQty);
       const forText = Array.from(ing.forDishes).join(", ");
       const div = document.createElement("div");
       div.className = "grocery-item" + (isOwned ? " owned" : "");
@@ -642,7 +658,7 @@ function renderStage2() {
   currentPlan.forEach(item => {
     const div = document.createElement("div");
     div.className = "recipe-full";
-    let html = `<h4>${item.day}: ${item.recipe.name}</h4><p style="color:var(--muted); margin-bottom:8px;">На ${people} чел. · ~${item.recipe.time} мин</p>`;
+    let html = `<h4>${item.day}: ${item.recipe.name}</h4><p style="color:var(--muted); margin-bottom:8px;">${recipeServingsLabel(item.recipe, people)} · ${recipeTimeLabel(item.recipe)}</p>`;
     html += recipeSourceHtml(item.recipe);
     html += "<strong>Ингредиенты:</strong><ul>";
     item.scaledIngredients.forEach(ing => {
@@ -672,7 +688,7 @@ function exportProducts() {
   });
   Object.values(items).forEach(ing => {
     if (isShoppingExcluded(ing.name) || hasPantryItem(ing.name)) return;
-    const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.totalQty) + " " + ing.unit : Math.round(ing.totalQty) + " " + ing.unit;
+    const qtyText = ingredientQuantityText(ing, ing.totalQty);
     text += `- ${ing.name}: ${qtyText} (для: ${Array.from(ing.forDishes).join(", ")})\n`;
   });
   downloadText(text, "salpcook-products.txt");
@@ -682,7 +698,7 @@ function exportRecipes() {
   let text = "Рецепты SalpCook\n\n";
   const people = parseInt(document.getElementById("people").value) || 2;
   currentPlan.forEach(item => {
-    text += `=== ${item.day}: ${item.recipe.name} ===\nНа ${people} чел.\n\nИнгредиенты:\n`;
+    text += `=== ${item.day}: ${item.recipe.name} ===\n${recipeServingsLabel(item.recipe, people)}\n${recipeTimeLabel(item.recipe)}\n\nИнгредиенты:\n`;
     item.scaledIngredients.forEach(ing => {
       const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.qty) + " " + ing.unit : Math.round(ing.qty) + " " + ing.unit;
       text += `- ${ing.name}: ${qtyText}\n`;
