@@ -142,20 +142,27 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
+    overflow: hidden;
+    overscroll-behavior: contain;
+    touch-action: pan-y;
   }
+  body.modal-open { position: fixed; width: 100%; overflow: hidden; }
   .modal-content {
     background: var(--card);
     border-radius: 16px;
     padding: 24px;
     max-width: 560px;
     width: 100%;
-    max-height: 80vh;
+    max-height: min(80vh, calc(100dvh - 40px));
     overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
     border: 1px solid var(--border);
   }
   .stage2-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px; }
   .stage2-actions button { width: auto; flex: 1; min-width: 180px; }
-  .recipe-source { margin: 8px 0 14px; padding: 10px 12px; border-left: 2px solid var(--border); color:var(--muted); font-size:.88rem; overflow-wrap:anywhere; }
+  .recipe-source { margin: 8px 0 14px; font-size:.88rem; overflow-wrap:anywhere; }
   .recipe-source a { color:var(--accent2); text-decoration:underline; }
   .shopping-note { color:var(--muted); font-size:.88rem; margin:-8px 0 18px; }
   .ingredient-owned { color: var(--success); font-weight: 650; }
@@ -266,6 +273,7 @@ const RECIPES = window.SALPCOOK_RECIPES || [];
 let currentPlan = [];
 let pantryOwned = new Set();
 let activeModalRecipeId = null;
+let modalScrollY = 0;
 let highlightedPantrySuggestion = -1;
 const STORAGE_KEYS = { pantry: "salpcook_pantry", plan: "salpcook_plan" };
 
@@ -394,14 +402,9 @@ function recipeSourceHtml(recipe) {
   const source = recipe && recipe.source;
   if (source && typeof source.url === "string" && /^https:\/\//i.test(source.url)) {
     const label = [source.publisher, source.title].filter(Boolean).join(" — ");
-    const relationLabel = source.relation === "direct"
-      ? "Опубликованный рецепт:"
-      : source.relation === "technique"
-        ? "Технологическая основа:"
-        : "Источник для адаптации:";
-    return `<p class="recipe-source"><strong>${relationLabel}</strong> <a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label || "Открыть источник")}</a><br><span>${escapeHtml(source.note || "Рецепт адаптирован для SalpCook.")}</span></p>`;
+    return `<p class="recipe-source"><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label || "Источник рецепта")}</a></p>`;
   }
-  return '<p class="recipe-source"><strong>Источник:</strong> ссылка не указана. Такой рецепт не должен считаться проверенным и требует отдельной проверки.</p>';
+  return '<p class="recipe-source">Источник не указан</p>';
 }
 function persistPantry() { try { localStorage.setItem(STORAGE_KEYS.pantry,JSON.stringify([...pantryOwned])); } catch(e) {} }
 function renderPantry() {
@@ -534,9 +537,18 @@ function showRecipeModal(item) {
   });
   html += "</ul>";
   document.getElementById("modalBody").innerHTML = html;
+  modalScrollY = window.scrollY || window.pageYOffset || 0;
+  document.body.style.top = `-${modalScrollY}px`;
+  document.body.classList.add("modal-open");
   document.getElementById("modal").style.display = "flex";
 }
-function closeModal(){document.getElementById("modal").style.display="none";activeModalRecipeId=null;}
+function closeModal(){
+  document.getElementById("modal").style.display="none";
+  document.body.classList.remove("modal-open");
+  document.body.style.top = "";
+  window.scrollTo(0, modalScrollY);
+  activeModalRecipeId=null;
+}
 function refreshRecipeMarkers(){
  const modal=document.getElementById("modal");
  if(modal.style.display==="flex"&&activeModalRecipeId){const item=currentPlan.find(x=>x.recipe.id===activeModalRecipeId);if(item)showRecipeModal(item);else closeModal();}
@@ -678,7 +690,7 @@ function exportRecipes() {
     text += `\nПриготовление:\n`;
     (item.recipe.steps || []).forEach((step, i) => text += `${i+1}. ${step}\n`);
     if (item.recipe.source && item.recipe.source.url) {
-      text += `\nОснова рецепта: ${item.recipe.source.publisher || ""} — ${item.recipe.source.title || ""}\n${item.recipe.source.url}\nПримечание: ${item.recipe.source.note || "Адаптировано для SalpCook."}`;
+      text += `\nИсточник: ${item.recipe.source.url}`;
     } else {
       text += "\nИсточник: внешняя ссылка не указана; редакционная версия SalpCook.";
     }
