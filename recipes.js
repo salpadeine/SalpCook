@@ -13681,5 +13681,463 @@ window.SALPCOOK_RECIPES = [
       "relation": "direct",
       "verified": true
     }
+  },
+  {
+    "id": "chefmarket_verified_038",
+    "name": "Куриная грудка с брокколи и бататом",
+    "baseServings": 2,
+    "time": 35,
+    "steps": [
+      "Куриные грудки натрите солью и перцем. Два зубчика чеснока пропустите через пресс и распределите по мясу.",
+      "Батат очистите и нарежьте кубиками среднего размера. Брокколи разделите на соцветия, оставшийся чеснок мелко порубите.",
+      "Разогрейте широкую сковороду диаметром 24–26 см с 2–3 столовыми ложками подсолнечного масла.",
+      "Выложите батат, куриные грудки и брокколи. Распределите по продуктам чеснок, розмарин и паприку, посолите и поперчите.",
+      "Накройте крышкой и готовьте на умеренном огне 25–30 минут, один раз перевернув курицу и овощи. Проверьте готовность курицы: температура в самой толстой части должна достичь 75 °C."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриные грудки без кожи",
+        "qtyBase": 2,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Батат крупный",
+        "qtyBase": 1,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Розмарин свежий",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Паприка",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Брокколи",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 4,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Подсолнечное масло",
+        "qtyBase": 3,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Грудка с брокколи и бататом",
+      "url": "https://www.chefmarket.ru/blog/kurinaja-grudka-s-ovoshhami-na-skovorode-recepty-prigotovlenija/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_039",
+    "name": "Куриная грудка с шампиньонами, беби-морковью и черри",
+    "baseServings": 4,
+    "time": 40,
+    "steps": [
+      "Разрежьте куриные грудки пополам и слегка отбейте до толщины около 2,5 см.",
+      "Смешайте муку с солью и перцем. Обваляйте в смеси каждую грудку.",
+      "Лук тонко нашинкуйте, беби-морковь оставьте целой или разрежьте вдоль пополам, шампиньоны нарежьте пластинками.",
+      "Разогрейте в большой сковороде оливковое масло. Обжарьте курицу примерно по 3 минуты с каждой стороны до лёгкой корочки, затем переложите на тарелку.",
+      "В той же сковороде обжарьте лук, морковь и грибы 4–5 минут.",
+      "Верните курицу, влейте овощной бульон почти до уровня мяса. Доведите до кипения и тушите на слабом огне 15–20 минут, пока жидкость не уменьшится и не загустеет.",
+      "Добавьте помидоры черри и готовьте, пока они не станут мягкими.",
+      "Подавайте, посыпав рубленой свежей петрушкой."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриная грудка без кожи",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Шампиньоны",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Беби-морковь",
+        "qtyBase": 60,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры черри",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Мука",
+        "qtyBase": 30,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Овощной бульон",
+        "qtyBase": 250,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 0,
+        "unit": "для жарки",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для жарки"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Петрушка свежая",
+        "qtyBase": 0,
+        "unit": "для подачи",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "для подачи"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Куриная грудка с овощами",
+      "url": "https://www.chefmarket.ru/blog/kurinaja-grudka-s-ovoshhami-na-skovorode-recepty-prigotovlenija/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_040",
+    "name": "Запечённая треска с овощами",
+    "baseServings": 2,
+    "time": 40,
+    "steps": [
+      "Нарежьте морковь, болгарский перец, кабачок и красный лук средними кусочками. Чеснок измельчите.",
+      "Промойте филе трески и обсушите. Сбрызните лимонным соком, натрите солью, перцем и сушёными травами.",
+      "На дно формы выложите овощи, сверху разместите подготовленное филе. Полейте овощи и рыбу оливковым маслом.",
+      "Запекайте при 180 °C 20–25 минут, пока рыба не станет нежной, а овощи не приготовятся.",
+      "Подавайте горячей, украсив свежей зеленью или дольками лимона."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе трески",
+        "qtyBase": 2,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Морковь крупная",
+        "qtyBase": 1,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Болгарский перец",
+        "qtyBase": 1,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Кабачок небольшой",
+        "qtyBase": 1,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Красный лук",
+        "qtyBase": 1,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 0,
+        "unit": "для поливания",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для поливания"
+      },
+      {
+        "name": "Лимон",
+        "qtyBase": 0.5,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Сушёные травы (укроп, петрушка, тимьян)",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Запеченная треска с овощами",
+      "url": "https://www.chefmarket.ru/blog/zapechennaja-treska-s-ovoshhami/",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_041",
+    "name": "Запечённый лосось с розовым перцем и беби-картофелем",
+    "baseServings": 6,
+    "time": 40,
+    "steps": [
+      "Разогрейте духовку до 200 °C. Чеснок мелко нарежьте, кинзу порубите вместе со стеблями.",
+      "Смешайте две трети чеснока, сок половины лимона, оливковое масло, кинзу, 50 мл воды и коричневый сахар. Посолите по вкусу.",
+      "Разрежьте филе лосося поперёк на две части. Выложите на противень с пергаментом, посолите, полейте маринадом и оставьте на 15–30 минут.",
+      "Заверните филе в фольгу и запекайте 15 минут. Достаньте, посыпьте розовым перцем и готовьте ещё 10 минут.",
+      "Промойте беби-картофель и отварите 15 минут. Слейте воду.",
+      "Укроп измельчите вместе со стеблями. Оставшуюся половину лимона нарежьте дольками.",
+      "Разогрейте сковороду, растопите сливочное масло и обжаривайте картофель около 3 минут, периодически помешивая.",
+      "Добавьте оставшийся чеснок, немного соли и готовьте ещё 2 минуты. Вмешайте укроп и снимите с огня.",
+      "Подавайте лосось с картофелем, полив картофель соком, оставшимся после запекания рыбы, и украсив лимонными дольками."
+    ],
+    "ingredients": [
+      {
+        "name": "Лосось цельным филе на коже",
+        "qtyBase": 1500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 30,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Беби-картофель",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Розовый перец горошком",
+        "qtyBase": 4,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 5,
+        "unit": "зубчиков",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Горчица зернистая",
+        "qtyBase": 60,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Лимон",
+        "qtyBase": 1,
+        "unit": "шт.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сахар тростниковый",
+        "qtyBase": 20,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Кинза",
+        "qtyBase": 30,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Укроп",
+        "qtyBase": 20,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 10,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 50,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Нежный запечённый лосось с розовым перцем и беби-картофелем",
+      "url": "https://www.chefmarket.ru/blog/zapechennyj-losos-recept/",
+      "relation": "direct",
+      "verified": true
+    }
   }
 ];
