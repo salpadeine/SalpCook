@@ -7537,5 +7537,884 @@ window.SALPCOOK_RECIPES = [
       "relation": "direct",
       "verified": true
     }
+  },
+  {
+    "id": "eda_rice_meat_15964",
+    "name": "Рис с мясом и овощами",
+    "baseServings": 6,
+    "time": 45,
+    "steps": [
+      "Нарежьте репчатый лук тонкими полукольцами. Очистите сладкий перец от семян и нарежьте полосками.",
+      "Снимите кожицу с помидоров и мелко нарежьте мякоть.",
+      "Разогрейте оливковое масло в кастрюле. Добавьте лук и перец, готовьте на слабом огне около 5 минут, периодически помешивая, пока овощи не станут мягкими.",
+      "Добавьте помидоры и мясной фарш. Готовьте ещё около 5 минут, разминая фарш лопаткой, пока мясо не перестанет быть красным.",
+      "Добавьте паприку, соль и чёрный перец, хорошо перемешайте.",
+      "Вмешайте рис и обжаривайте ещё 2 минуты.",
+      "Влейте горячий мясной бульон, накройте кастрюлю крышкой и готовьте около 15 минут, пока рис не станет мягким и не впитает жидкость.",
+      "Подавайте сразу после приготовления."
+    ],
+    "ingredients": [
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 4,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Зеленый перец",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Мясной фарш",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Длиннозерный рис",
+        "qtyBase": 250,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Мясной бульон",
+        "qtyBase": 500,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Паприка",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Рис с мясом",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/ris-s-mjasom-15964",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_pilaf_126440",
+    "name": "Плов с курицей",
+    "baseServings": 8,
+    "time": 100,
+    "steps": [
+      "Подготовьте курицу, рис и овощи. Нарежьте курицу порционными кусками, лук измельчите, морковь нарежьте соломкой.",
+      "Разогрейте растительное масло в казане или толстостенной кастрюле и обжарьте курицу до румяной корочки.",
+      "Добавьте лук и морковь, обжаривайте овощи вместе с курицей.",
+      "Добавьте зиру и барбарис, посолите и перемешайте.",
+      "Выложите рис ровным слоем поверх мяса и овощей, добавьте чеснок.",
+      "Влейте горячую воду так, чтобы она покрывала рис, и готовьте под крышкой до впитывания жидкости и готовности риса.",
+      "Дайте плову настояться под крышкой перед подачей."
+    ],
+    "ingredients": [
+      {
+        "name": "Курица",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 600,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Рис басмати",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Кумин (зира)",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Барбарис",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 300,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Плов с курицей",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/plov-s-kuricey-126440",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_pilaf_pan_54078",
+    "name": "Плов с курицей на сковороде",
+    "baseServings": 4,
+    "time": 60,
+    "steps": [
+      "Нарежьте куриное филе небольшими кусочками.",
+      "Очистите репчатый лук и морковь. Лук нарежьте, морковь натрите или нарежьте соломкой.",
+      "Разогрейте растительное масло на сковороде и обжарьте курицу.",
+      "Добавьте лук и морковь, продолжайте обжаривать до мягкости овощей.",
+      "Промойте круглый рис и выложите его к курице с овощами.",
+      "Добавьте чеснок, соль и приправу для плова.",
+      "Влейте воду, накройте сковороду крышкой и готовьте на слабом огне до готовности риса и впитывания жидкости."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриное филе",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Круглый рис",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 6,
+        "unit": "зубчиков",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Приправа для плова",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Плов с курицей на сковороде",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/plov-s-kuricej-na-skovorode-54078",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_cottage_cutlets_44365",
+    "name": "Куриные котлеты с творогом",
+    "baseServings": 4,
+    "time": 20,
+    "steps": [
+      "Мелко нарежьте репчатый лук.",
+      "Соедините куриный фарш с творогом и нарезанным луком.",
+      "Добавьте яичные белки, соль, чёрный перец, мускатный орех и специи.",
+      "Тщательно перемешайте все ингредиенты до однородной массы.",
+      "Разогрейте сухую сковороду.",
+      "Сформуйте котлеты и обжарьте их с двух сторон до готовности."
+    ],
+    "ingredients": [
+      {
+        "name": "Творог 1%",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 0.5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Куриный фарш",
+        "qtyBase": 700,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Яичный белок",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый мускатный орех",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Специи",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Куриные котлеты с творогом",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kurinie-kotleti-s-tvorogom-44365",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_fish_provencal_22017",
+    "name": "Рыба с овощами по-провански",
+    "baseServings": 4,
+    "time": 30,
+    "steps": [
+      "Разогрейте духовку до 220 °C.",
+      "Смешайте оливковое масло, белое сухое вино, измельчённый чеснок, мелко нарезанные маслины, петрушку, дижонскую горчицу, морскую соль и свежемолотый чёрный перец.",
+      "Подготовьте два листа фольги. На каждый выложите половину стручковой фасоли с обрезанными кончиками и половину помидоров черри, разрезанных пополам.",
+      "Положите сверху по куску белой рыбы и полейте приготовленной заправкой.",
+      "Нарежьте красный лук тонкими кольцами и распределите поверх рыбы.",
+      "Плотно заверните фольгу и переложите конверты на противень.",
+      "Запекайте 16 минут.",
+      "Осторожно раскройте фольгу, переложите рыбу с овощами на тарелки и полейте соком, образовавшимся при запекании. При необходимости добавьте соль, перец и немного оливкового масла."
+    ],
+    "ingredients": [
+      {
+        "name": "Оливковое масло extra virgin",
+        "qtyBase": 3,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Белое сухое вино",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Напитки",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 1,
+        "unit": "зубчик",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Маслины без косточек",
+        "qtyBase": 6,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Рубленая петрушка",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морская соль",
+        "qtyBase": 0.5,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Дижонская горчица",
+        "qtyBase": 0.5,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Свежемолотый черный перец",
+        "qtyBase": 0.25,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Филе белой рыбы",
+        "qtyBase": 360,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Помидоры черри",
+        "qtyBase": 10,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Зеленая стручковая фасоль",
+        "qtyBase": 16,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Красный лук",
+        "qtyBase": 0.25,
+        "unit": "головки",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Рыба с овощами по-провански",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/riba-s-ovoschami-po-provanski-22017",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_fish_foil_veg_36078",
+    "name": "Рыба с овощами в фольге",
+    "baseServings": 6,
+    "time": 45,
+    "steps": [
+      "Посолите и поперчите филе белой рыбы, добавьте приправу для рыбы и лимонный сок.",
+      "Оставьте рыбу мариноваться на 35–40 минут.",
+      "Застелите форму для запекания фольгой и выложите подготовленное филе.",
+      "Нарежьте морковь кружочками, а репчатый лук полукольцами. Разложите овощи поверх рыбы.",
+      "Посыпьте зеленью, оставив часть для подачи.",
+      "Плотно закройте фольгу и поставьте форму в духовку, разогретую до 180 °C.",
+      "Запекайте 35–45 минут.",
+      "Готовую рыбу посыпьте оставшейся зеленью."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе белой рыбы",
+        "qtyBase": 6,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Зелень",
+        "qtyBase": 1,
+        "unit": "пучок",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лимон",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Приправа для рыбы",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Рыба с овощами в фольге",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/riba-s-ovoshhami-v-folge-36078",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_cutlets_oat_80016",
+    "name": "Куриные котлеты с овсяными хлопьями",
+    "baseServings": 8,
+    "time": 45,
+    "steps": [
+      "Смешайте яйцо с молоком, залейте этой смесью овсяные хлопья и оставьте на 30 минут для набухания.",
+      "Мелко нарежьте репчатый лук и измельчите чеснок.",
+      "Добавьте лук и чеснок к куриному фаршу, перемешайте.",
+      "Положите в фарш набухшие овсяные хлопья, посолите и поперчите.",
+      "Тщательно вымесите фарш.",
+      "Разогрейте растительное масло на сковороде и выкладывайте котлеты ложкой.",
+      "Обжарьте котлеты с обеих сторон на сильном огне, затем уменьшите нагрев, накройте крышкой и доведите до готовности."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриный фарш",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Куриное яйцо",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Овсяные хлопья",
+        "qtyBase": 0.5,
+        "unit": "стакана",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Молоко",
+        "qtyBase": 0.5,
+        "unit": "стакана",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 1,
+        "unit": "зубчик",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для жарки",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для жарки"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Куриные котлеты с овсяными хлопьями",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kurinye-kotlety-s-ovsyanymi-hlopyami-80016",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_cutlets_oven_175645",
+    "name": "Куриные котлеты в духовке",
+    "baseServings": 8,
+    "time": 60,
+    "steps": [
+      "Подготовьте филе куриных ножек и нарежьте его на кусочки.",
+      "Очистите репчатый лук и измельчите его вместе с куриным мясом.",
+      "Замочите хлеб в молоке, затем добавьте его к мясу и луку.",
+      "Добавьте яйцо, посолите и поперчите фарш, тщательно перемешайте.",
+      "Сформуйте котлеты и выложите их на противень, смазанный подсолнечным маслом.",
+      "Запекайте котлеты в духовке до полной готовности."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриные ножки филе",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Куриное яйцо",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Свежемолотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Подсолнечное масло",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Хлеб",
+        "qtyBase": 7,
+        "unit": "кусков",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Молоко",
+        "qtyBase": 100,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Куриные котлеты в духовке",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kurinye-kotlety-v-duhovke-175645",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_rastrepki_49698",
+    "name": "Куриные котлеты «Растрёпки»",
+    "baseServings": 12,
+    "time": 30,
+    "steps": [
+      "Нарежьте куриное филе небольшими кусочками и измельчите в блендере до консистенции, напоминающей фарш.",
+      "Добавьте яйцо и сметану.",
+      "Приправьте смесь солью, чёрным перцем и приправой для курицы.",
+      "Постепенно всыпайте пшеничную муку, каждый раз перемешивая массу.",
+      "Разогрейте растительное масло на сковороде и уменьшите огонь.",
+      "Выкладывайте куриную смесь ложкой небольшими порциями, при необходимости слегка разравнивая котлетки.",
+      "Обжарьте с обеих сторон до готовности."
+    ],
+    "ingredients": [
+      {
+        "name": "Сметана",
+        "qtyBase": 3,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Куриное филе",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Куриное яйцо",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Пшеничная мука",
+        "qtyBase": 3,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Приправа для курицы",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Куриные котлеты растрепки",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kurinie-kotleti-rastrepki-49698",
+      "relation": "direct",
+      "verified": true
+    }
   }
 ];
