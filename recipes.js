@@ -3014,5 +3014,1027 @@ window.SALPCOOK_RECIPES = [
       "relation": "direct",
       "verified": true
     }
+  },
+  {
+    "id": "eda_chicken_grechka_sauce_17499",
+    "name": "Куриное филе с соусом и гречкой",
+    "baseServings": 4,
+    "time": 40,
+    "steps": [
+      "Отварите гречневую крупу до готовности.",
+      "Для соуса соедините в небольшой кастрюле молоко, соевый соус и сметану. Прогрейте смесь на огне около трёх минут, снимите с плиты и добавьте мелко нарезанную петрушку.",
+      "Обжарьте куриное филе на сковороде до готовности.",
+      "Нарежьте репчатый лук кольцами, добавьте к курице и обжаривайте, пока лук не станет золотистым.",
+      "Влейте в сковороду приготовленный соус и половину стакана воды.",
+      "Тушите около 15 минут.",
+      "Подавайте курицу с отваренной гречкой."
+    ],
+    "ingredients": [
+      {
+        "name": "Гречневая крупа",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Куриное филе",
+        "qtyBase": 4,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сметана",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Молоко",
+        "qtyBase": 100,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соевый соус",
+        "qtyBase": 2,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Петрушка",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 125,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Куриное филе с соусом и гречкой",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kurinoe-file-s-sousom-grechkoj-17499",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_veg_cheese_57862",
+    "name": "Куриное филе с овощами и сыром",
+    "baseServings": 4,
+    "time": 40,
+    "steps": [
+      "Нарежьте куриное филе порционными кусками. Сладкий перец и помидоры нарежьте небольшими кусочками.",
+      "Подготовьте соус: смешайте пшеничную муку с молоком и томатной пастой до однородности.",
+      "Растопите сливочное масло на сковороде, добавьте нарезанные лук и чеснок и обжарьте до мягкости.",
+      "Добавьте куриное филе и овощи, затем влейте подготовленную смесь и готовьте до готовности курицы и загустения соуса.",
+      "Подавайте горячим, посыпав сыром."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриное филе",
+        "qtyBase": 3,
+        "unit": "куска",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Сладкий перец",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Пшеничная мука",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Молоко",
+        "qtyBase": 120,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Томатная паста",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Куриное филе с овощами и сыром",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kurinoe-file-s-ovoschami-i-syrom-57862",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_cheese_188321",
+    "name": "Сочное куриное филе под сыром",
+    "baseServings": 4,
+    "time": 40,
+    "steps": [
+      "Подготовьте куриное филе и выложите его в форму для запекания.",
+      "Смешайте томатную пасту с солью, смесью перцев и прованскими травами.",
+      "Распределите томатную смесь по куриному филе.",
+      "Нарежьте моцареллу и разложите сыр поверх мяса.",
+      "Запекайте в духовке до полной готовности курицы и расплавления сыра."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриное филе",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Томатная паста",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Сыр моцарелла",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Смесь перцев",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Прованские травы",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Сочное куриное филе под сыром",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/sochnoe-kurinoe-file-pod-syrom-188321",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_grill_189288",
+    "name": "Куриное филе на гриле",
+    "baseServings": 4,
+    "time": 40,
+    "steps": [
+      "Промойте куриное филе и тщательно обсушите бумажным полотенцем.",
+      "Нарежьте филе тонкими пластинами и отбейте каждый кусок с обеих сторон.",
+      "Переложите мясо в миску, полейте оливковым маслом, посолите, поперчите и добавьте приправу для курицы.",
+      "Оставьте филе с приправами на 10 минут.",
+      "Хорошо разогрейте сковороду-гриль и слегка сбрызните её оливковым маслом.",
+      "Обжарьте куриные пластины с обеих сторон до полной готовности.",
+      "Вымойте помидоры и нарежьте кружочками.",
+      "Подавайте курицу, украсив ломтиками помидоров."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриное филе",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Приправа для курицы",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Желтые помидоры",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Куриное филе на гриле",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kurinoe-file-na-grile-189288",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_pork_mushrooms_cheese_188192",
+    "name": "Свинина с грибами под сыром",
+    "baseServings": 4,
+    "time": 60,
+    "steps": [
+      "Нарежьте свинину порционными кусками и подготовьте шампиньоны.",
+      "Нарежьте репчатый лук и обжарьте его вместе с грибами до мягкости.",
+      "Подготовьте форму для запекания и выложите в неё свинину.",
+      "Распределите поверх мяса обжаренные грибы с луком, приправьте солью и смесью перцев.",
+      "Посыпьте блюдо тёртым сыром и запекайте до готовности свинины и образования сырной корочки."
+    ],
+    "ingredients": [
+      {
+        "name": "Свинина",
+        "qtyBase": 800,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Шампиньоны",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сыр",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 2,
+        "unit": "головки",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Смесь перцев",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Свинина с грибами под сыром",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/svinina-s-gribami-pod-syrom-188192",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_stew_pork_veg_50734",
+    "name": "Свинина, тушённая с картофелем, морковью и помидорами",
+    "baseServings": 4,
+    "time": 60,
+    "steps": [
+      "Нарежьте свинину порционными кусочками. Подготовьте картофель, кабачок, сладкий перец, помидоры, морковь и лук.",
+      "Измельчите чеснок, укроп и петрушку.",
+      "Разогрейте растительное масло в глубокой посуде и обжарьте свинину.",
+      "Добавьте к мясу нарезанные овощи, чеснок и зелень.",
+      "Вмешайте томатную пасту, приправьте молотым кориандром и чёрным перцем.",
+      "Тушите под крышкой до мягкости мяса и готовности картофеля и остальных овощей."
+    ],
+    "ingredients": [
+      {
+        "name": "Свинина",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Кабачок",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сладкий перец",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Перец чили",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 4,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 5,
+        "unit": "зубчиков",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Укроп",
+        "qtyBase": 1,
+        "unit": "пучок",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Петрушка",
+        "qtyBase": 1,
+        "unit": "пучок",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Томатная паста",
+        "qtyBase": 5,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 10,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Молотый кориандр",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Свинина тушеная с картофелем, морковью и помидорами",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/svinina-tushenaja-s-kartofelem-morkovju-i-pomidorami-50734",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_stuffed_peppers_classic_190495",
+    "name": "Классические фаршированные перцы",
+    "baseServings": 4,
+    "time": 90,
+    "steps": [
+      "Тщательно вымойте сладкие перцы и обсушите их. Аккуратно срежьте основания с плодоножками и удалите семена.",
+      "Переложите фарш в глубокую миску, посолите, добавьте смесь молотых перцев и копчёную паприку. Хорошо перемешайте.",
+      "Плотно наполните подготовленные перцы мясной начинкой.",
+      "Влейте воду в кастрюлю, добавьте томатную пасту и перемешайте до однородности.",
+      "Положите в томатную заливку лавровый лист и душистый перец горошком.",
+      "Опустите фаршированные перцы в кастрюлю с соусом. Доведите жидкость до кипения, затем уменьшите огонь.",
+      "Накройте кастрюлю крышкой и готовьте на слабом огне около часа, не допуская сильного кипения.",
+      "Переложите готовые перцы в глубокое блюдо, добавьте немного бульона и подавайте со сметаной."
+    ],
+    "ingredients": [
+      {
+        "name": "Фарш",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Свежий перец",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морская соль",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Смесь молотых перцев",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Копченая паприка",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Томатная паста",
+        "qtyBase": 70,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 400,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Лавровый лист",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Душистый перец горошком",
+        "qtyBase": 5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Сметана",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Классические фаршированные перцы",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/klassicheskie-farshirovannye-percy-190495",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_stuffed_peppers_173521",
+    "name": "Фаршированные перцы с кабачком",
+    "baseServings": 3,
+    "time": 60,
+    "steps": [
+      "Подготовьте начинку из свино-говяжьего фарша. Нарежьте кабачок небольшими кубиками и добавьте к мясу.",
+      "Нарежьте лук кубиками, мелко порубите зелень и чеснок. Добавьте всё к фаршу.",
+      "Влейте растительное масло, посолите и поперчите начинку, затем тщательно перемешайте.",
+      "Приготовьте овощную основу: обжарьте лук и морковь, добавьте томатную пасту, соль, перец и немного сахара. Тушите соус под крышкой около 10 минут.",
+      "Разрежьте сладкие перцы пополам вдоль вместе с плодоножкой и удалите семена.",
+      "Наполните половинки перцев фаршем. Остатки начинки при желании добавьте в соус и потушите до готовности.",
+      "Выложите соус в форму для запекания, распределите по дну и разместите сверху фаршированные перцы.",
+      "Запекайте при 160–180 °C примерно 20–30 минут, ориентируясь на готовность перца и начинки.",
+      "Подавайте со сметаной или полейте соусом из формы."
+    ],
+    "ingredients": [
+      {
+        "name": "Сладкий перец",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Фарш",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Кабачок",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 2,
+        "unit": "головки",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Зелень",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Томатная паста",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Сахар",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сметана",
+        "qtyBase": 0,
+        "unit": "для подачи",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false,
+        "qtyLabel": "для подачи"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Фаршированные перцы",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/farshirovannye-percy-173521",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_potato_meat_stuffing_16706",
+    "name": "Картофель, фаршированный мясом",
+    "baseServings": null,
+    "time": 95,
+    "steps": [
+      "Заверните каждую картофелину в фольгу и запекайте в духовке при 200 °C около часа.",
+      "Пока картофель запекается, нарежьте овощи.",
+      "Потушите лук и чеснок на растительном масле.",
+      "Добавьте свиной фарш и обжаривайте около 5 минут.",
+      "Соедините фарш с нарезанными помидорами и кукурузой, приправьте солью и перцем.",
+      "Достаньте картофель из духовки, надрежьте сверху и выньте часть мякоти.",
+      "Наполните картофель приготовленной мясной начинкой.",
+      "Натрите сыр и распределите его по поверхности картофеля. Верните блюдо в духовку и запекайте, пока сыр не расплавится.",
+      "Перед подачей посыпьте тимьяном."
+    ],
+    "ingredients": [
+      {
+        "name": "Картофель",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Свиной фарш",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для тушения",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для тушения"
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Консервированная кукуруза",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Сыр",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Тимьян",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Картофель с мясным фаршем",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kartofel-s-mjasnim-farshem-16706",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_turkey_spices_44039",
+    "name": "Филе индейки в специях",
+    "baseServings": null,
+    "time": 60,
+    "steps": [
+      "Нарежьте филе индейки порционными кусками.",
+      "Приготовьте соляной раствор: налейте воду в кастрюлю, добавьте соль и чёрный перец и перемешайте до растворения соли.",
+      "Положите индейку в раствор и оставьте мариноваться в холодном месте на 2 часа. Затем достаньте мясо и обсушите.",
+      "Очистите чеснок и нарежьте пластинками. Сделайте в каждом куске мяса глубокие надрезы и вложите в них чеснок.",
+      "Отдельно смешайте специи с оливковым маслом до однородной пасты.",
+      "Щедро натрите мясо полученной смесью со всех сторон и заверните в пищевую фольгу.",
+      "Запекайте при температуре 250 °C в течение 20–30 минут."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе индейки",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 0,
+        "unit": "для соляного раствора",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false,
+        "qtyLabel": "для соляного раствора"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Специи",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 0,
+        "unit": "по рецепту",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "по рецепту"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Филе индейки в специях",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/file-indejki-v-specijah-44039",
+      "relation": "direct",
+      "verified": true
+    }
   }
 ];
