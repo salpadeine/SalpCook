@@ -6964,5 +6964,578 @@ window.SALPCOOK_RECIPES = [
       "relation": "direct",
       "verified": true
     }
+  },
+  {
+    "id": "eda_salmon_salt_21787",
+    "name": "Лосось, запечённый в морской соли",
+    "baseServings": 6,
+    "time": 60,
+    "steps": [
+      "Подготовьте смесь специй: соедините семена кориандра, чёрный перец горошком и семена фенхеля.",
+      "Подготовьте целого лосося и лук-порей.",
+      "Распределите подготовленные специи по рыбе и подготовьте её к запеканию в соляной корке.",
+      "Запекайте лосося до готовности, затем аккуратно удалите соляную оболочку перед подачей."
+    ],
+    "ingredients": [
+      {
+        "name": "Семена кориандра",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Черный перец горошком",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Семена фенхеля",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Лосось",
+        "qtyBase": 1400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Лук-порей",
+        "qtyBase": 70,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Лосось, запеченный целиком в морской соли",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/losos-zapechennij-celikom-v-morskoj-soli-21787",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_cod_envelope_188077",
+    "name": "Треска, запечённая в конверте",
+    "baseServings": 5,
+    "time": 45,
+    "steps": [
+      "Нарежьте репчатый лук и чеснок, подготовьте петрушку и помидоры.",
+      "Разложите филе трески на листах пергамента, добавьте овощи, зелень и ломтики лимона.",
+      "Сбрызните рыбу растительным маслом и белым сухим вином.",
+      "Посолите и поперчите по вкусу.",
+      "Сверните пергамент вокруг рыбы в виде конверта, чтобы соки оставались внутри.",
+      "Запекайте в духовке до готовности рыбы."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе трески",
+        "qtyBase": 800,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 30,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Петрушка",
+        "qtyBase": 20,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лимон",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Белое сухое вино",
+        "qtyBase": 5,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Напитки",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Треска, запеченная в конверте",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/treska-zapechennaya-v-konverte-188077",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_cod_tarragon_parchment_53387",
+    "name": "Треска, запечённая в пергаменте с эстрагоном",
+    "baseServings": 2,
+    "time": 35,
+    "steps": [
+      "Натрите чеснок на мелкой тёрке.",
+      "Смешайте чеснок с оливковым маслом, сушёным эстрагоном, чёрным перцем, лимонным соком и солью.",
+      "Подготовьте филе трески и разложите его на листах пергамента.",
+      "Распределите ароматную смесь по рыбе.",
+      "Заверните пергамент конвертом, плотно закрыв края.",
+      "Запекайте в духовке до готовности рыбы."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе трески",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 3,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 2,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сушеный эстрагон",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0.5,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Лимонный сок",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Треска запеченная в пергаменте с эстрагоном",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/treska-zapechennaja-v-pergamente-s-jestragonom-53387",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_pollock_potato_186916",
+    "name": "Минтай, запечённый с картофелем",
+    "baseServings": 4,
+    "time": 80,
+    "steps": [
+      "Разделайте минтай на филе и посолите рыбу.",
+      "Нарежьте картофель кружочками, посолите и перемешайте с растительным маслом.",
+      "Добавьте в сметану измельчённый чеснок и соль, перемешайте соус.",
+      "Нарежьте репчатый лук полукольцами.",
+      "В форму для запекания выложите филе минтая и смажьте его сметанно-чесночным соусом.",
+      "Распределите сверху лук и снова покройте соусом.",
+      "Выложите картофель, посыпьте тёртым сыром.",
+      "Запекайте около часа при температуре 200 °C."
+    ],
+    "ingredients": [
+      {
+        "name": "Минтай",
+        "qtyBase": 800,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 10,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Сметана",
+        "qtyBase": 45,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сыр",
+        "qtyBase": 50,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Минтай запеченный с картофелем",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/mintay-zapechennyy-s-kartofelem-186916",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_potato_192100",
+    "name": "Курица с картошкой в духовке",
+    "baseServings": 8,
+    "time": 60,
+    "steps": [
+      "Подготовьте куриные бёдра и картофель.",
+      "Нарежьте картофель кусочками подходящего размера.",
+      "Посолите куриные бёдра и приправьте специями для птицы.",
+      "Разложите курицу и картофель в форме для запекания.",
+      "Запекайте в духовке до полной готовности курицы и мягкости картофеля."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриные бедра",
+        "qtyBase": 800,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Специи для птицы",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Курица с картошкой в духовке – простой рецепт",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kurica-s-kartoshkoy-v-duhovke-192100",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_baked_veg_casserole_49005",
+    "name": "Овощная запеканка с баклажанами и кабачками",
+    "baseServings": 4,
+    "time": 30,
+    "steps": [
+      "Очистите баклажаны и молодые кабачки, нарежьте их кружочками.",
+      "Слегка обжарьте кружочки баклажанов и кабачков на оливковом масле с обеих сторон.",
+      "Снимите кожицу с помидоров и нарежьте их кружочками.",
+      "Смажьте форму для запекания маслом и выложите в неё овощные кружочки.",
+      "Посолите овощи, добавьте свежемолотый чёрный перец и сушёные травы — базилик, эстрагон и петрушку.",
+      "Взбейте яйцо с молоком или сливками и смешайте с мелко натёртым сыром.",
+      "Залейте овощи молочно-сырной смесью и поставьте в разогретую духовку на 25 минут."
+    ],
+    "ingredients": [
+      {
+        "name": "Баклажаны",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Молодые кабачки",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Пряности",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молоко",
+        "qtyBase": 100,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Куриное яйцо",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Сыр",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 0,
+        "unit": "для обжаривания",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для обжаривания"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Сушеные травы",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Овощная запеканка с баклажанами и кабачками",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/ovoshhnaja-zapekanka-s-baklazhanami-i-kabachkami-49005",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_fish_olives_tomato_40880",
+    "name": "Треска, запечённая с оливками и томатами",
+    "baseServings": 4,
+    "time": 30,
+    "steps": [
+      "Подготовьте филе трески и разделите его на порционные куски.",
+      "Нарежьте помидоры черри и репчатый лук.",
+      "Выложите рыбу в форму для запекания, добавьте помидоры, лук и оливки.",
+      "Посолите, добавьте базилик и другие указанные в рецепте приправы.",
+      "Запекайте в духовке до готовности трески."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе трески",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "щепотка",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "щепотка"
+      },
+      {
+        "name": "Помидоры черри",
+        "qtyBase": 8,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Базилик",
+        "qtyBase": 10,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Треска, запеченная с оливками и томатами",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/treska-zapechennaja-s-olivkami-i-tomatami-40880",
+      "relation": "direct",
+      "verified": true
+    }
   }
 ];
