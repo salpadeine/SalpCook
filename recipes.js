@@ -9592,5 +9592,1310 @@ window.SALPCOOK_RECIPES = [
       "relation": "direct",
       "verified": true
     }
+  },
+  {
+    "id": "chefmarket_verified_001",
+    "name": "Запеканка «Сытная»",
+    "baseServings": 4,
+    "time": 60,
+    "steps": [
+      "Если фарш готовите самостоятельно, нарежьте свиную мякоть небольшими кусочками, удалив лишний жир, и измельчите мясорубкой или кухонным комбайном.",
+      "Добавьте в свиной фарш яйца, соль и чёрный перец, тщательно перемешайте.",
+      "Картофель очистите, нарежьте кружочками и уложите в смазанную растительным маслом форму. Слегка посолите.",
+      "Смешайте майонез и сметану, добавьте специи, соль и 70 мл воды. Полейте этим соусом картофель.",
+      "Лук нарежьте полукольцами и распределите поверх картофеля, затем ровным слоем выложите фарш.",
+      "Помидоры нарежьте тонкими кольцами, уложите внахлёст на фарш и смажьте майонезом.",
+      "Посыпьте крупно натёртым сыром и запекайте при 180 °C 40–45 минут."
+    ],
+    "ingredients": [
+      {
+        "name": "Свиной фарш",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Яйцо",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 900,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Твёрдый сыр",
+        "qtyBase": 350,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Майонез",
+        "qtyBase": 75,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Сметана",
+        "qtyBase": 75,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чёрный молотый перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для смазывания",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для смазывания"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "«Сытная»",
+      "url": "https://www.chefmarket.ru/blog/idealnyj-uzhin-recepty-prigotovlenija/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_002",
+    "name": "Спагетти «Итальянец» с курицей и черри",
+    "baseServings": 4,
+    "time": 30,
+    "steps": [
+      "Вскипятите подсоленную воду и отварите спагетти до готовности по инструкции на упаковке, периодически помешивая.",
+      "Куриное филе очистите от плёнок и лишнего жира, нарежьте небольшими кубиками.",
+      "Разогрейте растительное масло и обжарьте курицу до золотистой корочки. Переложите её на тарелку.",
+      "Черри разрежьте пополам и обжарьте в той же сковороде. Добавьте мелко нарезанный или пропущенный через пресс чеснок.",
+      "Верните курицу к томатам, перемешайте и убавьте огонь.",
+      "Перед сливом пасты сохраните 100 мл воды от варки и влейте её в сковороду. Спагетти промойте холодной водой, затем добавьте к курице и томатам.",
+      "Перемешайте, приправьте солью и перцем. Подавайте, посыпав тёртым чеддером и рубленой петрушкой."
+    ],
+    "ingredients": [
+      {
+        "name": "Спагетти",
+        "qtyBase": 250,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Куриное филе",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Помидоры черри",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сыр чеддер",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чёрный молотый перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для жарки",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для жарки"
+      },
+      {
+        "name": "Петрушка",
+        "qtyBase": 0,
+        "unit": "для подачи",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "для подачи"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "«Итальянец»",
+      "url": "https://www.chefmarket.ru/blog/idealnyj-uzhin-recepty-prigotovlenija/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_003",
+    "name": "Курица с опятами, картофелем и кабачком в горшочках",
+    "baseServings": 4,
+    "time": 65,
+    "steps": [
+      "Лук очистите и нарежьте мелкими кубиками. Обжарьте его на растительном масле до прозрачности.",
+      "Куриное филе очистите от плёнок и лишнего жира, нарежьте небольшими кубиками, добавьте к луку и обжарьте до готовности.",
+      "Опята предварительно отварите, затем обжарьте на растительном масле. Добавьте сливки, посолите и тушите 7–10 минут.",
+      "Картофель и кабачок очистите и нарежьте небольшими кубиками.",
+      "В горшочки выложите картофель с кабачком, затем курицу с луком, сверху — грибы со сливками. Посыпьте тёртым или нарезанным сыром и добавьте в каждый горшочек 70–100 мл воды.",
+      "Поставьте горшочки в холодную духовку и готовьте 35–40 минут при 180 °C."
+    ],
+    "ingredients": [
+      {
+        "name": "Куриное филе",
+        "qtyBase": 450,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Опята",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Твёрдый сыр",
+        "qtyBase": 250,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Кабачок",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 600,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сливки 20–35%",
+        "qtyBase": 170,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для жарки",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для жарки"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 100,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "«Поход в лес»",
+      "url": "https://www.chefmarket.ru/blog/idealnyj-uzhin-recepty-prigotovlenija/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_004",
+    "name": "Макаронные гнёзда с мясным фаршем «Объедение»",
+    "baseServings": 4,
+    "time": 45,
+    "steps": [
+      "Лук очистите и нарежьте небольшими кубиками. Смешайте его с фаршем, солью и чёрным перцем.",
+      "Разложите макаронные гнёзда в широкой сковороде с высокими бортиками. Наполните каждое гнездо фаршем, слегка уплотняя начинку.",
+      "В отдельной посуде соедините растительное масло, томатную пасту и соль. Влейте томатный сок и размешайте до однородности. При необходимости скорректируйте вкус солью, перцем или небольшим количеством сахара.",
+      "Залейте гнёзда томатным соусом, накройте сковороду крышкой и готовьте на среднем огне 25–30 минут до готовности.",
+      "Если соус быстро выкипает, уменьшите огонь и добавьте немного томатного сока. Перед подачей посыпьте рубленым укропом."
+    ],
+    "ingredients": [
+      {
+        "name": "Свино-говяжий фарш",
+        "qtyBase": 350,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Томатный сок",
+        "qtyBase": 250,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Макаронные гнёзда",
+        "qtyBase": 8,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 120,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 50,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Томатная паста",
+        "qtyBase": 40,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Укроп",
+        "qtyBase": 1,
+        "unit": "пучок",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чёрный молотый перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "«Объедение»",
+      "url": "https://www.chefmarket.ru/blog/idealnyj-uzhin-recepty-prigotovlenija/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_005",
+    "name": "Омлет по-деревенски с картофелем и мясом",
+    "baseServings": 4,
+    "time": 35,
+    "steps": [
+      "Картофель отварите в кожуре до полуготовности, остудите и очистите.",
+      "Мясо нарежьте небольшими кусочками. Лук нарежьте полукольцами, сладкий перец — соломкой.",
+      "Разогрейте на сковороде 2 ст. л. подсолнечного масла и обжарьте мясо. Добавьте лук и перец, пассеруйте.",
+      "Нарежьте картофель кольцами толщиной около 0,7 см, добавьте к мясу с овощами и обжарьте до лёгкой золотистой корочки.",
+      "Помидоры нарежьте полукольцами или четвертинками и добавьте в сковороду.",
+      "Взбейте яйца с молоком, солью и специями. Измельчите чеснок и добавьте к овощам и мясу.",
+      "Залейте всё яичной смесью, накройте крышкой и томите на слабом огне 5–7 минут или до готовности. Подавайте с рубленой зеленью."
+    ],
+    "ingredients": [
+      {
+        "name": "Картофель",
+        "qtyBase": 4,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Говядина или курица",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Перец сладкий",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Яйцо",
+        "qtyBase": 4,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Молоко",
+        "qtyBase": 50,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Зелень",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 4,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Подсолнечное масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Омлет по-деревенски",
+      "url": "https://www.chefmarket.ru/blog/chto-mozhno-prigotovit-na-uzhin/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_006",
+    "name": "Макароны по-флотски с овощами",
+    "baseServings": 4,
+    "time": 35,
+    "steps": [
+      "Приготовьте из свиной лопатки или куриного мяса фарш с помощью мясорубки или блендера.",
+      "Лук очистите и нарежьте кубиками, морковь натрите на тёрке. Перец нарежьте небольшими кусочками, чеснок измельчите.",
+      "Разогрейте в глубокой сковороде растительное масло. Обжарьте лук с морковью, затем добавьте фарш и разбейте лопаткой комочки.",
+      "Добавьте сладкий перец и чеснок, приправьте солью, перцем и мускатным орехом.",
+      "Отварите макароны до готовности, соедините с мясной овощной смесью и сливочным маслом. Перемешайте и подавайте горячими."
+    ],
+    "ingredients": [
+      {
+        "name": "Макароны-спиральки",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Свинина (лопатка) или курица",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Болгарский перец",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 4,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Подсолнечное масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Мускатный орех",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Быстрые макароны по-флотски",
+      "url": "https://www.chefmarket.ru/blog/chto-mozhno-prigotovit-na-uzhin/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_007",
+    "name": "Курица пири-пири с картофелем и брокколи",
+    "baseServings": 4,
+    "time": 75,
+    "steps": [
+      "Для домашней смеси пири-пири соедините паприку, копчёную паприку, лимонную цедру, чесночный порошок, чёрный перец, орегано, тархун, коричневый сахар, кайенский перец и молотый лавровый лист.",
+      "Разогрейте духовку до 180 °C. Картофель очистите и нарежьте крупными кусочками.",
+      "Куриные бёдра обсушите, смешайте с порцией пири-пири и небольшим количеством соли.",
+      "Лук очистите и нарежьте. Перемешайте картофель с луком и солью.",
+      "Смажьте форму подсолнечным маслом, выложите овощи и разложите рядом куриные бёдра. Запекайте 40 минут.",
+      "Добавьте брокколи и продолжайте запекать ещё 20–30 минут."
+    ],
+    "ingredients": [
+      {
+        "name": "Картофель",
+        "qtyBase": 900,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Куриные бёдра",
+        "qtyBase": 7,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      },
+      {
+        "name": "Брокколи",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Красный лук",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Паприка",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Копчёная паприка",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Цедра лимона",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чесночный порошок",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 2,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Орегано",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Сушёный тархун",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Коричневый сахар",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Кайенский перец",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Молотый лавровый лист",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Подсолнечное масло",
+        "qtyBase": 0,
+        "unit": "для формы",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для формы"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Курица пири-пири с картофелем и брокколи",
+      "url": "https://www.chefmarket.ru/blog/prostye-recepty-na-uzhin/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_008",
+    "name": "Тушёные овощи с говядиной и фасолью",
+    "baseServings": 4,
+    "time": 50,
+    "steps": [
+      "Очистите и вымойте овощи. Лук разрежьте на восемь долек, морковь нарежьте крупно, картофель — большими кусками.",
+      "В большой антипригарной кастрюле разогрейте немного масла и обжарьте мелко нарезанную говядину на среднем огне до равномерного подрумянивания.",
+      "Добавьте подготовленные овощи и перемешайте.",
+      "Влейте около 900 мл горячей воды или говяжьего бульона, доведите до кипения.",
+      "Убавьте огонь, накройте крышкой и тушите 25–30 минут, пока овощи не станут мягкими.",
+      "Добавьте консервированную фасоль и вустерширский соус. Посолите, поперчите, доведите до кипения и снимите с огня.",
+      "Подавайте в глубоких тарелках, посыпав рубленой петрушкой."
+    ],
+    "ingredients": [
+      {
+        "name": "Нежирная говядина",
+        "qtyBase": 450,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Картофель",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Говяжий бульон или вода",
+        "qtyBase": 900,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Консервированная фасоль",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Вустерширский соус",
+        "qtyBase": 80,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Петрушка",
+        "qtyBase": 1,
+        "unit": "горсть",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для жарки",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для жарки"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Тушеные овощи с говядиной",
+      "url": "https://www.chefmarket.ru/blog/prostye-recepty-na-uzhin/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_009",
+    "name": "Киш лорен с беконом и чеддером",
+    "baseServings": 4,
+    "time": 70,
+    "steps": [
+      "Холодное сливочное масло нарежьте кубиками и измельчите с мукой и разрыхлителем в блендере или комбайне.",
+      "Пересыпьте смесь в миску, добавьте соль, яйцо и сметану. Быстро замесите тесто, при необходимости подсыпая муку. Заверните в плёнку и уберите в морозильник.",
+      "Разогрейте духовку до 200 °C. Смажьте форму маслом, раскатайте тесто и уложите его в форму, сформировав бортики.",
+      "Запеките основу 15–20 минут. Бекон нарежьте небольшими кусочками и подрумяньте на сухой сковороде.",
+      "Взбейте яйца со сливками или сметаной. Добавьте нарезанный чеддер и обжаренный бекон.",
+      "Достаньте основу, немного остудите и уменьшите температуру духовки до 150 °C. Вылейте начинку в основу и запекайте около 30 минут, пока заливка не схватится.",
+      "Дайте кишу немного остыть, извлеките из формы и нарежьте."
+    ],
+    "ingredients": [
+      {
+        "name": "Сливочное масло",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Мука",
+        "qtyBase": 2,
+        "unit": "стакана",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Яйцо",
+        "qtyBase": 4,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Разрыхлитель",
+        "qtyBase": 1,
+        "unit": "пакетик",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Сметана",
+        "qtyBase": 1.5,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Копчёный бекон",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Чеддер",
+        "qtyBase": 85,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Сливки или сметана",
+        "qtyBase": 300,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Мускатный орех",
+        "qtyBase": 0,
+        "unit": "щепотка",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "щепотка"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Киш лорен на ужин",
+      "url": "https://www.chefmarket.ru/blog/prostye-recepty-na-uzhin/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_010",
+    "name": "Креветки, припущенные с томатами",
+    "baseServings": 4,
+    "time": 20,
+    "steps": [
+      "Разморозьте креветки, удалите головы, хвосты, панцири и кишечную вену. Промойте, добавьте лимонный сок, соль и чёрный перец.",
+      "Очистите помидоры от кожицы. Один помидор измельчите блендером вместе с чесноком и оливковым маслом, остальные нарежьте небольшими кубиками.",
+      "Томатное пюре тушите под крышкой около 7 минут. Добавьте нарезанные помидоры и готовьте ещё 5 минут.",
+      "Выложите креветки в томатный соус и готовьте 2–3 минуты, затем снимите с огня.",
+      "Подавайте горячими, при желании добавив свежий укроп или петрушку."
+    ],
+    "ingredients": [
+      {
+        "name": "Крупные свежемороженые креветки",
+        "qtyBase": 300,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лимон",
+        "qtyBase": 0.5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Креветки, припущенные с томатами",
+      "url": "https://www.chefmarket.ru/blog/chto-prigotovit-na-uzhin-dlja-vsej-semi/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_011",
+    "name": "Тушёный тофу с овощами",
+    "baseServings": 4,
+    "time": 35,
+    "steps": [
+      "Шампиньоны промойте и нарежьте. Обжарьте их в оливковом масле на сковороде под крышкой до размягчения.",
+      "Цуккини, морковь, баклажан, брокколи и болгарский перец нарежьте, добавьте к грибам и тушите 15–20 минут.",
+      "Тофу нарежьте кубиками, добавьте к овощам и готовьте ещё 5–7 минут.",
+      "Выключите огонь и оставьте блюдо настояться 10–15 минут перед подачей."
+    ],
+    "ingredients": [
+      {
+        "name": "Тофу",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Королевские шампиньоны",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Цуккини",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Баклажан",
+        "qtyBase": 0.5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Брокколи",
+        "qtyBase": 6,
+        "unit": "соцветий",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Болгарский перец",
+        "qtyBase": 0.5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Специи",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Тушеный тофу с овощами",
+      "url": "https://www.chefmarket.ru/blog/chto-prigotovit-na-uzhin-dlja-vsej-semi/",
+      "relation": "adapted",
+      "verified": true
+    }
+  },
+  {
+    "id": "chefmarket_verified_012",
+    "name": "Салат из лосося с рукколой и авокадо",
+    "baseServings": 4,
+    "time": 15,
+    "steps": [
+      "Слабосолёный лосось нарежьте тонкими ломтиками.",
+      "Рукколу промойте и выложите в салатник.",
+      "Авокадо очистите, удалите косточку и нарежьте полукольцами. Добавьте к рукколе вместе с лососем.",
+      "Огурец нарежьте кубиками, помидоры черри — половинками или четвертинками, добавьте в салат.",
+      "Смешайте сок половины лимона с оливковым маслом, солью и перцем. Полейте салат заправкой и аккуратно перемешайте."
+    ],
+    "ingredients": [
+      {
+        "name": "Слабосолёный лосось",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Руккола",
+        "qtyBase": 70,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Авокадо",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры черри",
+        "qtyBase": 6,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Огурец",
+        "qtyBase": 0.5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лимон",
+        "qtyBase": 0.5,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Чёрный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Шефмаркет",
+      "title": "Салат из лосося с рукколой и авокадо",
+      "url": "https://www.chefmarket.ru/blog/chto-prigotovit-na-uzhin-dlja-vsej-semi/",
+      "relation": "adapted",
+      "verified": true
+    }
   }
 ];
