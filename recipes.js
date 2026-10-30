@@ -6038,5 +6038,931 @@ window.SALPCOOK_RECIPES = [
       "relation": "direct",
       "verified": true
     }
+  },
+  {
+    "id": "eda_salmon_cream_40943",
+    "name": "Лосось, запечённый в сливках",
+    "baseServings": 4,
+    "time": 30,
+    "steps": [
+      "Промойте филе лосося и обсушите его. Нарежьте рыбу на четыре порционных куска.",
+      "Промойте и обсушите лук-порей и укроп. Укроп мелко порубите, лук-порей тонко нашинкуйте.",
+      "Разложите куски лосося в форме для запекания. Посолите и приправьте перцем с лимонной цедрой. Если такой смеси нет, используйте обычный перец и сбрызните рыбу лимонным соком.",
+      "Посыпьте лосось укропом и луком-пореем.",
+      "Залейте рыбу сливками и запекайте в духовке, разогретой до 180 °C, около 12 минут."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе лосося",
+        "qtyBase": 750,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Сливки 30%",
+        "qtyBase": 250,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Укроп",
+        "qtyBase": 3,
+        "unit": "стебля",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук-порей",
+        "qtyBase": 1,
+        "unit": "стебель",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Черный перец с лимонной цедрой",
+        "qtyBase": 0.5,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Лосось, запеченный в сливках",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/losos-zapechennij-v-slivkah-40943",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_boiled_fish_potato_14779",
+    "name": "Отварная рыба с картофелем",
+    "baseServings": 4,
+    "time": 60,
+    "steps": [
+      "Подготовьте рыбу, нарежьте её порционными кусками и отварите до готовности.",
+      "Отдельно очистите картофель, оставив клубни целыми, и сварите до мягкости.",
+      "Перед подачей выньте рыбу шумовкой из отвара и переложите на блюдо.",
+      "Разложите вокруг рыбы отварной картофель и украсьте петрушкой.",
+      "Подавайте отдельно яично-масляный соус или хрен с уксусом. Вместо соуса можно подать размягчённое сливочное масло, смешанное с рубленой петрушкой."
+    ],
+    "ingredients": [
+      {
+        "name": "Картофель",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Рыба",
+        "qtyBase": 800,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Петрушка",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Рыба отварная с картофелем",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/riba-otvarnaja-s-kartofelem-14779",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_rice_veg_egg_43677",
+    "name": "Рис с овощами и яйцом",
+    "baseServings": 4,
+    "time": 30,
+    "steps": [
+      "Отварите длиннозерный рис в воде до готовности.",
+      "Нарежьте сладкий перец и репчатый лук, морковь очистите и нарежьте.",
+      "Обжаривайте подготовленные овощи около 20 минут, пока морковь не станет мягкой.",
+      "Добавьте к овощам яйца и быстро перемешайте, чтобы они распределились по овощной смеси.",
+      "Положите в сковороду готовый рис и обжаривайте всё вместе ещё около 5 минут."
+    ],
+    "ingredients": [
+      {
+        "name": "Длиннозерный рис",
+        "qtyBase": 2,
+        "unit": "стакана",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Вода",
+        "qtyBase": 4,
+        "unit": "стакана",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Сладкий перец",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Зеленый горошек",
+        "qtyBase": 150,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Морковь",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Куриное яйцо",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для жарки",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для жарки"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Рис с овощами и яйцом",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/ris-s-ovoshhami-i-jajcom-43677",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_salmon_marinade_34000",
+    "name": "Лосось в маринаде, запечённый в духовке",
+    "baseServings": 4,
+    "time": 20,
+    "steps": [
+      "Смешайте мёд, горчицу, соус терияки, соевый соус и кунжутное масло.",
+      "Положите филе лосося в маринад, тщательно покройте рыбу соусом и оставьте примерно на 30 минут.",
+      "Посыпьте рыбу кунжутными семечками.",
+      "Разогрейте духовку до 180 °C и запекайте лосось 12–15 минут, чтобы он остался сочным.",
+      "Во время запекания пару раз полейте рыбу выделившимся соусом."
+    ],
+    "ingredients": [
+      {
+        "name": "Кунжутные семечки",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Мед",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Горчица",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Соус терияки",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Соевый соус",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Соусы",
+        "staple": false
+      },
+      {
+        "name": "Кунжутное масло",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Филе лосося",
+        "qtyBase": 4,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Лосось в маринаде, запеченный в духовке",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/losos-v-marinade-zapechennij-v-duhovke-34000",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_salmon_foil_veg_41935",
+    "name": "Лосось, запечённый в фольге с овощами",
+    "baseServings": 2,
+    "time": 50,
+    "steps": [
+      "Полейте стейки лосося лимонным соком, посолите и поперчите.",
+      "Подготовьте свежие грибы, лук, помидор и зелень. Нарежьте ингредиенты.",
+      "Разложите рыбу на листах фольги, сверху распределите подготовленные грибы, лук и помидор.",
+      "Добавьте зелень и специи, затем заверните рыбу в фольгу, плотно закрыв края.",
+      "Запекайте в духовке до готовности лосося.",
+      "В конце приготовления раскройте фольгу, посыпьте рыбу тёртым сыром и верните в духовку, чтобы сыр расплавился."
+    ],
+    "ingredients": [
+      {
+        "name": "Свежие грибы",
+        "qtyBase": 120,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лимонный сок",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Твердый сыр",
+        "qtyBase": 70,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Специи",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Зелень",
+        "qtyBase": 1,
+        "unit": "пучок",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Стейк из лосося",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Рыба",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Лосось, запеченный в фольге с овощами",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/losos-zapechennij-v-folge-s-ovoshhami-41935",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_stuffed_potato_30909",
+    "name": "Фаршированный картофель с томатной начинкой",
+    "baseServings": 4,
+    "time": 40,
+    "steps": [
+      "Подготовьте картофель и запеките или отварите его до мягкости.",
+      "Очистите репчатый лук и чеснок, мелко нарежьте и обжарьте.",
+      "Добавьте томатное пюре и томатную пасту, перемешайте и прогрейте.",
+      "Добавьте к томатной основе кедровые орехи, нарезанную кинзу, базилик и мяту.",
+      "Разрежьте готовый картофель и аккуратно выньте часть мякоти, чтобы образовалось углубление.",
+      "Наполните картофель приготовленной томатной смесью и подавайте горячим."
+    ],
+    "ingredients": [
+      {
+        "name": "Картофель",
+        "qtyBase": 2000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 200,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Кедровые орехи",
+        "qtyBase": 3,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Томатное пюре",
+        "qtyBase": 400,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Свежая кинза",
+        "qtyBase": 30,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Томатная паста",
+        "qtyBase": 1,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Бакалея",
+        "staple": false
+      },
+      {
+        "name": "Листья базилика",
+        "qtyBase": 20,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Листья мяты",
+        "qtyBase": 10,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Молотая паприка",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Фаршированный картофель",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/farshirovannij-kartofel-30909",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_salmon_cheese_187898",
+    "name": "Лосось с сыром, запечённый в духовке",
+    "baseServings": 2,
+    "time": 60,
+    "steps": [
+      "Подготовьте лосось и приправьте его солью и специями для рыбы.",
+      "Очистите репчатый лук и нарежьте его.",
+      "Сбрызните рыбу лимонным соком и распределите лук поверх филе.",
+      "Добавьте сметану, душистый перец и укроп.",
+      "Посыпьте лосось тёртым твёрдым сыром и зеленью.",
+      "Запекайте в духовке до готовности рыбы и расплавления сыра."
+    ],
+    "ingredients": [
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лимонный сок",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Укроп",
+        "qtyBase": 10,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Сметана 20%",
+        "qtyBase": 1,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Твердый сыр",
+        "qtyBase": 50,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Зелень",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Приправа для рыбы",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Душистый перец горошком",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Лосось с сыром запеченный в духовке",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/losos-zapechennyy-v-duhovke-187898",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_potato_minced_casserole_48245",
+    "name": "Картофельная запеканка с фаршем и яичной заливкой",
+    "baseServings": 4,
+    "time": 50,
+    "steps": [
+      "Приготовьте смешанный фарш из свинины и говядины. Добавьте мелко нарезанный репчатый лук, чеснок, соль, чёрный перец и одно яйцо, тщательно перемешайте.",
+      "Очистите картофель, натрите его на крупной тёрке и посолите.",
+      "Смажьте противень растительным маслом и выложите половину натёртого картофеля.",
+      "Распределите поверх картофеля весь фарш, затем накройте оставшимся картофелем.",
+      "Взбейте три яйца с молоком и залейте запеканку. В качестве альтернативы молоку в источнике указано использование домашнего майонеза.",
+      "Поставьте противень в духовку, разогретую до 200 °C, примерно на 50 минут."
+    ],
+    "ingredients": [
+      {
+        "name": "Картофель",
+        "qtyBase": 700,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Смешанный фарш",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Куриное яйцо",
+        "qtyBase": 4,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "головка",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Растительное масло",
+        "qtyBase": 0,
+        "unit": "для формы",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false,
+        "qtyLabel": "для формы"
+      },
+      {
+        "name": "Молоко",
+        "qtyBase": 0,
+        "unit": "для заливки",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false,
+        "qtyLabel": "для заливки"
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Запеканка с картофелем, фаршем и майонезом",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/zapekanka-s-kartofelem-farshem-i-majonezom-48245",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_veg_casserole_minced_49526",
+    "name": "Овощная запеканка с говяжьим фаршем",
+    "baseServings": 4,
+    "time": 60,
+    "steps": [
+      "Нарежьте сладкий перец, кабачки, помидоры и репчатый лук. Измельчите чеснок.",
+      "Разогрейте оливковое масло и обжарьте лук с чесноком.",
+      "Добавьте говяжий фарш и готовьте, разбивая комочки, до изменения цвета мяса.",
+      "Добавьте сладкий перец, кабачки и помидоры. Посолите и поперчите.",
+      "Переложите смесь в форму для запекания, посыпьте зеленью и тёртым твёрдым сыром.",
+      "Запекайте до мягкости овощей и готовности фарша."
+    ],
+    "ingredients": [
+      {
+        "name": "Оливковое масло",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Масла",
+        "staple": false
+      },
+      {
+        "name": "Сладкий перец",
+        "qtyBase": 2,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Кабачки",
+        "qtyBase": 1000,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Помидоры",
+        "qtyBase": 3,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 1,
+        "unit": "шт",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Чеснок",
+        "qtyBase": 3,
+        "unit": "зубчика",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Говяжий фарш",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Соль",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Зелень",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Твердый сыр",
+        "qtyBase": 60,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Овощная запеканка с фаршем",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/ovoshhnaja-zapekanka-s-farshem-49526",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_potato_minced_casserole_26035",
+    "name": "Картофельная запеканка с фаршем",
+    "baseServings": 10,
+    "time": 60,
+    "steps": [
+      "Очистите картофель и нарежьте его тонкими ломтиками.",
+      "Подготовьте мясной фарш и смешайте его с луком, чесноком и специями.",
+      "Обжарьте фарш до готовности.",
+      "Смажьте форму для запекания и выложите слой картофеля.",
+      "Распределите сверху фарш, затем добавьте оставшийся картофель.",
+      "Залейте запеканку молоком, добавьте специи и лавровый лист.",
+      "Запекайте до готовности картофеля и фарша."
+    ],
+    "ingredients": [
+      {
+        "name": "Картофель",
+        "qtyBase": 1500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Мясной фарш",
+        "qtyBase": 800,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Мясо",
+        "staple": false
+      },
+      {
+        "name": "Сыр пармезан",
+        "qtyBase": 100,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Молоко",
+        "qtyBase": 100,
+        "unit": "мл",
+        "pricePerUnit": 0,
+        "aisle": "Молочное",
+        "staple": false
+      },
+      {
+        "name": "Лук репчатый",
+        "qtyBase": 2,
+        "unit": "головки",
+        "pricePerUnit": 0,
+        "aisle": "Овощи",
+        "staple": false
+      },
+      {
+        "name": "Лавровый лист",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый черный перец",
+        "qtyBase": 0,
+        "unit": "по вкусу",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false,
+        "qtyLabel": "по вкусу"
+      },
+      {
+        "name": "Молотый перец чили",
+        "qtyBase": 1,
+        "unit": "ч. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      },
+      {
+        "name": "Паприка",
+        "qtyBase": 2,
+        "unit": "ст. л.",
+        "pricePerUnit": 0,
+        "aisle": "Специи",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Картофельная запеканка с фаршем",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kartofelnaja-zapekanka-s-farshem-26035",
+      "relation": "direct",
+      "verified": true
+    }
+  },
+  {
+    "id": "eda_chicken_thighs_190627",
+    "name": "Куриные бёдра в духовке",
+    "baseServings": 2,
+    "time": 30,
+    "steps": [
+      "Подготовьте филе куриного бедра, промойте и обсушите его.",
+      "Приправьте мясо солью, перцем и специями по вкусу.",
+      "Разложите куриные бёдра в форме для запекания.",
+      "Запекайте в предварительно разогретой духовке до полной готовности и румяной корочки.",
+      "Подавайте горячими с гарниром."
+    ],
+    "ingredients": [
+      {
+        "name": "Филе куриного бедра",
+        "qtyBase": 500,
+        "unit": "г",
+        "pricePerUnit": 0,
+        "aisle": "Птица",
+        "staple": false
+      }
+    ],
+    "source": {
+      "publisher": "Еда",
+      "title": "Куриные бедра в духовке",
+      "url": "https://eda.rambler.ru/recepty/osnovnye-blyuda/kurinye-bedra-v-duhovke-190627",
+      "relation": "direct",
+      "verified": true
+    }
   }
 ];
