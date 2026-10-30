@@ -9,7 +9,7 @@ vm.runInContext(fs.readFileSync("recipes.js", "utf8"), context);
 
 const aliases = context.window.SALPCOOK_INGREDIENT_ALIASES;
 const normalize = value => String(value).trim().toLocaleLowerCase("ru-RU")
-  .replace(/ё/g, "е").replace(/[^\\p{L}\\p{N}]+/gu, " ").trim();
+  .replace(/ё/g, "е").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
 const canonical = value => aliases[normalize(value)] || normalize(value);
 const same = (a, b) => assert.equal(canonical(a), canonical(b), `Expected same ingredient: ${a} / ${b}`);
 const different = (a, b) => assert.notEqual(canonical(a), canonical(b), `Expected distinct ingredients: ${a} / ${b}`);
