@@ -12849,16 +12849,16 @@ window.SALPCOOK_RECIPES = [
       },
       {
         "name": "Чёрные оливки без косточек",
-        "qtyBase": 75,
-        "unit": "г",
+        "qtyBase": 0.5,
+        "unit": "стакана",
         "pricePerUnit": 0,
         "aisle": "Бакалея",
         "staple": false
       },
       {
         "name": "Зелёные оливки без косточек",
-        "qtyBase": 75,
-        "unit": "г",
+        "qtyBase": 0.5,
+        "unit": "стакана",
         "pricePerUnit": 0,
         "aisle": "Бакалея",
         "staple": false
@@ -12883,8 +12883,8 @@ window.SALPCOOK_RECIPES = [
       },
       {
         "name": "Пармезан или пекорино",
-        "qtyBase": 50,
-        "unit": "г",
+        "qtyBase": 0.5,
+        "unit": "стакана",
         "pricePerUnit": 0,
         "aisle": "Молочное",
         "staple": false
@@ -13078,32 +13078,32 @@ window.SALPCOOK_RECIPES = [
       },
       {
         "name": "Оливковое масло",
-        "qtyBase": 120,
-        "unit": "мл",
+        "qtyBase": 0.5,
+        "unit": "стакана",
         "pricePerUnit": 0,
         "aisle": "Масла",
         "staple": false
       },
       {
         "name": "Пармезан тёртый",
-        "qtyBase": 50,
-        "unit": "г",
+        "qtyBase": 0.5,
+        "unit": "стакана",
         "pricePerUnit": 0,
         "aisle": "Молочное",
         "staple": false
       },
       {
         "name": "Пекорино тёртый",
-        "qtyBase": 25,
-        "unit": "г",
+        "qtyBase": 0.25,
+        "unit": "стакана",
         "pricePerUnit": 0,
         "aisle": "Молочное",
         "staple": false
       },
       {
         "name": "Кедровые орехи обжаренные",
-        "qtyBase": 70,
-        "unit": "г",
+        "qtyBase": 0.5,
+        "unit": "стакана",
         "pricePerUnit": 0,
         "aisle": "Бакалея",
         "staple": false
@@ -13245,7 +13245,7 @@ window.SALPCOOK_RECIPES = [
       "publisher": "Шефмаркет",
       "title": "Домашнее жаркое",
       "url": "https://www.chefmarket.ru/blog/chto-prigotovit-iz-govjadiny/",
-      "relation": "collection",
+      "relation": "adapted",
       "verified": true
     }
   },
@@ -13548,7 +13548,7 @@ window.SALPCOOK_RECIPES = [
       "publisher": "Шефмаркет",
       "title": "Классический рецепт рыбы в кляре",
       "url": "https://www.chefmarket.ru/blog/ryba-v-kljare-poshagovye-recepty-s-foto/",
-      "relation": "collection",
+      "relation": "adapted",
       "verified": true
     }
   },
