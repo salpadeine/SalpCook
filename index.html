@@ -157,6 +157,7 @@
   .stage2-actions button { width: auto; flex: 1; min-width: 180px; }
   .recipe-source { margin: 8px 0 14px; padding: 10px 12px; border-left: 2px solid var(--border); color:var(--muted); font-size:.88rem; overflow-wrap:anywhere; }
   .recipe-source a { color:var(--accent2); text-decoration:underline; }
+  .shopping-note { color:var(--muted); font-size:.88rem; margin:-8px 0 18px; }
   .ingredient-owned { color: var(--success); font-weight: 650; }
 .ingredient-owned::after { content: " · ✓ Есть дома"; color: var(--success); font-size: .82em; font-weight: 600; white-space: nowrap; }
   .recipe-full { margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
@@ -222,6 +223,7 @@
     <div class="week" id="week"></div>
     <div class="grocery">
       <h2>Список продуктов</h2>
+      <p class="shopping-note">Соль, чёрный перец, растительное, сливочное и оливковое масло остаются в рецептах, но не включаются в список покупок.</p>
       <div class="total-bar">
         <span>Сводный список ингредиентов</span>
         <span id="ingredientCount">0 продуктов</span>
