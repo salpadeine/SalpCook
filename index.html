@@ -464,10 +464,35 @@ function clearPantry(){
 function scaleIngredient(ing, people, baseServings) {
   const factor = Number.isFinite(baseServings) && baseServings > 0 ? people / baseServings : 1;
   const qty = Math.ceil(ing.qtyBase * factor * 10) / 10;
-  return { ...ing, qty, cost: calculateCost(ing, qty) };
+  return { ...ing, qty, scaleFactor: factor, cost: calculateCost(ing, qty) };
 }
-function ingredientQuantityText(ing, qty) {
-  if (ing.qtyLabel) return ing.qtyLabel;
+function scaledLabelNumber(value, integer, roundDown = false) {
+  const scaled = integer
+    ? (roundDown ? Math.max(1, Math.floor(value + 1e-9)) : Math.max(1, Math.ceil(value - 1e-9)))
+    : Math.ceil(value * 10 - 1e-9) / 10;
+  return Number(scaled.toFixed(1)).toLocaleString("ru-RU");
+}
+function scaleQuantityLabel(label, factor, ing) {
+  if (!Number.isFinite(factor) || Math.abs(factor - 1) < 0.0001) return label;
+  if (ing.name === "Морковь" && /^1 большая$/i.test(label)) {
+    const qty = Math.max(1, Math.ceil(ing.qtyBase * factor - 1e-9));
+    return qty === 1 ? "1 большая" : qty + " большие";
+  }
+  const integerQuantity = /\bшт\.?/i.test(label) || /^шт/i.test(String(ing.unit || ""));
+  return label.replace(/(\d+(?:[.,]\d+)?)(?:\s*([–—-])\s*(\d+(?:[.,]\d+)?))?/g,
+    (match, first, separator, second) => {
+      const a = Number(first.replace(",", ".")) * factor;
+      const firstText = scaledLabelNumber(a, integerQuantity, Boolean(second));
+      if (!second) return firstText;
+      const b = Number(second.replace(",", ".")) * factor;
+      return firstText + separator + scaledLabelNumber(b, integerQuantity, false);
+    });
+}
+function ingredientQuantityText(ing, qty, useSourceLabel = true) {
+  if (ing.qtyLabel && (useSourceLabel || !(Number(ing.qtyBase) > 0))) {
+    const factor = Number.isFinite(ing.scaleFactor) ? ing.scaleFactor : 1;
+    return Number(ing.qtyBase) > 0 ? scaleQuantityLabel(ing.qtyLabel, factor, ing) : ing.qtyLabel;
+  }
   if (["по вкусу", "по желанию", "для подачи", "для формы"].includes(ing.unit)) return ing.unit;
   const integerUnits = ["шт", "головка", "пучок", "зубчика", "веточки"].includes(ing.unit);
   const value = integerUnits ? Math.ceil(qty) : Number(qty.toFixed(1)).toLocaleString("ru-RU");
@@ -486,6 +511,23 @@ function calculateCost(ing, qty) {
   if (ing.staple && ing.pricePerUnit === 0) return 0;
   if (["шт", "головка", "пучок", "порция", "зубчика"].includes(ing.unit)) return Math.ceil(qty) * ing.pricePerUnit;
   return qty * ing.pricePerUnit;
+}
+
+function updateCurrentPlanServings() {
+  const people = parseInt(document.getElementById("people").value) || 2;
+  if (!currentPlan.length) {
+    savePlan();
+    return;
+  }
+  currentPlan = currentPlan.map(item => {
+    const scaledIngredients = item.recipe.ingredients.map(ing => scaleIngredient(ing, people, item.recipe.baseServings));
+    const cost = scaledIngredients.reduce((sum, ing) => sum + ing.cost, 0);
+    return { ...item, scaledIngredients, cost: Math.round(cost) };
+  });
+  renderPlan();
+  if (!document.getElementById("stage2").classList.contains("hidden")) renderStage2();
+  refreshActiveRecipeModal();
+  savePlan();
 }
 
 function generatePlan() {
@@ -539,10 +581,8 @@ function renderPlan() {
   renderGrocery();
 }
 
-function showRecipeModal(item) {
-  activeModalRecipeId = item.recipe.id;
+function recipeModalContent(item) {
   const people = parseInt(document.getElementById("people").value) || 2;
-  document.getElementById("modalTitle").textContent = item.recipe.name;
   let html = `<p style="color:var(--muted); margin-bottom:10px;">${recipeServingsLabel(item.recipe, people)} · ${recipeTimeLabel(item.recipe)}</p>`;
   html += recipeSourceHtml(item.recipe);
   html += "<strong>Состав:</strong><ul>";
@@ -551,8 +591,22 @@ function showRecipeModal(item) {
     const owned = hasPantryItem(ing.name);
     html += `<li><span class="${owned ? "ingredient-owned" : ""}">${escapeHtml(ingredientDisplayName(ing.name))}</span> — ${escapeHtml(qtyText)}</li>`;
   });
-  html += "</ul>";
-  document.getElementById("modalBody").innerHTML = html;
+  return html + "</ul>";
+}
+function refreshActiveRecipeModal() {
+  const modal = document.getElementById("modal");
+  if (modal.style.display !== "none" && activeModalRecipeId) {
+    const item = currentPlan.find(entry => entry.recipe.id === activeModalRecipeId);
+    if (item) {
+      document.getElementById("modalTitle").textContent = item.recipe.name;
+      document.getElementById("modalBody").innerHTML = recipeModalContent(item);
+    }
+  }
+}
+function showRecipeModal(item) {
+  activeModalRecipeId = item.recipe.id;
+  document.getElementById("modalTitle").textContent = item.recipe.name;
+  document.getElementById("modalBody").innerHTML = recipeModalContent(item);
   modalScrollY = window.scrollY || window.pageYOffset || 0;
   document.body.style.top = `-${modalScrollY}px`;
   document.body.classList.add("modal-open");
@@ -619,7 +673,7 @@ function renderGrocery() {
 
     byAisle[aisle].forEach(ing => {
       const isOwned = hasPantryItem(ing.name);
-      const qtyText = ingredientQuantityText(ing, ing.totalQty);
+      const qtyText = ingredientQuantityText(ing, ing.totalQty, false);
       const forText = Array.from(ing.forDishes).join(", ");
       const div = document.createElement("div");
       div.className = "grocery-item" + (isOwned ? " owned" : "");
@@ -688,7 +742,7 @@ function exportProducts() {
   });
   Object.values(items).forEach(ing => {
     if (isShoppingExcluded(ing.name) || hasPantryItem(ing.name)) return;
-    const qtyText = ingredientQuantityText(ing, ing.totalQty);
+    const qtyText = ingredientQuantityText(ing, ing.totalQty, false);
     text += `- ${ing.name}: ${qtyText} (для: ${Array.from(ing.forDishes).join(", ")})\n`;
   });
   downloadText(text, "salpcook-products.txt");
@@ -700,8 +754,8 @@ function exportRecipes() {
   currentPlan.forEach(item => {
     text += `=== ${item.day}: ${item.recipe.name} ===\n${recipeServingsLabel(item.recipe, people)}\n${recipeTimeLabel(item.recipe)}\n\nИнгредиенты:\n`;
     item.scaledIngredients.forEach(ing => {
-      const qtyText = ["шт","головка","пучок","зубчика"].includes(ing.unit) ? Math.ceil(ing.qty) + " " + ing.unit : Math.round(ing.qty) + " " + ing.unit;
-      text += `- ${ing.name}: ${qtyText}\n`;
+      const qtyText = ingredientQuantityText(ing, ing.qty);
+      text += `- ${ingredientDisplayName(ing.name)}: ${qtyText}\n`;
     });
     text += `\nПриготовление:\n`;
     (item.recipe.steps || []).forEach((step, i) => text += `${i+1}. ${step}\n`);
@@ -724,6 +778,7 @@ function downloadText(content, filename) {
   URL.revokeObjectURL(a.href);
 }
 
+document.getElementById("people").addEventListener("input", updateCurrentPlanServings);
 document.getElementById("generate").addEventListener("click", generatePlan);
 document.getElementById("confirm").addEventListener("click", goToStage2);
 document.getElementById("backToPlan").addEventListener("click", () => {
