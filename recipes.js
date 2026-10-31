@@ -1823,7 +1823,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сметана 25%",
+        "name": "Сметана",
         "qtyBase": 100,
         "unit": "г",
         "pricePerUnit": 0,
@@ -2366,7 +2366,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сметана 10%",
+        "name": "Сметана",
         "qtyBase": 2,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -4182,7 +4182,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сметана 20%",
+        "name": "Сметана",
         "qtyBase": 1,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -5965,7 +5965,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сметана 20%",
+        "name": "Сметана",
         "qtyBase": 1,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -12881,7 +12881,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "по вкусу"
       },
       {
-        "name": "Пармезан или пекорино",
+        "name": "Сыр пармезан",
         "qtyBase": 0.5,
         "unit": "стакана",
         "pricePerUnit": 0,
@@ -15911,7 +15911,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сметана 20%",
+        "name": "Сметана",
         "qtyBase": 150,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -16862,7 +16862,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сметана 10–15%",
+        "name": "Сметана",
         "qtyBase": 150,
         "unit": "г",
         "pricePerUnit": 0,
@@ -17521,7 +17521,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сметана 15%",
+        "name": "Сметана",
         "qtyBase": 150,
         "unit": "г",
         "pricePerUnit": 0,
@@ -19282,7 +19282,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Молоко для блинов",
+        "name": "Молоко",
         "qtyBase": 500,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -19290,7 +19290,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Мука для блинов",
+        "name": "Мука",
         "qtyBase": 250,
         "unit": "г",
         "pricePerUnit": 0,
@@ -19298,7 +19298,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Растительное масло для теста",
+        "name": "Растительное масло",
         "qtyBase": 1,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -19330,7 +19330,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Растительное масло для начинки",
+        "name": "Растительное масло",
         "qtyBase": 2,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -19346,7 +19346,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Мука для соуса",
+        "name": "Мука",
         "qtyBase": 2,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -19354,7 +19354,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Молоко для соуса",
+        "name": "Молоко",
         "qtyBase": 500,
         "unit": "мл",
         "pricePerUnit": 0,
