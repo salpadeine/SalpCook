@@ -1,4 +1,5 @@
-// Каталог рецептов SalpCook. Рецепты сверены с указанными первоисточниками.\nwindow.SALPCOOK_RECIPES = [
+// Каталог рецептов SalpCook. Рецепты сверены с указанными первоисточниками.
+window.SALPCOOK_RECIPES = [
   {
     "id": "eda_chicken_cutlets_137010",
     "name": "Куриные котлеты",
@@ -728,7 +729,7 @@
         "staple": false
       },
       {
-        "name": "Сливки",
+        "name": "Сметана",
         "qtyBase": 3,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -10593,7 +10594,7 @@
         "staple": false
       },
       {
-        "name": "Сметана",
+        "name": "Сливки",
         "qtyBase": 300,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -11224,7 +11225,7 @@
         "staple": false
       },
       {
-        "name": "Сметана",
+        "name": "Сливки",
         "qtyBase": 200,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -20109,7 +20110,7 @@
         "staple": false
       },
       {
-        "name": "Сметана",
+        "name": "Сливки",
         "qtyBase": 200,
         "unit": "мл",
         "pricePerUnit": 0,
