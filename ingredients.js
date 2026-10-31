@@ -462,7 +462,7 @@ window.SALPCOOK_INGREDIENT_DISPLAY_NAMES = {"яйцо":"Яйцо","огурцы"
     "уксус винный": ["винный уксус или лимонный сок"],
     "уксус бальзамический": ["лимон или бальзамический уксус"],
     "тимьян": ["тимьян или розмарин"],
-    "соль": ["морская или крупная соль"]
+
   };
   Object.entries(groups).forEach(([canonical, variants]) => {
     [canonical, ...variants].forEach(value => { aliases[normalize(value)] = canonical; });
