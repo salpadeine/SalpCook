@@ -11281,7 +11281,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Масло для гриля",
+        "name": "Растительное масло",
         "qtyBase": 0,
         "unit": "для смазывания",
         "pricePerUnit": 0,
@@ -16593,7 +16593,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "для маринада и подачи"
       },
       {
-        "name": "Овощи для гриля (перец, лук, кабачок)",
+        "name": "Овощи",
         "qtyBase": 0,
         "unit": "по вкусу",
         "pricePerUnit": 0,
