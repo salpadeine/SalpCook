@@ -1824,7 +1824,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сметана 25%",
+        "name": "Сметана",
         "qtyBase": 100,
         "unit": "г",
         "pricePerUnit": 0,
@@ -2367,7 +2367,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сметана 10%",
+        "name": "Сметана",
         "qtyBase": 2,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -4183,7 +4183,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сметана 20%",
+        "name": "Сметана",
         "qtyBase": 1,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -4218,7 +4218,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "для жарки"
       },
       {
-        "name": "Мука или панировочные сухари",
+        "name": "Мука",
         "qtyBase": 0,
         "unit": "по желанию",
         "pricePerUnit": 0,
@@ -5966,7 +5966,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сметана 20%",
+        "name": "Сметана",
         "qtyBase": 1,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -10033,7 +10033,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Говядина или курица",
+        "name": "Говядина",
         "qtyBase": 200,
         "unit": "г",
         "pricePerUnit": 0,
@@ -10154,7 +10154,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Свинина (лопатка) или курица",
+        "name": "Свинина (лопатка)",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0,
@@ -10446,7 +10446,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Говяжий бульон или вода",
+        "name": "Говяжий бульон",
         "qtyBase": 900,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -10594,7 +10594,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сливки или сметана",
+        "name": "Сливки",
         "qtyBase": 300,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -11225,7 +11225,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сливки или сметана",
+        "name": "Сливки",
         "qtyBase": 200,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -11282,7 +11282,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Масло для гриля",
+        "name": "Растительное масло",
         "qtyBase": 0,
         "unit": "для смазывания",
         "pricePerUnit": 0,
@@ -11693,7 +11693,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Вода для соуса",
+        "name": "Вода",
         "qtyBase": 1,
         "unit": "стакан",
         "pricePerUnit": 0,
@@ -11832,7 +11832,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "для жарки"
       },
       {
-        "name": "Томатный или сливочный соус",
+        "name": "Томатный соус",
         "qtyBase": 0,
         "unit": "для подачи/тушения",
         "pricePerUnit": 0,
@@ -11998,7 +11998,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Свежие или консервированные помидоры",
+        "name": "Помидоры",
         "qtyBase": 200,
         "unit": "г",
         "pricePerUnit": 0,
@@ -12070,7 +12070,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное мясо (бедро, голень или грудка)",
+        "name": "Курица",
         "qtyBase": 1000,
         "unit": "г",
         "pricePerUnit": 0,
@@ -12152,7 +12152,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Свинина (лопатка или вырезка)",
+        "name": "Свинина (лопатка)",
         "qtyBase": 700,
         "unit": "г",
         "pricePerUnit": 0,
@@ -12610,7 +12610,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Паста (спагетти, пенне или феттучини)",
+        "name": "Паста",
         "qtyBase": 250,
         "unit": "г",
         "pricePerUnit": 0,
@@ -12701,7 +12701,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Паста (спагетти или феттучини)",
+        "name": "Паста",
         "qtyBase": 250,
         "unit": "г",
         "pricePerUnit": 0,
@@ -12775,7 +12775,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "по вкусу"
       },
       {
-        "name": "Петрушка или базилик",
+        "name": "Зелень",
         "qtyBase": 0,
         "unit": "для подачи",
         "pricePerUnit": 0,
@@ -12808,7 +12808,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Спагетти или другая паста",
+        "name": "Паста",
         "qtyBase": 350,
         "unit": "г",
         "pricePerUnit": 0,
@@ -12882,7 +12882,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "по вкусу"
       },
       {
-        "name": "Пармезан или пекорино",
+        "name": "Сыр пармезан",
         "qtyBase": 0.5,
         "unit": "стакана",
         "pricePerUnit": 0,
@@ -12890,7 +12890,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Петрушка или базилик",
+        "name": "Зелень",
         "qtyBase": 0,
         "unit": "для подачи",
         "pricePerUnit": 0,
@@ -12924,7 +12924,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Паста (спагетти, пенне или тальятелле)",
+        "name": "Паста",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0,
@@ -12940,7 +12940,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Грибы (шампиньоны или лесные)",
+        "name": "Грибы",
         "qtyBase": 200,
         "unit": "г",
         "pricePerUnit": 0,
@@ -13030,7 +13030,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Петрушка или укроп",
+        "name": "Зелень",
         "qtyBase": 0,
         "unit": "для подачи",
         "pricePerUnit": 0,
@@ -13061,7 +13061,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Паста (спагетти или лингвини)",
+        "name": "Паста",
         "qtyBase": 400,
         "unit": "г",
         "pricePerUnit": 0,
@@ -13232,7 +13232,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "по вкусу"
       },
       {
-        "name": "Приправа для мяса или жаркого",
+        "name": "Приправа для мяса",
         "qtyBase": 0,
         "unit": "по вкусу",
         "pricePerUnit": 0,
@@ -13265,7 +13265,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Куриное филе или бедро",
+        "name": "Курица",
         "qtyBase": 600,
         "unit": "г",
         "pricePerUnit": 0,
@@ -13371,7 +13371,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "по вкусу"
       },
       {
-        "name": "Петрушка или укроп",
+        "name": "Зелень",
         "qtyBase": 0,
         "unit": "для подачи",
         "pricePerUnit": 0,
@@ -13485,7 +13485,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Рыба (хек, судак или другая)",
+        "name": "Рыба",
         "qtyBase": 1000,
         "unit": "г",
         "pricePerUnit": 0,
@@ -13633,7 +13633,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Филе белой рыбы (судак или треска)",
+        "name": "Филе белой рыбы",
         "qtyBase": 400,
         "unit": "г",
         "pricePerUnit": 0,
@@ -14156,7 +14156,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Свинина (шея, карбонад или лопатка)",
+        "name": "Свинина",
         "qtyBase": 1000,
         "unit": "г",
         "pricePerUnit": 0,
@@ -14236,7 +14236,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Тимьян или розмарин",
+        "name": "Тимьян",
         "qtyBase": 1,
         "unit": "ч. л.",
         "pricePerUnit": 0,
@@ -14270,7 +14270,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Свинина (лопатка или шея)",
+        "name": "Свинина (лопатка)",
         "qtyBase": 500,
         "unit": "г",
         "pricePerUnit": 0,
@@ -14318,7 +14318,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Бульон или вода",
+        "name": "Бульон",
         "qtyBase": 500,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -14369,7 +14369,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "щепотка по желанию"
       },
       {
-        "name": "Петрушка или укроп",
+        "name": "Зелень",
         "qtyBase": 0,
         "unit": "для подачи",
         "pricePerUnit": 0,
@@ -14507,7 +14507,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Томатное пюре или соус",
+        "name": "Томатный соус",
         "qtyBase": 3,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -14523,7 +14523,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Вода или мясной бульон",
+        "name": "Мясной бульон",
         "qtyBase": 200,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -14558,7 +14558,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "для жарки"
       },
       {
-        "name": "Петрушка или укроп",
+        "name": "Зелень",
         "qtyBase": 0,
         "unit": "для подачи",
         "pricePerUnit": 0,
@@ -14680,7 +14680,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Свинина (шея или вырезка)",
+        "name": "Свинина",
         "qtyBase": 500,
         "unit": "г",
         "pricePerUnit": 0,
@@ -14704,7 +14704,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Молоко или вода",
+        "name": "Молоко",
         "qtyBase": 50,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -14960,7 +14960,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Базилик или кориандр",
+        "name": "Зелень",
         "qtyBase": 0,
         "unit": "по желанию",
         "pricePerUnit": 0,
@@ -15382,7 +15382,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Оливковое масло для жарки",
+        "name": "Оливковое масло",
         "qtyBase": 2,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -15390,7 +15390,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Чеснок для пасты",
+        "name": "Чеснок",
         "qtyBase": 4,
         "unit": "зубчика",
         "pricePerUnit": 0,
@@ -15432,7 +15432,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "для подачи"
       },
       {
-        "name": "Оливковое масло для соуса",
+        "name": "Оливковое масло",
         "qtyBase": 0.5,
         "unit": "стакана",
         "pricePerUnit": 0,
@@ -15440,7 +15440,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сыр для соуса",
+        "name": "Сыр",
         "qtyBase": 0.3333333333333333,
         "unit": "стакана",
         "pricePerUnit": 0,
@@ -15464,7 +15464,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лимонный сок для соуса",
+        "name": "Лимонный сок",
         "qtyBase": 1,
         "unit": "ч. л.",
         "pricePerUnit": 0,
@@ -15472,7 +15472,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Соль для соуса",
+        "name": "Соль",
         "qtyBase": 0.5,
         "unit": "ч. л.",
         "pricePerUnit": 0,
@@ -15480,7 +15480,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Чёрный перец для соуса",
+        "name": "Чёрный перец",
         "qtyBase": 0.25,
         "unit": "ч. л.",
         "pricePerUnit": 0,
@@ -15488,7 +15488,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Чеснок для соуса",
+        "name": "Чеснок",
         "qtyBase": 2,
         "unit": "зубчика",
         "pricePerUnit": 0,
@@ -15570,7 +15570,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Пармезан или другой сыр",
+        "name": "Сыр пармезан",
         "qtyBase": 0.25,
         "unit": "стакана",
         "pricePerUnit": 0,
@@ -15611,7 +15611,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Крыло или голень индейки",
+        "name": "Голень индейки",
         "qtyBase": 850,
         "unit": "г",
         "pricePerUnit": 0,
@@ -15865,7 +15865,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Оливковое или подсолнечное масло",
+        "name": "Растительное масло",
         "qtyBase": 3.5,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -15912,7 +15912,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сметана 20%",
+        "name": "Сметана",
         "qtyBase": 150,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -16046,7 +16046,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Укроп или петрушка",
+        "name": "Зелень",
         "qtyBase": 0,
         "unit": "по вкусу",
         "pricePerUnit": 0,
@@ -16436,7 +16436,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Свинина (вырезка или шея)",
+        "name": "Свинина",
         "qtyBase": 200,
         "unit": "г",
         "pricePerUnit": 0,
@@ -16537,7 +16537,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Свинина (шея или корейка)",
+        "name": "Свинина",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0,
@@ -16545,7 +16545,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Говядина (стейк или вырезка)",
+        "name": "Говядина",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0,
@@ -16553,7 +16553,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Куриное филе или бедро без кости",
+        "name": "Курица",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0,
@@ -16585,7 +16585,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Лимон или бальзамический уксус",
+        "name": "Лимонный сок",
         "qtyBase": 0,
         "unit": "для маринада и подачи",
         "pricePerUnit": 0,
@@ -16594,7 +16594,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "для маринада и подачи"
       },
       {
-        "name": "Овощи для гриля (перец, лук, кабачок)",
+        "name": "Овощи",
         "qtyBase": 0,
         "unit": "по вкусу",
         "pricePerUnit": 0,
@@ -16662,7 +16662,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Филе красной рыбы (лосось или форель)",
+        "name": "Филе красной рыбы",
         "qtyBase": 500,
         "unit": "г",
         "pricePerUnit": 0,
@@ -16728,7 +16728,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "по вкусу"
       },
       {
-        "name": "Укроп или петрушка",
+        "name": "Зелень",
         "qtyBase": 0,
         "unit": "для украшения",
         "pricePerUnit": 0,
@@ -16760,7 +16760,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Стейки или филе лосося",
+        "name": "Филе лосося",
         "qtyBase": 450,
         "unit": "г",
         "pricePerUnit": 0,
@@ -16863,7 +16863,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сметана 10–15%",
+        "name": "Сметана",
         "qtyBase": 150,
         "unit": "г",
         "pricePerUnit": 0,
@@ -17054,7 +17054,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "по вкусу"
       },
       {
-        "name": "Петрушка или укроп",
+        "name": "Зелень",
         "qtyBase": 0,
         "unit": "для украшения",
         "pricePerUnit": 0,
@@ -17087,7 +17087,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Говяжья грудинка или шейка",
+        "name": "Говяжья грудинка",
         "qtyBase": 1000,
         "unit": "г",
         "pricePerUnit": 0,
@@ -17119,7 +17119,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Бульон или вода",
+        "name": "Бульон",
         "qtyBase": 1,
         "unit": "стакан",
         "pricePerUnit": 0,
@@ -17498,7 +17498,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Отварное куриное филе или мякоть целой курицы",
+        "name": "Курица",
         "qtyBase": 800,
         "unit": "г",
         "pricePerUnit": 0,
@@ -17522,7 +17522,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сметана 15%",
+        "name": "Сметана",
         "qtyBase": 150,
         "unit": "г",
         "pricePerUnit": 0,
@@ -17620,7 +17620,7 @@ window.SALPCOOK_RECIPES = [
     ],
     "ingredients": [
       {
-        "name": "Лаваш или лепёшки-тортильи",
+        "name": "Лаваш",
         "qtyBase": 2,
         "unit": "шт.",
         "pricePerUnit": 0,
@@ -17702,7 +17702,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Кинза или петрушка свежая",
+        "name": "Зелень",
         "qtyBase": 6,
         "unit": "веточек",
         "pricePerUnit": 0,
@@ -17809,7 +17809,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "по вкусу"
       },
       {
-        "name": "Базилик или другая зелень",
+        "name": "Зелень",
         "qtyBase": 0,
         "unit": "для подачи",
         "pricePerUnit": 0,
@@ -18537,7 +18537,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Винный уксус или лимонный сок",
+        "name": "Винный уксус",
         "qtyBase": 1,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -18709,7 +18709,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Морская или крупная соль",
+        "name": "Соль",
         "qtyBase": 1,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -19283,7 +19283,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Молоко для блинов",
+        "name": "Молоко",
         "qtyBase": 500,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -19291,7 +19291,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Мука для блинов",
+        "name": "Мука",
         "qtyBase": 250,
         "unit": "г",
         "pricePerUnit": 0,
@@ -19299,7 +19299,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Растительное масло для теста",
+        "name": "Растительное масло",
         "qtyBase": 1,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -19331,7 +19331,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Растительное масло для начинки",
+        "name": "Растительное масло",
         "qtyBase": 2,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -19347,7 +19347,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Мука для соуса",
+        "name": "Мука",
         "qtyBase": 2,
         "unit": "ст. л.",
         "pricePerUnit": 0,
@@ -19355,7 +19355,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Молоко для соуса",
+        "name": "Молоко",
         "qtyBase": 500,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -20094,7 +20094,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Шампиньоны или лисички",
+        "name": "Грибы",
         "qtyBase": 300,
         "unit": "г",
         "pricePerUnit": 0,
@@ -20110,7 +20110,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сливки или сметана",
+        "name": "Сливки",
         "qtyBase": 200,
         "unit": "мл",
         "pricePerUnit": 0,
@@ -20118,7 +20118,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Твёрдый сыр (пармезан или гауда)",
+        "name": "Сыр твёрдый",
         "qtyBase": 100,
         "unit": "г",
         "pricePerUnit": 0,
@@ -20161,7 +20161,7 @@ window.SALPCOOK_RECIPES = [
         "qtyLabel": "по вкусу"
       },
       {
-        "name": "Укроп или петрушка",
+        "name": "Зелень",
         "qtyBase": 0,
         "unit": "для украшения",
         "pricePerUnit": 0,

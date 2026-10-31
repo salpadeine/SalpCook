@@ -330,11 +330,17 @@ function pantryMatchCount(recipe) {
   return recipe.ingredients.filter(ing => hasPantryItem(ing.name)).length;
 }
 const COMMON_BASE_INGREDIENTS = new Set([
-  "соль", "перец", "черный перец", "масло", "растительное масло", "сливочное масло", "оливковое масло", "вода", "чеснок", "лук репчатый"
+  "соль", "перец черный молотый", "перец черный горошком",
+  "масло растительное", "масло подсолнечное", "масло оливковое",
+  "масло оливковое extra virgin", "масло сливочное",
+  "вода", "чеснок", "лук репчатый"
 ]);
 // These staples stay in recipe ingredients but are omitted from shopping lists.
+// All aliases are resolved before this set is checked.
 const SHOPPING_EXCLUDED_INGREDIENTS = new Set([
-  "соль", "черный перец", "растительное масло", "сливочное масло", "оливковое масло"
+  "соль", "перец черный молотый", "перец черный горошком",
+  "масло растительное", "масло подсолнечное", "масло оливковое",
+  "масло оливковое extra virgin", "масло сливочное"
 ]);
 function isShoppingExcluded(name) {
   return SHOPPING_EXCLUDED_INGREDIENTS.has(canonicalIngredient(name));
