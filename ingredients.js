@@ -391,7 +391,7 @@ window.SALPCOOK_INGREDIENT_DISPLAY_NAMES = {"яйцо":"Яйцо","огурцы"
 (function () {
   const aliases = window.SALPCOOK_INGREDIENT_ALIASES;
   const normalize = value => String(value).trim().toLocaleLowerCase("ru-RU")
-    .replace(/ё/g, "е").replace(/[^\\p{L}\\p{N}]+/gu, " ").trim();
+    .replace(/ё/g, "е").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
   const groups = {
     "филе куриное": [
       "куриное филе", "филе курицы", "куриная грудка", "куриная грудка без кожи",
