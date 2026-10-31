@@ -64,10 +64,11 @@ assert.ok(!ingredientNames.some(name => /^сметана\s*\d/iu.test(name)), "S
 assert.ok(ingredientNames.includes("Сливки 10%"), "Cream fat percentages should remain meaningful distinctions");
 assert.ok(ingredientNames.includes("Сметана"), "Sour cream canonical name missing");
 const indexHtml = fs.readFileSync("index.html", "utf8");
-const excludedBlock = indexHtml.match(/const SHOPPING_EXCLUDED_INGREDIENTS = new Set\\(\\[([\\s\\S]*?)\\]\\);/);
-assert.ok(excludedBlock, "Shopping exclusions set missing");
-const excluded = new Set([...excludedBlock[1].matchAll(/"([^"]+)"/g)].map(match => match[1]));
-for (const staple of ["Соль", "Морская соль", "Соль для соуса", "Чёрный перец", "Молотый черный перец", "Чёрный перец горошком", "Растительное масло", "Подсолнечное масло", "Оливковое масло", "Оливковое масло extra virgin", "Сливочное масло"]) {
+const excludedStart = indexHtml.indexOf("const SHOPPING_EXCLUDED_INGREDIENTS = new Set([");
+const excludedEnd = indexHtml.indexOf("]);", excludedStart);
+assert.ok(excludedStart >= 0 && excludedEnd > excludedStart, "Shopping exclusions set missing");
+const excluded = new Set([...indexHtml.slice(excludedStart, excludedEnd).matchAll(/"([^"]+)"/g)].map(match => match[1]));
+for (const staple of ["Соль", "Морская соль", "Морская крупная соль", "Соль для соуса", "Чёрный перец", "Молотый черный перец", "Чёрный перец горошком", "Растительное масло", "Подсолнечное масло", "Оливковое масло", "Оливковое масло extra virgin", "Сливочное масло"]) {
   assert.ok(excluded.has(canonical(staple)), `Staple should be excluded from shopping: ${staple}`);
 }
 console.log(`Ingredient normalization checks passed: ${recipes.length} recipes, ${ingredientNames.length} ingredient occurrences.`);
