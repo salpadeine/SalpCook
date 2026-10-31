@@ -1,4 +1,4 @@
-window.SALPCOOK_RECIPES = [
+// Каталог рецептов SalpCook. Рецепты сверены с указанными первоисточниками.\nwindow.SALPCOOK_RECIPES = [
   {
     "id": "eda_chicken_cutlets_137010",
     "name": "Куриные котлеты",
@@ -728,7 +728,7 @@ window.SALPCOOK_RECIPES = [
         "staple": false
       },
       {
-        "name": "Сметана",
+        "name": "Сливки",
         "qtyBase": 3,
         "unit": "ст. л.",
         "pricePerUnit": 0,
